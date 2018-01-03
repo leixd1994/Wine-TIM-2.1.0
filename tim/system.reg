@@ -52579,8 +52579,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1514969086
-#time=1d3846f1bac674e
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1514971635
+#time=1d384750b1c3e12
 "@NanumBarunGothic (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\nanum\\NanumBarunGothic.ttf"
 "@NanumBarunGothic Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\nanum\\NanumBarunGothicBold.ttf"
 "@NanumGothic (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\nanum\\NanumGothic.ttf"
@@ -57163,8 +57163,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1497578136
 #time=1d2e643a570dc00
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1514969086
-#time=1d3846f1bac671c
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1514971635
+#time=1d384750b1c3dae
 "@NanumBarunGothic (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\nanum\\NanumBarunGothic.ttf"
 "@NanumBarunGothic Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\nanum\\NanumBarunGothicBold.ttf"
 "@NanumGothic (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\nanum\\NanumGothic.ttf"
@@ -64640,8 +64640,8 @@ WINE REGISTRY Version 2
 #time=1d3650e7109234c
 "DefaultSpoolDirectory"="C:\\windows\\system32\\spool\\printers"
 
-[System\\CurrentControlSet\\Control\\Print\\Printers\\HP-LaserJet-1020] 1514969086
-#time=1d3846f1bb7675c
+[System\\CurrentControlSet\\Control\\Print\\Printers\\HP-LaserJet-1020] 1514971638
+#time=1d384750c863cbc
 "Attributes"=dword:00000000
 "Datatype"="RAW"
 "Default DevMode"=hex:48,50,2d,4c,61,73,65,72,4a,65,74,2d,31,30,32,30,00,00,00,\
@@ -64832,8 +64832,8 @@ WINE REGISTRY Version 2
 "Start"=dword:00000002
 "Type"=dword:00000020
 
-[System\\CurrentControlSet\\Services\\QPCore] 1514969086
-#time=1d3846f1bafdcd0
+[System\\CurrentControlSet\\Services\\QPCore] 1514971635
+#time=1d384750b23ceca
 "DependOnService"=str(7):"RPCSS\0"
 "Description"="Tencent Protection Service"
 "DisplayName"="QPCore Service"
