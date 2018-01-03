@@ -1,0 +1,23 @@
+[35][45][09:38:30.775]CDlForQdImp::Start, dwCustomId=2
+[35][64][09:38:30.775]CDlForQdImp::StartImpl
+[35][66][09:38:30.782]CDlForQdImp::IpcThreadFunc begin...
+[35][64][09:38:30.783]CDlForQdImp::FetchConfig, bNeedFetch=1
+[35][64][09:38:30.830]CHttpDownloadImp::Download, url=http://c.gj.qq.com/packconfig?serviceid=7002&clientver=487514672548225417&gjguid=222d8af8a699145b4a333f7308f96025&check=1661009920&livetime=0, destPath=C:\users\gujiawei\Temp\c700.tmp
+[35][64][09:38:30.831]Support Winhttp
+[35][64][09:38:30.831]CHttpDownloadImp::Download CreateWindowEx failed
+[35][68][09:38:30.832]CWinHttpFile::Close
+[35][68][09:38:32.084]WinHttpQueryHeaders file size:1096
+[35][68][09:38:32.084]CWinHttpFile::Open return: 1
+[35][69][09:38:32.085]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[35][68][09:38:32.185]CWinHttpFile::Close
+[35][68][09:38:32.186] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[35][64][09:38:50.783]CDlForQdImp::OnLoadLocalSvrPlugin Enter.
+[35][64][09:38:50.784]CDlForQdImp::OnLoadLocalSvrPlugin LocalSvrPlugin init.
+[35][67][09:38:50.851]Receive Pipe ipc Event
+[35][64][09:43:30.783]CDlForQdImp::OnTimer, nFixSid=0
+[35][45][09:45:48.956]CDlForQdImp::Stop
+[35][64][09:45:48.956]CDlForQdImp::StopImpl
+[35][64][09:45:48.956]CWinHttpFile::Close
+[35][64][09:45:48.956]CWinHttpFile::Close
+[35][64][09:45:48.956]QD LocalSvrPlugin Uninit.
+[35][66][09:45:48.958]CDlForQdImp::IpcThreadFunc end...

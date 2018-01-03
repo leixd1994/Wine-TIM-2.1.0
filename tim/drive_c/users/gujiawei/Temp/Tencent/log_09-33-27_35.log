@@ -1,0 +1,19 @@
+[35][49][09:33:27.695]CDlForQdImp::Start, dwCustomId=2
+[35][68][09:33:27.702]CDlForQdImp::StartImpl
+[35][70][09:33:27.753]CDlForQdImp::IpcThreadFunc begin...
+[35][68][09:33:27.753]CDlForQdImp::FetchConfig, bNeedFetch=1
+[35][68][09:33:27.759]CHttpDownloadImp::Download, url=http://c.gj.qq.com/packconfig?serviceid=7002&clientver=487514672548225417&gjguid=222d8af8a699145b4a333f7308f96025&check=1661009920&livetime=0, destPath=C:\users\gujiawei\Temp\274b.tmp
+[35][68][09:33:27.759]Support Winhttp
+[35][68][09:33:27.760]CHttpDownloadImp::Download CreateWindowEx failed
+[35][72][09:33:27.760]CWinHttpFile::Close
+[35][72][09:33:29.109]WinHttpQueryHeaders file size:1096
+[35][72][09:33:29.109]CWinHttpFile::Open return: 1
+[35][72][09:33:29.109]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[35][72][09:33:29.210]CWinHttpFile::Close
+[35][72][09:33:29.210] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[35][49][09:33:38.671]CDlForQdImp::Stop
+[35][68][09:33:38.671]CDlForQdImp::StopImpl
+[35][68][09:33:38.671]CWinHttpFile::Close
+[35][68][09:33:38.672]CWinHttpFile::Close
+[35][68][09:33:38.672]QD LocalSvrPlugin Uninit.
+[35][70][09:33:38.672]CDlForQdImp::IpcThreadFunc end...

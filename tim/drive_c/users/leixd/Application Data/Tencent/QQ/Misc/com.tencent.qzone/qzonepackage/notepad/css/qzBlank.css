@@ -1,0 +1,105 @@
+	     body{
+			font-family: "ËÎÌו";
+	 	    margin:1px 4px 2px 2px ;
+	 	    background:#fff;
+	 	    overflow-y:auto;
+			scrollbar-arrow-color:#99BFDC;
+			scrollbar-face-color:#E4F1F7;
+			scrollbar-3dlight-color:#C7D2E2;
+			scrollbar-shadow-color:#C7D2E2; 
+			scrollbar-darkshadow-color:#86D5FD;
+			scrollbar-track-color: #F6F8FB;
+			overflow-x:hidden;
+	 	    word-wrap: break-word;
+	 	    word-break: break-all;
+	 	    line-height:1.3em;
+			font-size:12px;
+	     }
+
+		 .portal_imgbox_img {margin:0 5px 5px 0;padding:3px;vertical-align:top; border:1px solid #D2D2D2;vertical-align:baseline;}
+	     
+	     p{
+	     	margin:0px;
+	     }
+	     
+	     font{
+	     	line-height:1.3em;
+	     }
+	     
+	     a{
+	     	border:0px solid #fff;
+	     }
+	     
+	     a img{
+	     	border:0px;
+	     }
+	     
+	     .flash{
+	    	border:1px solid #ccc;
+	   	    background:#fefefe url(images/Files-Flash.gif) center center no-repeat;
+	   	    width:100px;
+	   	    height:100px;
+	   	    display:inline;
+	     }
+	     
+	     .qqVideo{
+	     	border:1px solid #ccc;
+	   	    background:#fefefe url(images/Files-qqVideo.gif) center center no-repeat;
+	   	    width:100px;
+	   	    height:100px;
+	   	    display:inline;
+	     }
+	     
+	     .flasht{
+			border:1px solid #ccc;
+	   	    background:#fefefe url(images/Files-Flash.gif) center center no-repeat;
+	   	    width:100px;
+	   	    height:100px;
+	   	    position:absolute;
+	   	    filter:alpha(enabled=true,opacity=50); 
+	     }
+	     
+	     .video{
+	     	border:1px solid #ccc;
+	   	    background:#fefefe url(images/Files-Video.gif) center center no-repeat;
+	   	    width:100px;
+	   	    height:100px;
+	   	    display:inline;
+	     }
+	     
+	     .audio{
+	   	    border:1px solid #ccc;
+	   	    background:#fefefe url(images/Files-Audio.gif) center center no-repeat;
+	   	    width:300px;
+	   	    height:70px;
+	   	    display:inline;
+	     }
+	     
+	     .music{
+	   	    border:1px solid #ccc;
+	   	    background:#fefefe url(images/Files-music.jpg) center center no-repeat;
+	   	    width:362px;
+	   	    height:97px;
+	   	    display:inline;
+	     }
+	     
+	     .music_multiple{
+	   	    border:1px solid #ccc;
+	   	    background:#fefefe url(images/Files-music-mul.jpg) center center no-repeat;
+	   	    width:401px;
+	   	    height:183px;
+	   	    display:inline;
+	     }
+		
+		.lightFont{
+			border: 1px dotted #61b6f2;
+		}
+		
+		a.nameCard:link, a.nameCard:visited{
+			background:url(images/icon_friend.gif) right 0 no-repeat;
+			border:1px dotted #71c3f2;
+/*			padding-right:12px;*/
+			padding-top:2px;
+			font-family:"";
+		}
+		/*  |xGv00|864c3628d60eb6413c0d67cd81226bd5 */

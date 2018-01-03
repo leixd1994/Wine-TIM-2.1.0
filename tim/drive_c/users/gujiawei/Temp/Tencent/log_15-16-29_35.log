@@ -1,0 +1,55 @@
+[35][45][15:16:29.869]CDlForQdImp::Start, dwCustomId=2
+[35][66][15:16:29.869]CDlForQdImp::StartImpl
+[35][68][15:16:29.873]CDlForQdImp::IpcThreadFunc begin...
+[35][66][15:16:29.874]CDlForQdImp::FetchConfig, bNeedFetch=1
+[35][66][15:16:29.895]CHttpDownloadImp::Download, url=http://c.gj.qq.com/packconfig?serviceid=7002&clientver=487514672548225417&gjguid=222d8af8a699145b4a333f7308f96025&check=1661009920&livetime=0, destPath=C:\users\gujiawei\Temp\f983.tmp
+[35][66][15:16:29.895]Support Winhttp
+[35][66][15:16:29.895]CHttpDownloadImp::Download CreateWindowEx failed
+[35][70][15:16:29.895]CWinHttpFile::Close
+[35][70][15:16:36.336]WinHttpQueryHeaders file size:1096
+[35][70][15:16:36.336]CWinHttpFile::Open return: 1
+[35][70][15:16:36.336]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[35][70][15:16:36.436]CWinHttpFile::Close
+[35][70][15:16:36.437] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[35][66][15:16:49.875]CDlForQdImp::OnLoadLocalSvrPlugin Enter.
+[35][66][15:16:49.875]CDlForQdImp::OnLoadLocalSvrPlugin LocalSvrPlugin init.
+[35][69][15:16:49.926]Receive Pipe ipc Event
+[35][66][15:21:29.874]CDlForQdImp::OnTimer, nFixSid=0
+[35][66][15:26:29.874]CDlForQdImp::OnDelayRunFileCmd
+[35][66][15:26:29.874] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][66][15:26:29.875]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:26:29.875] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][66][15:26:29.875]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:26:29.875] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][66][15:26:29.876]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:26:29.876] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][66][15:26:29.876]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:26:29.876]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][66][15:26:29.876]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][66][15:26:29.887]CDlForQdImp::OnDelayFileConfusionDefault
+[35][66][15:26:29.909]CDlForQdImp::OnDelayFileConfusionDefault, StartConfusion result:0, ErrPos:0, WholeNum:2, OkNum:1, SuccessFile:C:\users\gujiawei\Temp\\576FF82.ue3;, FailFile:1452120, FakeRegPos:0, FakeCopyPos:0
+[35][66][15:28:29.875]CDlForQdImp::OnDelayRunFileCmd
+[35][66][15:28:29.880]GetTaskCmdFromReg result=0
+[35][66][15:28:29.880]GetTaskCmdFromReg result=0
+[35][66][15:36:29.874]CDlForQdImp::OnDelayRunFileCmd
+[35][66][15:36:29.904] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][66][15:36:29.904]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:36:29.904] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][66][15:36:29.905]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:36:29.905] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][66][15:36:29.906]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:36:29.906] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][66][15:36:29.907]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][66][15:36:29.907]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][66][15:36:29.907]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][66][15:36:29.919]CDlForQdImp::OnDelayFileConfusionDefault
+[35][66][15:36:29.951]CDlForQdImp::OnDelayFileConfusionDefault, StartConfusion result:0, ErrPos:0, WholeNum:2, OkNum:1, SuccessFile:C:\users\gujiawei\Temp\\576FF82.ue3;, FailFile:1452120, FakeRegPos:0, FakeCopyPos:1
+[35][66][15:40:29.874]CDlForQdImp::OnDelayRunFileCmd
+[35][66][15:40:29.874]GetTaskCmdFromReg result=0
+[35][66][15:40:29.875]GetTaskCmdFromReg result=0
+[35][45][15:40:42.114]CDlForQdImp::Stop
+[35][66][15:40:42.114]CDlForQdImp::StopImpl
+[35][66][15:40:42.114]CWinHttpFile::Close
+[35][66][15:40:42.114]CWinHttpFile::Close
+[35][66][15:40:42.114]QD LocalSvrPlugin Uninit.
+[35][68][15:40:42.115]CDlForQdImp::IpcThreadFunc end...

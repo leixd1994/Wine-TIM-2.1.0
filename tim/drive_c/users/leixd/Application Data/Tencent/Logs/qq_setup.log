@@ -1,0 +1,118 @@
+[8:9:1113/151121:24170583:INFO:hummer_setup.cpp(43)] Install version : 55.39.0.21603.0
+[8:59:1113/151122:24170968:INFO:kill_orphan_qqprotect_process.cpp(77)] orphan qp found.
+[8:58:1113/151124:24173314:INFO:item_checker.cpp(70)] config id = 103
+[8:9:1113/151131:24180131:INFO:hummer_setup.cpp(53)] Install Completed , exit code is 0
+[8:9:1113/211524:190578:INFO:hummer_setup.cpp(43)] Install version : 55.39.0.21603.0
+[8:57:1113/211525:190969:INFO:kill_orphan_qqprotect_process.cpp(77)] orphan qp found.
+[8:9:1121/143624:21096996:INFO:hummer_setup.cpp(62)] Install version : 55.37.0.22317.0
+[8:57:1121/143625:21097615:INFO:kill_orphan_qqprotect_process.cpp(77)] orphan qp found.
+[8:101:1121/143631:21103846:INFO:setup_util.h(70)] install::WaitQQExit::Run start
+[8:101:1121/143631:21103857:INFO:setup_util.h(78)] install::WaitQQExit::Run end, spend 11ms
+[8:100:1121/143633:21105844:INFO:qd_helper.cpp(770)] Product info refreshed.C:\Program Files (x86)\Tencent\QQLite
+[8:100:1121/143633:21105845:INFO:qd_helper.cpp(614)] id:  1000101
+[8:100:1121/143633:21105845:INFO:qd_helper.cpp(615)] in:  C:\Program Files (x86)\Tencent\QQLite
+[8:100:1121/143633:21105845:INFO:qd_helper.cpp(616)] nor: C:\Program Files (x86)\Tencent\QQLite\
+[8:100:1121/143633:21105848:INFO:qd_helper.cpp(290)] QueryServiceStatusEx: 1, Status: 1
+[8:100:1121/143633:21105850:INFO:disable_qqprotect.cpp(460)] qd not running
+[8:50:1121/143633:21105891:INFO:setup_util.h(70)] install::ExtractFiles::Run start
+[8:50:1121/143638:21110653:INFO:setup_util.h(78)] install::ExtractFiles::Run end, spend 4762ms
+[8:137:1121/143638:21110654:INFO:setup_util.h(70)] install::InstallQP::Run start
+[8:137:1121/143639:21112102:INFO:setup_util.h(78)] install::InstallQP::Run end, spend 1448ms
+[8:144:1121/143639:21112102:INFO:setup_util.h(70)] registry::RegistryTask::Run start
+[8:148:1121/143639:21112104:INFO:ConfigQQ.cpp(122)] Begin
+[8:148:1121/143639:21112105:INFO:ConfigQQ.cpp(127)] 11:21
+[8:149:1121/143639:21112106:ERROR:intel_repair.cpp(52)] Error: Regedit cannot be opened!
+[8:144:1121/143639:21112107:INFO:setup_util.h(78)] registry::RegistryTask::Run end, spend 5ms
+[8:149:1121/143639:21112107:ERROR:intel_repair.cpp(52)] Error: Regedit cannot be opened!
+[8:156:1121/143639:21112130:ERROR:fix_taskbar.cpp(42)] open reg key: Software\Microsoft\Windows\ShellNoRoam\MuiCache failed
+[8:148:1121/143639:21112130:ERROR:ConfigQQ.cpp(135)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(142)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(148)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(153)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(200)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(207)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(228)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(329)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(334)] NVAPI error:-2
+[8:148:1121/143639:21112131:ERROR:ConfigQQ.cpp(339)] NVAPI error:-2
+[8:148:1121/143639:21112132:ERROR:ConfigQQ.cpp(344)] NVAPI error:-2
+[8:148:1121/143639:21112132:ERROR:ConfigQQ.cpp(349)] NVAPI error:-2
+[8:148:1121/143639:21112133:INFO:ConfigQQ.cpp(355)] Sucess
+[8:50:1121/143639:21112151:ERROR:create_shortcut.cpp(399)] create shortcut link:C:\users\Public\Start Menu\Programs\腾讯软件\TIM\TIM.lnk failed
+[8:50:1121/143639:21112152:ERROR:create_shortcut.cpp(444)] create shortcut link:C:\users\Public\Start Menu\Programs\腾讯软件\TIM\TIM.lnk failed
+[8:161:1121/143639:21112167:ERROR:qd_helper.cpp(343)] 1 MajorVersion:5MinorVersion:2IsWow64:1
+[8:162:1121/143639:21112168:INFO:setup_util.h(70)] registry::RegsvrTask::Run start
+[8:161:1121/143639:21112168:INFO:install_start_qd.cpp(108)] Do not install qqprotect.
+[8:162:1121/143640:21112616:INFO:setup_util.h(78)] registry::RegsvrTask::Run end, spend 448ms
+[8:161:1121/143642:21114542:INFO:qd_helper.cpp(614)] id:  1060001
+[8:161:1121/143642:21114543:INFO:qd_helper.cpp(615)] in:  C:\Program Files (x86)\Tencent\TIM
+[8:161:1121/143642:21114543:INFO:qd_helper.cpp(616)] nor: C:\Program Files (x86)\Tencent\TIM\
+[8:161:1121/143642:21114544:INFO:qd_helper.cpp(936)] in:  C:\Program Files (x86)\Common Files\Tencent
+[8:161:1121/143642:21114544:INFO:qd_helper.cpp(937)] nor: C:\Program Files (x86)\Common Files\Tencent\
+[8:161:1121/143642:21114544:ERROR:qd_helper.cpp(885)] reg could not be opened: 2,0
+[8:9:1121/143645:21117917:ERROR:get_qq_pc_detector_result.cpp(39)] get wording failed.
+[8:281:1121/143646:21119339:INFO:move_user_data.cpp(407)] satrt qq: C:\Program Files (x86)\Tencent\TIM\Bin\TIM.exe
+[8:100:1121/144844:21837084:INFO:disable_qqprotect.cpp(339)] not support system(x64)
+[8:122:1121/144847:21840278:INFO:ConfigQQ.cpp(122)] Begin
+[8:129:1121/144847:21840285:ERROR:fix_taskbar.cpp(42)] open reg key: Software\Microsoft\Windows\ShellNoRoam\MuiCache failed
+[8:122:1121/144847:21840285:INFO:ConfigQQ.cpp(127)] 11:21
+[8:122:1121/144847:21840299:ERROR:ConfigQQ.cpp(135)] NVAPI error:-2
+[8:122:1121/144847:21840300:ERROR:ConfigQQ.cpp(142)] NVAPI error:-2
+[8:122:1121/144847:21840300:ERROR:ConfigQQ.cpp(148)] NVAPI error:-2
+[8:122:1121/144847:21840300:ERROR:ConfigQQ.cpp(153)] NVAPI error:-2
+[8:122:1121/144847:21840300:ERROR:ConfigQQ.cpp(200)] NVAPI error:-2
+[8:122:1121/144847:21840300:ERROR:ConfigQQ.cpp(207)] NVAPI error:-2
+[8:122:1121/144847:21840300:ERROR:ConfigQQ.cpp(228)] NVAPI error:-2
+[8:122:1121/144847:21840300:ERROR:ConfigQQ.cpp(329)] NVAPI error:-2
+[8:122:1121/144847:21840301:ERROR:ConfigQQ.cpp(334)] NVAPI error:-2
+[8:122:1121/144847:21840301:ERROR:ConfigQQ.cpp(339)] NVAPI error:-2
+[8:122:1121/144847:21840301:ERROR:ConfigQQ.cpp(344)] NVAPI error:-2
+[8:122:1121/144847:21840301:ERROR:ConfigQQ.cpp(349)] NVAPI error:-2
+[8:122:1121/144847:21840301:INFO:ConfigQQ.cpp(358)] Sucess
+[8:9:0103/162355:27887086:INFO:hummer_setup.cpp(62)] Install version : 55.43.0.22747.0
+[8:57:0103/162356:27887604:INFO:kill_orphan_qqprotect_process.cpp(77)] orphan qp found.
+[8:89:0103/162359:27891181:INFO:setup_util.h(78)] install::WaitQQExit::Run start
+[8:89:0103/162359:27891193:INFO:setup_util.h(86)] install::WaitQQExit::Run end, spend 12ms
+[8:88:0103/162402:27893590:INFO:qd_helper.cpp(770)] Product info refreshed.C:\Program Files (x86)\Tencent\QQLite
+[8:88:0103/162402:27893591:INFO:qd_helper.cpp(614)] id:  1000101
+[8:88:0103/162402:27893591:INFO:qd_helper.cpp(615)] in:  C:\Program Files (x86)\Tencent\QQLite
+[8:88:0103/162402:27893591:INFO:qd_helper.cpp(616)] nor: C:\Program Files (x86)\Tencent\QQLite\
+[8:88:0103/162402:27893592:INFO:qd_helper.cpp(290)] QueryServiceStatusEx: 1, Status: 1
+[8:88:0103/162402:27893592:INFO:disable_qqprotect.cpp(460)] qd not running
+[8:50:0103/162402:27893640:INFO:setup_util.h(78)] install::ExtractFiles::Run start
+[8:50:0103/162406:27898455:INFO:setup_util.h(86)] install::ExtractFiles::Run end, spend 4815ms
+[8:126:0103/162406:27898455:INFO:setup_util.h(78)] install::InstallQP::Run start
+[8:126:0103/162407:27899181:INFO:setup_util.h(86)] install::InstallQP::Run end, spend 726ms
+[8:133:0103/162407:27899182:INFO:setup_util.h(78)] registry::RegistryTask::Run start
+[8:137:0103/162407:27899183:INFO:ConfigQQ.cpp(122)] Begin
+[8:137:0103/162407:27899183:INFO:ConfigQQ.cpp(127)] 11:21
+[8:138:0103/162407:27899183:ERROR:intel_repair.cpp(52)] Error: Regedit cannot be opened!
+[8:138:0103/162407:27899184:ERROR:intel_repair.cpp(52)] Error: Regedit cannot be opened!
+[8:133:0103/162407:27899185:INFO:setup_util.h(86)] registry::RegistryTask::Run end, spend 3ms
+[8:137:0103/162407:27899187:ERROR:ConfigQQ.cpp(135)] NVAPI error:-2
+[8:137:0103/162407:27899188:ERROR:ConfigQQ.cpp(142)] NVAPI error:-2
+[8:137:0103/162407:27899188:ERROR:ConfigQQ.cpp(148)] NVAPI error:-2
+[8:137:0103/162407:27899188:ERROR:ConfigQQ.cpp(153)] NVAPI error:-2
+[8:141:0103/162407:27899188:ERROR:fix_taskbar.cpp(42)] open reg key: Software\Microsoft\Windows\ShellNoRoam\MuiCache failed
+[8:137:0103/162407:27899188:ERROR:ConfigQQ.cpp(200)] NVAPI error:-2
+[8:137:0103/162407:27899188:ERROR:ConfigQQ.cpp(207)] NVAPI error:-2
+[8:137:0103/162407:27899189:ERROR:ConfigQQ.cpp(228)] NVAPI error:-2
+[8:137:0103/162407:27899189:ERROR:ConfigQQ.cpp(329)] NVAPI error:-2
+[8:137:0103/162407:27899189:ERROR:ConfigQQ.cpp(334)] NVAPI error:-2
+[8:137:0103/162407:27899189:ERROR:ConfigQQ.cpp(339)] NVAPI error:-2
+[8:137:0103/162407:27899189:ERROR:ConfigQQ.cpp(344)] NVAPI error:-2
+[8:137:0103/162407:27899189:ERROR:ConfigQQ.cpp(349)] NVAPI error:-2
+[8:137:0103/162407:27899189:INFO:ConfigQQ.cpp(355)] Sucess
+[8:50:0103/162407:27899218:ERROR:create_shortcut.cpp(399)] create shortcut link:C:\users\Public\Start Menu\Programs\腾讯软件\TIM\TIM.lnk failed
+[8:50:0103/162407:27899219:ERROR:create_shortcut.cpp(444)] create shortcut link:C:\users\Public\Start Menu\Programs\腾讯软件\TIM\TIM.lnk failed
+[8:150:0103/162407:27899266:ERROR:qd_helper.cpp(343)] 1 MajorVersion:5MinorVersion:2IsWow64:1
+[8:150:0103/162407:27899266:INFO:install_start_qd.cpp(108)] Do not install qqprotect.
+[8:151:0103/162407:27899266:INFO:setup_util.h(78)] registry::RegsvrTask::Run start
+[8:151:0103/162408:27899545:INFO:setup_util.h(86)] registry::RegsvrTask::Run end, spend 279ms
+[8:150:0103/162411:27902538:INFO:qd_helper.cpp(614)] id:  1060001
+[8:150:0103/162411:27902538:INFO:qd_helper.cpp(615)] in:  C:\Program Files (x86)\Tencent\TIM
+[8:150:0103/162411:27902538:INFO:qd_helper.cpp(616)] nor: C:\Program Files (x86)\Tencent\TIM\
+[8:150:0103/162411:27902538:INFO:qd_helper.cpp(936)] in:  C:\Program Files (x86)\Common Files\Tencent
+[8:150:0103/162411:27902538:INFO:qd_helper.cpp(937)] nor: C:\Program Files (x86)\Common Files\Tencent\
+[8:150:0103/162411:27902538:ERROR:qd_helper.cpp(885)] reg could not be opened: 2,0
+[8:275:0103/162415:27906930:INFO:move_user_data.cpp(407)] satrt qq: C:\Program Files (x86)\Tencent\TIM\Bin\TIM.exe

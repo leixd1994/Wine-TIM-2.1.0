@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*
+=======================================================
+	文件名：global_mini_portal.css
+	作者：g_ISRD_Web_Rebuilder Jeannewoo iVanehwang
+	说明：QQ客户端Mini Portal 全局样式。
+=======================================================
+*/
+
+/*=S CSS Reset=*/
+html, body, div, span,applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0;}
+ul,ul li {list-style-type:none;}
+fieldset {border:0;}
+fieldset legend, table caption {display:none;}
+img {border:0 none;}
+code, kbd, pre, samp, tt {font-family:"Courier New", Courier, monospace;}
+button, label {cursor:pointer;}
+button, input, select, textarea {font-size:100%;}
+input {font:12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+table {border-collapse:collapse; border-spacing:0;}
+a {text-decoration:underline; *zoom:1; _vertical-align:baseline;}
+a:hover {text-decoration:underline;}
+html {overflow-y:scroll;}
+body {font:12px/1 Arial,Simsun; _font-family:Simsun;}
+html,body {_height:100%;}
+/*=E CSS Reset=*/
+
+body {background:#FFFFFF; color:#333333;}
+a {color:#1670EB; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.mod_clear {zoom:1;}
+.mod_clear:after {content:""; clear:both; display:block; height:0;}
+
+.bg, .bt_1, .bt_2 {background:url(bg.png) left top no-repeat; text-align:center; border:0 none;}
+.bt_1 {width:70px; height:20px; color:#000000; padding-top:3px\9;}
+.bt_2 {width:69px; height:21px; color:#000000; background-position:-71px top; padding-bottom:2px; padding:4px 0 0\9; *padding-top:3px;}
+
+.c_tx {color:#5F5F5F;}
+.c_tx2 {color:#FF6C00;}
+.c_tx3 {color:#888888;}
+
+.int_1 {border:1px #65ABD8 solid; width:218px;padding-top:3px; height:15px; padding:0\9; height:18px\9; line-height:18px\9; background-position:left -144px; background-color:#FFFFFF; text-align:left;}
+
+/*黄钻图标 开始*/
+.gb_vip_icon,.gb_vip_n_icon{font-size:0;background-image:url(vip_icon_2.png);background-repeat:no-repeat;display:-moz-inline-stack;display:inline-block;width:16px;height:10px;}
+.gb_vip_n_icon{background-position:0 -11px;}
+.gb_vip_icon span,.gb_vip_n_icon span{font-size:0;background-image:url(vip_icon_2.png);background-repeat:no-repeat;display:-moz-inline-stack;display:inline-block;width:8px;height:7px;margin:3px 0 0 8px;}
+.lv1{background-position:-63px 0;}
+.lv2{background-position:-73px 0;}
+.lv3{background-position:-83px 0;}
+.lv4{background-position:-93px 0;}
+.lv5{background-position:-103px 0;}
+.lv6{background-position:-113px 0;}
+.lv7{background-position:-123px 0;}
+.lv8{background-position:-133px 0;}
+.lv9{background-position:-143px 0;}
+.lvn0{background-position:-153px -11px;}
+.lvn1{background-position:-63px -11px;}
+.lvn2{background-position:-73px -11px;}
+.lvn3{background-position:-83px -11px;}
+.lvn4{background-position:-93px -11px;}
+.lvn5{background-position:-103px -11px;}
+.lvn6{background-position:-113px -11px;}
+.lvn7{background-position:-123px -11px;}
+.lvn8{background-position:-133px -11px;}
+.lvn9{background-position:-143px -11px;}
+.gb_vip_none{display:none!important;}
+.gb_lv_icon,
+.gb_lv_n_icon{background-image:url(vip_icon_2.png);	background-repeat:no-repeat;background-position:-19px 0;display:-moz-inline-stack;display:inline-block;width:36px;height:10px;}
+.gb_lv_n_icon{background-position:-19px -11px;}
+.gb_lv_icon span,
+.gb_lv_n_icon span{background-image:url(vip_icon_2.png);background-repeat:no-repeat;display:-moz-inline-stack;display:inline-block;width:8px;height:7px;
+margin:2px 0 0 27px;}
+.gb_vip_none{display:none!important;}
+/*黄钻图标 结束*/
+
+/* 弹出框框架 开始 */
+.mode_pop {background:#FFFFFF; border:1px #9FC2D3 solid; padding:1px; position:absolute; z-index:9999;}
+.mode_pop .mode_pop_iframe {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; Opacity:0; width:100%; height:1000px; position:absolute; left:0; top:0;}
+.mode_pop .mode_pop_wrap {position:relative; padding-bottom:27px; overflow:hidden;}
+.mode_pop .mode_pop_bg {background:url(bg_pop.jpg) left top no-repeat;}
+.mode_pop .mode_pop_tit {height:18px; padding:6px 8px 0 6px; border-bottom:1px #A6CBED solid; background-repeat:repeat-x;}
+.mode_pop .mode_pop_tit h3 {font-size:14px; color:#000000; float:left; *line-height:110%;}
+.mode_pop .mode_pop_tit .other {float:right;}
+.mode_pop .mode_pop_tit .other a {display:block; width:12px; height:12px; font-size:0; line-height:0; background-position:left -56px; overflow:hidden;}
+.mode_pop .mode_pop_bottom {position:absolute; left:0; bottom:0; _bottom:1px; height:27px; background-position:left -25px; background-repeat:repeat-x; text-align:right; width:100%; *margin-top:18px; _zoom:1;}
+.mode_pop .mode_pop_bottom p {padding:3px 5px 0;}
+.mode_pop .mode_pop_bottom p button {margin-left:6px;}
+/* 弹出框框架 结束 */

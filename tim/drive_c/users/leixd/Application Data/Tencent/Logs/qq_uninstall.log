@@ -1,0 +1,21 @@
+[8:56:1121/144105:21378324:INFO:qq_protect.cpp(147)] GetQQProtectFilePath: C:\Program Files (x86)\Common Files\Tencent\QQProtect\Bin\QQProtect.exe
+[8:56:1121/144106:21378444:ERROR:disable_qqprotect.cpp(63)] disable qd error:1052
+[8:56:1121/144106:21378444:INFO:qd_helper.cpp(770)] Product info refreshed.C:\Program Files (x86)\Tencent\QQLite
+[8:56:1121/144106:21378445:INFO:qd_helper.cpp(614)] id:  1000101
+[8:56:1121/144106:21378445:INFO:qd_helper.cpp(615)] in:  C:\Program Files (x86)\Tencent\QQLite
+[8:56:1121/144106:21378445:INFO:qd_helper.cpp(616)] nor: C:\Program Files (x86)\Tencent\QQLite\
+[8:56:1121/144106:21378445:INFO:disable_qqprotect.cpp(75)] DisableQQProtect::Run(), product count: 2
+[8:91:1121/144106:21378445:INFO:UnInstall_QPCore2.cpp(31)] UnInstallQPCore::Run(), product count: 2
+[8:93:1121/144106:21378450:ERROR:uninstall_delete_qp_files.cpp(444)] previous_install_path:  C:\Program Files (x86)\Tencent\TIM
+[8:93:1121/144106:21378450:ERROR:uninstall_delete_qp_files.cpp(445)] previous_installt_type: NewSetup
+[8:93:1121/144106:21378450:INFO:uninstall_delete_qp_files.cpp(171)] doDeleteQPFiles(), product count: 2
+[8:95:1121/144106:21378451:WARNING:uninstall_minidl.cpp(84)] minidl.exe not exist.
+[8:93:1121/144106:21378451:INFO:uninstall_delete_qp_files.cpp(174)] doDeleteQPFiles returned, no delete, there's still other product:2
+[8:50:1121/144106:21378451:INFO:delete_files.cpp(154)] After DeleteFiles::Run(): product info: count=1
+[8:50:1121/144106:21378518:WARNING:delete_files.cpp(88)] DeleteFile( C:\users\leixd\Application Data\Tencent\TIM\rdo.cache ) failed with error : 2
+[8:50:1121/144106:21378518:WARNING:delete_files.cpp(88)] DeleteFile( C:\users\leixd\Application Data\Tencent\TIM\loginrdo.cache ) failed with error : 2
+[8:50:1121/144106:21378518:WARNING:delete_files.cpp(88)] DeleteFile( C:\users\leixd\Application Data\Tencent\TIM\uirdo.cache ) failed with error : 2
+[8:50:1121/144106:21379221:ERROR:delete_files.cpp(810)] delete uninstall.exe, continue.
+[8:115:1121/144107:21379673:ERROR:fix_taskbar.cpp(42)] open reg key: Software\Microsoft\Windows\ShellNoRoam\MuiCache failed
+[8:117:1121/144109:21381454:INFO:qd_helper.cpp(694)] reg delete value failed: 2
+[8:117:1121/144109:21381455:INFO:complete_uninstall.cpp(24)] After CompleteUninstall::Run(): product info: count=1

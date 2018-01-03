@@ -1,0 +1,86 @@
+{
+"wording":[
+
+{
+"id": "1",
+"use_tpl": "0",
+"desc": "有效期:长期",
+"desc_mqq":"长期有效"
+},
+
+{
+"id": "2",
+"use_tpl": "0",
+"desc": "已过期",
+"desc_mqq":"已过期"
+},
+
+{
+"id": "3",
+"use_tpl": "1",
+"desc": "有效期:$EFFECTIVE_DAY$天($EXPIRE_DATE$)",
+"desc_mqq":"有效期至$EXPIRE_DATE$"
+},
+
+{
+"id": "4",
+"use_tpl": "0",
+"desc": "该表情包已过期,重新<pay>",
+"desc_mqq":"表情包已过期，请重新购买",
+"links": [{
+"name": "pay",
+"type": "inner",
+"text": "购买",
+"target": "payment_page"
+}]
+},
+
+{
+"id": "5",
+"use_tpl": "0",
+"desc": "会员免费",
+"desc_mqq":"VIP免费使用"
+},
+
+{
+"id": "6",
+"use_tpl": "0",
+"desc": "超级会员免费",
+"desc_mqq":"SVIP免费使用"
+},
+
+{
+"id": "7",
+"use_tpl": "1",
+"desc": "您的会员服务已过期，请再次<vippay>",
+"desc_mqq":"服务已过期，请开通会员",
+"links": [{
+"name": "vippay",
+"type": "browser",
+"text": "开通会员",
+"target": "http://pay.qq.com/qqvip/index.shtml?aid=vip.gongneng.client.bqmall.bqxufei_$PACKAGE_ID$"
+}]
+},
+
+{
+"id": "8",
+"use_tpl": "1",
+"desc": "您的超级会员服务已过期，请再次<svippay>",
+"desc_mqq":"服务已过期，请开通超级会员",
+"links": [{
+"name": "svippay",
+"type": "browser",
+"text": "开通超级会员",
+"target": "http://pay.qq.com/qqvip/index.shtml?aid=svip.gongneng.client.bqmall.bqxufei_$PACKAGE_ID$"
+}]
+},
+
+{
+"id": "9",
+"use_tpl": "1",
+"desc": "限时免费至$EXPIRE_DATE$",
+"desc_mqq":"限时免费至$EXPIRE_DATE$"
+}
+
+]
+}

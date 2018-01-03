@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta name="robots" content="all" />
+<meta name="author" content="Tencent-ISRD" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="Qzone精彩由你而来" />
+<meta name="Keywords" content="Qzone,QQ空间,Blog,博客,网络日志,播客,腾讯,QQ,Tencent" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/mini_portal.css" type="text/css" media="screen" />
+<title>Qzone个人档</title>
+<style type="text/css">
+<!--
+html,body {
+	overflow:hidden;
+	height:100%;
+	width:100%;
+}
+-->
+</style>
+
+<!--[if IE 6]>
+<script type="text/javascript">
+ // <![CDATA[
+        try{
+	      document.execCommand("BackgroundImageCache", false, true);
+	    }
+	   catch(e){}
+// ]]>
+</script>
+<![endif]-->
+</head>
+
+<body style="background:#E4F1F9;">
+	<div class="mode_qzone_info" style="height:100%;width:100%">
+		<div class="mini_loading" style="height:100%;width:100%">
+			<p class="mini_loading_cont">正在载入信息，请稍候...</p>	
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+ // <![CDATA[
+	parent.showRightFrame();
+// ]]>
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../common/script/qzfl.js"></script>
+<script type="text/javascript" charset="utf-8" src="../common/script/common.js"></script>
+
+<script type="text/javascript">
+ // <![CDATA[
+	QZFL.Logic.preventEvents(document.body);
+	(function init(){
+		window.location.href = "http://hummer.qzone.qq.com/fcg-bin/update/cgi_qzone_miniportal?uin="+QZBlog.Util.getUin()+"&key="+external.QQGetClientKey()+"&qzoneckey="+external.QQGetQzoneKey()+"&qzonecid=66"+"&r="+Math.random();
+	})();
+// ]]>
+</script>
+</html>

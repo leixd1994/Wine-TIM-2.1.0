@@ -1,0 +1,55 @@
+[73][92][15:11:22.971]Support Winhttp
+[73][94][15:11:22.972]CWinHttpFile::Close
+[73][94][15:11:24.069]WinHttpQueryHeaders file size:2048
+[73][94][15:11:24.069]CWinHttpFile::Open return: 1
+[73][95][15:11:24.069]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[73][90][15:11:24.127]WinHttpQueryHeaders file size:8876
+[73][90][15:11:24.127]CWinHttpFile::Open return: 1
+[73][90][15:11:24.128]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[73][94][15:11:24.169]CWinHttpFile::Close
+[73][94][15:11:24.169] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[73][92][15:11:24.170]CWinHttpFile::Close
+[73][92][15:11:24.170]CWinHttpFile::Close
+[73][92][15:11:24.183]CHttpDownloadImp::Download, url=http://dldir1.qq.com/invc/tt/QQ/FAARF/cckrwubcwsfphkw8mr_ob_201791211555513_201791211555516_cdn.dll, destPath=C:\users\leixd\Application Data\MS\WINDOWS\DATAM\36TCB.ZIP
+[73][92][15:11:24.183]Support Winhttp
+[73][107][15:11:24.184]CWinHttpFile::Close
+[73][90][15:11:24.229]CWinHttpFile::Close
+[73][90][15:11:24.229] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[73][89][15:11:24.229]CWinHttpFile::Close
+[73][89][15:11:24.229]CWinHttpFile::Close
+[73][89][15:11:24.249]Support Winhttp
+[73][109][15:11:24.250]CWinHttpFile::Close
+[73][107][15:11:24.938]WinHttpQueryHeaders file size:336064
+[73][107][15:11:24.938]CWinHttpFile::Open return: 1
+[73][109][15:11:25.217]WinHttpQueryHeaders file size:6079392
+[73][109][15:11:25.217]CWinHttpFile::Open return: 1
+[73][108][15:11:25.656]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[73][107][15:11:25.756]CWinHttpFile::Close
+[73][107][15:11:25.757] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[73][92][15:11:25.757]CWinHttpFile::Close
+[73][92][15:11:25.757]CWinHttpFile::Close
+[73][92][15:11:25.793]CHttpDownloadImp::Download, url=http://c.gj.qq.com/fcgi-bin/querysrc?id=78461&guid=BDoQsJWm4t8J1GwJch6a8eA4jFLjFAgrBNCPrYwHSL71MZCUGIUESU/NrbBQzXvN&ver=100068&optype=1&inst=13&opfrom=0&error=0&parent=QQ8.9.4.exe&jp=2&wow=1&groupid=13&src=0, destPath=C:\users\Public\GV43C93ky48r4f2.dat
+[73][92][15:11:25.793]Support Winhttp
+[73][121][15:11:25.795]CWinHttpFile::Close
+[73][121][15:11:26.916]WinHttpQueryHeaders file size:0
+[73][121][15:11:26.916]CWinHttpFile::Open return: 1
+[73][121][15:11:26.916]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[73][121][15:11:27.017]CWinHttpFile::Close
+[73][121][15:11:27.017] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 6.
+[73][92][15:11:27.297]CWinHttpFile::Close
+[73][92][15:11:27.297]CWinHttpFile::Close
+[73][110][15:11:31.711]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[73][109][15:11:31.811]CWinHttpFile::Close
+[73][109][15:11:31.811] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[73][89][15:11:31.811]CWinHttpFile::Close
+[73][89][15:11:31.812]CWinHttpFile::Close
+[73][89][15:11:31.873]CHttpDownloadImp::Download, url=http://c.gj.qq.com/fcgi-bin/querysrc?id=10004&guid=gcYvAfmlcsHQ3f5AU%2Bu75h%2BggiXg8IfzvKdd2peQiEXAMWhNbaDas7RpFNrrWOMT&ver=100068&optype=1&inst=4&opfrom=0&error=0&parent=QQ8.9.4.exe&jp=2&wow=1&groupid=0&src=0, destPath=C:\windows\system32\9kw1je89w4pR
+[73][89][15:11:31.873]Support Winhttp
+[73][139][15:11:31.875]CWinHttpFile::Close
+[73][139][15:11:32.941]WinHttpQueryHeaders file size:0
+[73][139][15:11:32.941]CWinHttpFile::Open return: 1
+[73][139][15:11:32.943]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[73][139][15:11:33.044]CWinHttpFile::Close
+[73][139][15:11:33.044] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 6.
+[73][89][15:11:33.376]CWinHttpFile::Close
+[73][89][15:11:33.376]CWinHttpFile::Close

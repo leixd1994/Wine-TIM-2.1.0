@@ -1,0 +1,634 @@
+08:49:12:288,0x0000011A =============================================
+08:49:12:288,0x0000011A Log at: 2017-07-06 08:49:12:288, compiled: Oct  9 2015 15:21:56
+08:49:12:288,0x0000011A PID: 0070, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:49:12:288,0x0000011A CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:49:12:289,0x00000119 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:49:12:291,0x0000011A InitializeAndroidDevice Begin!bStrictAndroid=0
+08:49:12:309,0x0000011A InitializeAndroidDevice End!
+08:49:12:309,0x0000011A CMonitorImpl::StartMonitor() Start
+08:49:12:311,0x0000011A CMonitorImpl::StartMonitor() End
+08:49:12:311,0x0000011A CUsbDeviceMonitor::USBDeviceChangeStart
+08:49:12:311,0x0000011A CUsbDeviceMonitor::USBDeviceChangeEnd
+16:07:20:076,0x00000119 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+16:07:20:093,0x0000011A CMonitorImpl::StopMonitor Start.....
+16:07:20:093,0x0000011B CMonitorImpl::ListenerThreadProc2 End
+16:07:20:095,0x0000011A CMonitorImpl::StopMonitor End.....
+16:07:20:095,0x00000119 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+16:07:20:095,0x0000011A CAndroidDeviceInfo::UnInit
+16:07:20:095,0x0000011A CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+16:07:20:096,0x0000011A CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+16:07:22:414,0x00000047 DestroyNetworkMgr(), Ref=0
+16:07:22:414,0x00000047 Log finished
+16:09:37:448,0x00000057 =============================================
+16:09:37:448,0x00000057 Log at: 2017-07-06 16:09:37:448, compiled: Oct  9 2015 15:21:56
+16:09:37:448,0x00000057 PID: 0353, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+16:09:37:448,0x00000057 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+16:09:37:448,0x0000005C CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+16:09:37:449,0x00000057 InitializeAndroidDevice Begin!bStrictAndroid=0
+16:09:37:454,0x00000057 InitializeAndroidDevice End!
+16:09:37:455,0x00000057 CMonitorImpl::StartMonitor() Start
+16:09:37:456,0x00000057 CMonitorImpl::StartMonitor() End
+16:09:37:456,0x00000057 CUsbDeviceMonitor::USBDeviceChangeStart
+16:09:37:457,0x00000057 CUsbDeviceMonitor::USBDeviceChangeEnd
+19:44:03:461,0x0000005C CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+19:44:03:461,0x00000057 CMonitorImpl::StopMonitor Start.....
+19:44:03:461,0x00000038 CMonitorImpl::ListenerThreadProc2 End
+19:44:03:462,0x00000057 CMonitorImpl::StopMonitor End.....
+19:44:03:462,0x0000005C CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+19:44:03:462,0x00000057 CAndroidDeviceInfo::UnInit
+19:44:03:462,0x00000057 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+19:44:03:462,0x00000057 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+19:44:27:718,0x00000164 DestroyNetworkMgr(), Ref=0
+19:44:27:719,0x00000164 Log finished
+08:48:00:065,0x00000115 =============================================
+08:48:00:070,0x00000115 Log at: 2017-07-07 08:48:00:065, compiled: Oct  9 2015 15:21:56
+08:48:00:070,0x00000115 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:48:00:070,0x00000115 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:48:00:070,0x00000114 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:48:00:071,0x00000115 InitializeAndroidDevice Begin!bStrictAndroid=0
+08:48:00:089,0x00000115 InitializeAndroidDevice End!
+08:48:00:089,0x00000115 CMonitorImpl::StartMonitor() Start
+08:48:00:093,0x00000115 CMonitorImpl::StartMonitor() End
+08:48:00:093,0x00000115 CUsbDeviceMonitor::USBDeviceChangeStart
+08:48:00:094,0x00000115 CUsbDeviceMonitor::USBDeviceChangeEnd
+10:30:36:084,0x00000114 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+10:30:36:084,0x00000115 CMonitorImpl::StopMonitor Start.....
+10:30:36:084,0x00000116 CMonitorImpl::ListenerThreadProc2 End
+10:30:36:084,0x00000115 CMonitorImpl::StopMonitor End.....
+10:30:36:084,0x00000114 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+10:30:36:084,0x00000115 CAndroidDeviceInfo::UnInit
+10:30:36:084,0x00000115 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:30:36:085,0x00000115 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+10:30:37:443,0x00000048 DestroyNetworkMgr(), Ref=0
+10:30:37:443,0x00000048 Log finished
+18:36:11:214,0x00000114 =============================================
+18:36:11:214,0x00000114 Log at: 2017-07-07 18:36:11:214, compiled: Oct  9 2015 15:21:56
+18:36:11:214,0x00000114 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+18:36:11:214,0x00000114 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+18:36:11:215,0x00000113 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+18:36:11:215,0x00000114 InitializeAndroidDevice Begin!bStrictAndroid=0
+18:36:11:220,0x00000114 InitializeAndroidDevice End!
+18:36:11:220,0x00000114 CMonitorImpl::StartMonitor() Start
+18:36:11:225,0x00000114 CMonitorImpl::StartMonitor() End
+18:36:11:226,0x00000114 CUsbDeviceMonitor::USBDeviceChangeStart
+18:36:11:226,0x00000114 CUsbDeviceMonitor::USBDeviceChangeEnd
+20:10:39:938,0x00000113 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+20:10:39:938,0x00000114 CMonitorImpl::StopMonitor Start.....
+20:10:39:938,0x00000115 CMonitorImpl::ListenerThreadProc2 End
+20:10:39:938,0x00000114 CMonitorImpl::StopMonitor End.....
+20:10:39:938,0x00000113 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+20:10:39:938,0x00000114 CAndroidDeviceInfo::UnInit
+20:10:39:939,0x00000114 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+20:10:39:939,0x00000114 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+20:10:41:952,0x00000048 DestroyNetworkMgr(), Ref=0
+20:10:41:952,0x00000048 Log finished
+08:04:05:296,0x00000110 =============================================
+08:04:05:307,0x00000110 Log at: 2017-07-08 08:04:05:296, compiled: Oct  9 2015 15:21:56
+08:04:05:307,0x00000110 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:04:05:307,0x00000110 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:04:05:307,0x0000010F CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:04:05:308,0x00000110 InitializeAndroidDevice Begin!bStrictAndroid=0
+08:04:05:312,0x00000110 InitializeAndroidDevice End!
+08:04:05:313,0x00000110 CMonitorImpl::StartMonitor() Start
+08:04:05:315,0x00000110 CMonitorImpl::StartMonitor() End
+08:04:05:315,0x00000110 CUsbDeviceMonitor::USBDeviceChangeStart
+08:04:05:315,0x00000110 CUsbDeviceMonitor::USBDeviceChangeEnd
+11:07:38:625,0x0000010F CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+11:07:38:626,0x00000110 CMonitorImpl::StopMonitor Start.....
+11:07:38:626,0x00000111 CMonitorImpl::ListenerThreadProc2 End
+11:07:38:626,0x00000110 CMonitorImpl::StopMonitor End.....
+11:07:38:626,0x0000010F CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+11:07:38:626,0x00000110 CAndroidDeviceInfo::UnInit
+11:07:38:626,0x00000110 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+11:07:38:627,0x00000110 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+11:07:38:835,0x00000048 DestroyNetworkMgr(), Ref=0
+11:07:38:836,0x00000048 Log finished
+08:56:38:670,0x0000011F =============================================
+08:56:38:678,0x0000011F Log at: 2017-07-10 08:56:38:670, compiled: Oct  9 2015 15:21:56
+08:56:38:678,0x0000011F PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:56:38:678,0x0000011F CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:56:38:679,0x0000011E CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:56:38:679,0x0000011F InitializeAndroidDevice Begin!bStrictAndroid=0
+08:56:38:684,0x0000011F InitializeAndroidDevice End!
+08:56:38:684,0x0000011F CMonitorImpl::StartMonitor() Start
+08:56:38:688,0x0000011F CMonitorImpl::StartMonitor() End
+08:56:38:689,0x0000011F CUsbDeviceMonitor::USBDeviceChangeStart
+08:56:38:689,0x0000011F CUsbDeviceMonitor::USBDeviceChangeEnd
+15:56:27:950,0x0000011E CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+15:56:27:950,0x0000011F CMonitorImpl::StopMonitor Start.....
+15:56:27:951,0x00000120 CMonitorImpl::ListenerThreadProc2 End
+15:56:27:951,0x0000011F CMonitorImpl::StopMonitor End.....
+15:56:27:951,0x0000011E CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+15:56:27:951,0x0000011F CAndroidDeviceInfo::UnInit
+15:56:27:951,0x0000011F CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+15:56:27:952,0x0000011F CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+15:56:30:065,0x00000048 DestroyNetworkMgr(), Ref=0
+15:56:30:065,0x00000048 Log finished
+15:58:04:441,0x0000004D =============================================
+15:58:04:441,0x0000004D Log at: 2017-07-10 15:58:04:441, compiled: Oct  9 2015 15:21:56
+15:58:04:441,0x0000004D PID: 0385, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+15:58:04:441,0x0000004D CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+15:58:04:442,0x00000008 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+15:58:04:442,0x0000004D InitializeAndroidDevice Begin!bStrictAndroid=0
+15:58:04:451,0x0000004D InitializeAndroidDevice End!
+15:58:04:451,0x0000004D CMonitorImpl::StartMonitor() Start
+15:58:04:457,0x0000004D CMonitorImpl::StartMonitor() End
+15:58:04:457,0x0000004D CUsbDeviceMonitor::USBDeviceChangeStart
+15:58:04:457,0x0000004D CUsbDeviceMonitor::USBDeviceChangeEnd
+20:42:48:046,0x00000008 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+20:42:48:046,0x0000004D CMonitorImpl::StopMonitor Start.....
+20:42:48:046,0x00000009 CMonitorImpl::ListenerThreadProc2 End
+20:42:48:047,0x0000004D CMonitorImpl::StopMonitor End.....
+20:42:48:047,0x0000004D CAndroidDeviceInfo::UnInit
+20:42:48:047,0x00000008 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+20:42:48:047,0x0000004D CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+20:42:48:047,0x0000004D CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+20:42:48:206,0x00000183 DestroyNetworkMgr(), Ref=0
+20:42:48:207,0x00000183 Log finished
+09:13:04:284,0x0000010E =============================================
+09:13:04:326,0x0000010E Log at: 2017-07-11 09:13:04:284, compiled: Oct  9 2015 15:21:56
+09:13:04:326,0x0000010E PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:13:04:326,0x0000010E CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:13:04:326,0x0000010D CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:13:04:327,0x0000010E InitializeAndroidDevice Begin!bStrictAndroid=0
+09:13:04:365,0x0000010E InitializeAndroidDevice End!
+09:13:04:366,0x0000010E CMonitorImpl::StartMonitor() Start
+09:13:04:366,0x0000010E CMonitorImpl::StartMonitor() End
+09:13:04:366,0x0000010E CUsbDeviceMonitor::USBDeviceChangeStart
+09:13:04:367,0x0000010E CUsbDeviceMonitor::USBDeviceChangeEnd
+16:41:58:041,0x0000010D CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+16:41:58:064,0x0000010E CMonitorImpl::StopMonitor Start.....
+16:41:58:065,0x00000110 CMonitorImpl::ListenerThreadProc2 End
+16:41:58:066,0x0000010E CMonitorImpl::StopMonitor End.....
+16:41:58:066,0x0000010D CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+16:41:58:066,0x0000010E CAndroidDeviceInfo::UnInit
+16:41:58:067,0x0000010E CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+16:41:58:067,0x0000010E CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+16:42:01:191,0x00000048 DestroyNetworkMgr(), Ref=0
+16:42:01:193,0x00000048 Log finished
+17:14:00:945,0x0000011B =============================================
+17:14:00:945,0x0000011B Log at: 2017-07-11 17:14:00:945, compiled: Oct  9 2015 15:21:56
+17:14:00:945,0x0000011B PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+17:14:00:945,0x0000011B CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+17:14:00:945,0x0000011A CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+17:14:00:946,0x0000011B InitializeAndroidDevice Begin!bStrictAndroid=0
+17:14:00:954,0x0000011B InitializeAndroidDevice End!
+17:14:00:954,0x0000011B CMonitorImpl::StartMonitor() Start
+17:14:00:957,0x0000011B CMonitorImpl::StartMonitor() End
+17:14:00:957,0x0000011B CUsbDeviceMonitor::USBDeviceChangeStart
+17:14:00:957,0x0000011B CUsbDeviceMonitor::USBDeviceChangeEnd
+08:39:48:228,0x0000010D =============================================
+08:39:48:239,0x0000010D Log at: 2017-07-12 08:39:48:228, compiled: Oct  9 2015 15:21:56
+08:39:48:239,0x0000010D PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:39:48:239,0x0000010D CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:39:48:239,0x0000010C CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:39:48:239,0x0000010D InitializeAndroidDevice Begin!bStrictAndroid=0
+08:39:48:244,0x0000010D InitializeAndroidDevice End!
+08:39:48:244,0x0000010D CMonitorImpl::StartMonitor() Start
+08:39:48:246,0x0000010D CMonitorImpl::StartMonitor() End
+08:39:48:246,0x0000010D CUsbDeviceMonitor::USBDeviceChangeStart
+08:39:48:246,0x0000010D CUsbDeviceMonitor::USBDeviceChangeEnd
+08:49:17:445,0x00000118 =============================================
+08:49:17:452,0x00000118 Log at: 2017-07-13 08:49:17:445, compiled: Oct  9 2015 15:21:56
+08:49:17:452,0x00000118 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:49:17:452,0x00000118 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:49:17:452,0x00000117 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:49:17:452,0x00000118 InitializeAndroidDevice Begin!bStrictAndroid=0
+08:49:17:460,0x00000118 InitializeAndroidDevice End!
+08:49:17:460,0x00000118 CMonitorImpl::StartMonitor() Start
+08:49:17:462,0x00000118 CMonitorImpl::StartMonitor() End
+08:49:17:462,0x00000118 CUsbDeviceMonitor::USBDeviceChangeStart
+08:49:17:462,0x00000118 CUsbDeviceMonitor::USBDeviceChangeEnd
+19:56:59:845,0x00000117 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+19:56:59:845,0x00000118 CMonitorImpl::StopMonitor Start.....
+19:56:59:845,0x00000119 CMonitorImpl::ListenerThreadProc2 End
+19:56:59:845,0x00000118 CMonitorImpl::StopMonitor End.....
+19:56:59:845,0x00000117 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+19:56:59:845,0x00000118 CAndroidDeviceInfo::UnInit
+19:56:59:846,0x00000118 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+19:56:59:846,0x00000118 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+19:56:59:907,0x00000048 DestroyNetworkMgr(), Ref=0
+19:56:59:907,0x00000048 Log finished
+08:58:51:263,0x0000011B =============================================
+08:58:51:280,0x0000011B Log at: 2017-07-14 08:58:51:263, compiled: Oct  9 2015 15:21:56
+08:58:51:280,0x0000011B PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:58:51:280,0x0000011B CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:58:51:285,0x0000011A CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:58:51:286,0x0000011B InitializeAndroidDevice Begin!bStrictAndroid=0
+08:58:51:310,0x0000011B InitializeAndroidDevice End!
+08:58:51:310,0x0000011B CMonitorImpl::StartMonitor() Start
+08:58:51:312,0x0000011B CMonitorImpl::StartMonitor() End
+08:58:51:312,0x0000011B CUsbDeviceMonitor::USBDeviceChangeStart
+08:58:51:312,0x0000011B CUsbDeviceMonitor::USBDeviceChangeEnd
+14:19:07:233,0x0000011A CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+14:19:07:233,0x0000011B CMonitorImpl::StopMonitor Start.....
+14:19:07:234,0x0000011C CMonitorImpl::ListenerThreadProc2 End
+14:19:07:234,0x0000011B CMonitorImpl::StopMonitor End.....
+14:19:07:234,0x0000011A CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+14:19:07:234,0x0000011B CAndroidDeviceInfo::UnInit
+14:19:07:234,0x0000011B CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+14:19:07:234,0x0000011B CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+14:19:07:389,0x00000048 DestroyNetworkMgr(), Ref=0
+14:19:07:389,0x00000048 Log finished
+14:22:22:931,0x000000F3 =============================================
+14:22:22:931,0x000000F3 Log at: 2017-07-14 14:22:22:931, compiled: Oct  9 2015 15:21:56
+14:22:22:931,0x000000F3 PID: 0069, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+14:22:22:932,0x000000F3 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+14:22:22:932,0x000000F2 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+14:22:22:933,0x000000F3 InitializeAndroidDevice Begin!bStrictAndroid=0
+14:22:22:941,0x000000F3 InitializeAndroidDevice End!
+14:22:22:942,0x000000F3 CMonitorImpl::StartMonitor() Start
+14:22:22:944,0x000000F3 CMonitorImpl::StartMonitor() End
+14:22:22:944,0x000000F3 CUsbDeviceMonitor::USBDeviceChangeStart
+14:22:22:944,0x000000F3 CUsbDeviceMonitor::USBDeviceChangeEnd
+08:40:32:858,0x0000010A =============================================
+08:40:32:889,0x0000010A Log at: 2017-07-17 08:40:32:858, compiled: Oct  9 2015 15:21:56
+08:40:32:889,0x0000010A PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:40:32:889,0x0000010A CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:40:32:889,0x00000109 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:40:32:889,0x0000010A InitializeAndroidDevice Begin!bStrictAndroid=0
+08:40:32:920,0x0000010A InitializeAndroidDevice End!
+08:40:32:921,0x0000010A CMonitorImpl::StartMonitor() Start
+08:40:32:922,0x0000010A CMonitorImpl::StartMonitor() End
+08:40:32:922,0x0000010A CUsbDeviceMonitor::USBDeviceChangeStart
+08:40:32:922,0x0000010A CUsbDeviceMonitor::USBDeviceChangeEnd
+08:47:50:805,0x00000117 =============================================
+08:47:50:829,0x00000117 Log at: 2017-07-18 08:47:50:805, compiled: Oct  9 2015 15:21:56
+08:47:50:829,0x00000117 PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:47:50:829,0x00000117 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:47:50:829,0x00000116 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:47:50:829,0x00000117 InitializeAndroidDevice Begin!bStrictAndroid=0
+08:47:50:845,0x00000117 InitializeAndroidDevice End!
+08:47:50:845,0x00000117 CMonitorImpl::StartMonitor() Start
+08:47:50:846,0x00000117 CMonitorImpl::StartMonitor() End
+08:47:50:846,0x00000117 CUsbDeviceMonitor::USBDeviceChangeStart
+08:47:50:847,0x00000117 CUsbDeviceMonitor::USBDeviceChangeEnd
+10:08:05:542,0x00000116 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+10:08:05:542,0x00000117 CMonitorImpl::StopMonitor Start.....
+10:08:05:542,0x00000119 CMonitorImpl::ListenerThreadProc2 End
+10:08:05:542,0x00000117 CMonitorImpl::StopMonitor End.....
+10:08:05:542,0x00000116 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+10:08:05:542,0x00000117 CAndroidDeviceInfo::UnInit
+10:08:05:542,0x00000117 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:08:05:543,0x00000117 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+10:08:05:749,0x0000004A DestroyNetworkMgr(), Ref=0
+10:08:05:749,0x0000004A Log finished
+10:09:50:658,0x0000010D =============================================
+10:09:50:658,0x0000010D Log at: 2017-07-18 10:09:50:658, compiled: Oct  9 2015 15:21:56
+10:09:50:658,0x0000010D PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:09:50:658,0x0000010D CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+10:09:50:658,0x0000010C CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+10:09:50:659,0x0000010D InitializeAndroidDevice Begin!bStrictAndroid=0
+10:09:50:668,0x0000010D InitializeAndroidDevice End!
+10:09:50:668,0x0000010D CMonitorImpl::StartMonitor() Start
+10:09:50:670,0x0000010D CMonitorImpl::StartMonitor() End
+10:09:50:670,0x0000010D CUsbDeviceMonitor::USBDeviceChangeStart
+10:09:50:670,0x0000010D CUsbDeviceMonitor::USBDeviceChangeEnd
+11:12:09:662,0x0000010C CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+11:12:09:662,0x0000010D CMonitorImpl::StopMonitor Start.....
+11:12:09:662,0x0000010E CMonitorImpl::ListenerThreadProc2 End
+11:12:09:662,0x0000010D CMonitorImpl::StopMonitor End.....
+11:12:09:662,0x0000010C CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+11:12:09:662,0x0000010D CAndroidDeviceInfo::UnInit
+11:12:09:662,0x0000010D CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+11:12:09:663,0x0000010D CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+11:12:17:836,0x0000004A DestroyNetworkMgr(), Ref=0
+11:12:17:836,0x0000004A Log finished
+11:14:06:298,0x00000117 =============================================
+11:14:06:298,0x00000117 Log at: 2017-07-18 11:14:06:298, compiled: Oct  9 2015 15:21:56
+11:14:06:298,0x00000117 PID: 0508, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+11:14:06:298,0x00000117 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+11:14:06:298,0x00000128 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+11:14:06:299,0x00000117 InitializeAndroidDevice Begin!bStrictAndroid=0
+11:14:06:304,0x00000117 InitializeAndroidDevice End!
+11:14:06:304,0x00000117 CMonitorImpl::StartMonitor() Start
+11:14:06:306,0x00000117 CMonitorImpl::StartMonitor() End
+11:14:06:306,0x00000117 CUsbDeviceMonitor::USBDeviceChangeStart
+11:14:06:306,0x00000117 CUsbDeviceMonitor::USBDeviceChangeEnd
+21:19:56:427,0x00000128 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+21:19:56:434,0x00000117 CMonitorImpl::StopMonitor Start.....
+21:19:56:434,0x00000139 CMonitorImpl::ListenerThreadProc2 End
+21:19:56:434,0x00000117 CMonitorImpl::StopMonitor End.....
+21:19:56:434,0x00000128 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+21:19:56:434,0x00000117 CAndroidDeviceInfo::UnInit
+21:19:56:435,0x00000117 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+21:19:56:435,0x00000117 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+21:19:58:352,0x000001FD DestroyNetworkMgr(), Ref=0
+21:19:58:352,0x000001FD Log finished
+21:21:31:177,0x0000017C =============================================
+21:21:31:177,0x0000017C Log at: 2017-07-18 21:21:31:177, compiled: Oct  9 2015 15:21:56
+21:21:31:177,0x0000017C PID: 0112, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+21:21:31:177,0x0000017C CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+21:21:31:179,0x000000A4 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+21:21:31:179,0x0000017C InitializeAndroidDevice Begin!bStrictAndroid=0
+21:21:31:183,0x0000017C InitializeAndroidDevice End!
+21:21:31:183,0x0000017C CMonitorImpl::StartMonitor() Start
+21:21:31:186,0x0000017C CMonitorImpl::StartMonitor() End
+21:21:31:186,0x0000017C CUsbDeviceMonitor::USBDeviceChangeStart
+21:21:31:187,0x0000017C CUsbDeviceMonitor::USBDeviceChangeEnd
+21:24:35:994,0x000000A4 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+21:24:35:994,0x0000017C CMonitorImpl::StopMonitor Start.....
+21:24:35:994,0x000001DD CMonitorImpl::ListenerThreadProc2 End
+21:24:35:994,0x0000017C CMonitorImpl::StopMonitor End.....
+21:24:35:994,0x000000A4 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+21:24:35:994,0x0000017C CAndroidDeviceInfo::UnInit
+21:24:35:995,0x0000017C CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+21:24:35:995,0x0000017C CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+21:24:37:919,0x000000D9 DestroyNetworkMgr(), Ref=0
+21:24:37:919,0x000000D9 Log finished
+09:19:54:085,0x00000125 =============================================
+09:19:54:099,0x00000125 Log at: 2017-07-19 09:19:54:085, compiled: Oct  9 2015 15:21:56
+09:19:54:099,0x00000125 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:19:54:099,0x00000125 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:19:54:100,0x00000124 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:19:54:101,0x00000125 InitializeAndroidDevice Begin!bStrictAndroid=0
+09:19:54:109,0x00000125 InitializeAndroidDevice End!
+09:19:54:109,0x00000125 CMonitorImpl::StartMonitor() Start
+09:19:54:115,0x00000125 CMonitorImpl::StartMonitor() End
+09:19:54:115,0x00000125 CUsbDeviceMonitor::USBDeviceChangeStart
+09:19:54:115,0x00000125 CUsbDeviceMonitor::USBDeviceChangeEnd
+10:32:25:000,0x0000010E =============================================
+10:32:25:009,0x0000010E Log at: 2017-07-20 10:32:25:000, compiled: Oct  9 2015 15:21:56
+10:32:25:010,0x0000010E PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:32:25:010,0x0000010E CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+10:32:25:010,0x0000010D CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+10:32:25:010,0x0000010E InitializeAndroidDevice Begin!bStrictAndroid=0
+10:32:25:015,0x0000010E InitializeAndroidDevice End!
+10:32:25:015,0x0000010E CMonitorImpl::StartMonitor() Start
+10:32:25:016,0x0000010E CMonitorImpl::StartMonitor() End
+10:32:25:016,0x0000010E CUsbDeviceMonitor::USBDeviceChangeStart
+10:32:25:017,0x0000010E CUsbDeviceMonitor::USBDeviceChangeEnd
+16:32:20:059,0x0000010D CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+16:32:20:059,0x0000010E CMonitorImpl::StopMonitor Start.....
+16:32:20:060,0x0000010F CMonitorImpl::ListenerThreadProc2 End
+16:32:20:060,0x0000010E CMonitorImpl::StopMonitor End.....
+16:32:20:060,0x0000010D CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+16:32:20:060,0x0000010E CAndroidDeviceInfo::UnInit
+16:32:20:060,0x0000010E CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+16:32:20:061,0x0000010E CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+16:32:48:319,0x00000048 DestroyNetworkMgr(), Ref=0
+16:32:48:319,0x00000048 Log finished
+16:34:40:957,0x0000010C =============================================
+16:34:40:957,0x0000010C Log at: 2017-07-20 16:34:40:957, compiled: Oct  9 2015 15:21:56
+16:34:40:958,0x0000010C PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+16:34:40:958,0x0000010C CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+16:34:40:958,0x0000010B CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+16:34:40:959,0x0000010C InitializeAndroidDevice Begin!bStrictAndroid=0
+16:34:40:968,0x0000010C InitializeAndroidDevice End!
+16:34:40:968,0x0000010C CMonitorImpl::StartMonitor() Start
+16:34:40:970,0x0000010C CMonitorImpl::StartMonitor() End
+16:34:40:970,0x0000010C CUsbDeviceMonitor::USBDeviceChangeStart
+16:34:40:970,0x0000010C CUsbDeviceMonitor::USBDeviceChangeEnd
+17:41:30:719,0x0000010B CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+17:41:30:719,0x0000010C CMonitorImpl::StopMonitor Start.....
+17:41:30:719,0x0000010D CMonitorImpl::ListenerThreadProc2 End
+17:41:30:719,0x0000010C CMonitorImpl::StopMonitor End.....
+17:41:30:719,0x0000010B CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+17:41:30:719,0x0000010C CAndroidDeviceInfo::UnInit
+17:41:30:720,0x0000010C CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+17:41:30:720,0x0000010C CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+08:36:45:145,0x00000127 =============================================
+08:36:45:223,0x00000127 Log at: 2017-07-21 08:36:45:145, compiled: Oct  9 2015 15:21:56
+08:36:45:223,0x00000127 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:36:45:223,0x00000127 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:36:45:224,0x00000126 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:36:45:224,0x00000127 InitializeAndroidDevice Begin!bStrictAndroid=0
+08:36:45:314,0x00000127 InitializeAndroidDevice End!
+08:36:45:314,0x00000127 CMonitorImpl::StartMonitor() Start
+08:36:45:317,0x00000127 CMonitorImpl::StartMonitor() End
+08:36:45:318,0x00000127 CUsbDeviceMonitor::USBDeviceChangeStart
+08:36:45:318,0x00000127 CUsbDeviceMonitor::USBDeviceChangeEnd
+17:05:38:270,0x00000126 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+17:05:38:270,0x00000127 CMonitorImpl::StopMonitor Start.....
+17:05:38:271,0x00000129 CMonitorImpl::ListenerThreadProc2 End
+17:05:38:271,0x00000127 CMonitorImpl::StopMonitor End.....
+17:05:38:271,0x00000126 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+17:05:38:271,0x00000127 CAndroidDeviceInfo::UnInit
+17:05:38:271,0x00000127 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+17:05:38:271,0x00000127 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+17:05:38:376,0x00000048 DestroyNetworkMgr(), Ref=0
+17:05:38:377,0x00000048 Log finished
+17:15:54:952,0x00000131 =============================================
+17:15:54:987,0x00000131 Log at: 2017-07-21 17:15:54:952, compiled: Oct  9 2015 15:21:56
+17:15:54:987,0x00000131 PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+17:15:54:987,0x00000131 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+17:15:54:988,0x00000130 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+17:15:54:989,0x00000131 InitializeAndroidDevice Begin!bStrictAndroid=0
+17:15:54:993,0x00000131 InitializeAndroidDevice End!
+17:15:54:993,0x00000131 CMonitorImpl::StartMonitor() Start
+17:15:55:003,0x00000131 CMonitorImpl::StartMonitor() End
+17:15:55:003,0x00000131 CUsbDeviceMonitor::USBDeviceChangeStart
+17:15:55:004,0x00000131 CUsbDeviceMonitor::USBDeviceChangeEnd
+09:17:54:934,0x0000011C =============================================
+09:17:54:946,0x0000011C Log at: 2017-07-22 09:17:54:934, compiled: Oct  9 2015 15:21:56
+09:17:54:946,0x0000011C PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:17:54:946,0x0000011C CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:17:54:946,0x0000011B CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:17:54:946,0x0000011C InitializeAndroidDevice Begin!bStrictAndroid=0
+09:17:54:967,0x0000011C InitializeAndroidDevice End!
+09:17:54:967,0x0000011C CMonitorImpl::StartMonitor() Start
+09:17:54:968,0x0000011C CMonitorImpl::StartMonitor() End
+09:17:54:968,0x0000011C CUsbDeviceMonitor::USBDeviceChangeStart
+09:17:54:968,0x0000011C CUsbDeviceMonitor::USBDeviceChangeEnd
+10:51:18:445,0x0000011B CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+10:51:18:445,0x0000011C CMonitorImpl::StopMonitor Start.....
+10:51:18:445,0x0000011E CMonitorImpl::ListenerThreadProc2 End
+10:51:18:445,0x0000011C CMonitorImpl::StopMonitor End.....
+10:51:18:445,0x0000011B CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+10:51:18:445,0x0000011C CAndroidDeviceInfo::UnInit
+10:51:18:446,0x0000011C CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:51:18:446,0x0000011C CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+10:51:18:602,0x0000004A DestroyNetworkMgr(), Ref=0
+10:51:18:604,0x0000004A Log finished
+10:52:47:152,0x00000147 =============================================
+10:52:47:152,0x00000147 Log at: 2017-07-22 10:52:47:152, compiled: Oct  9 2015 15:21:56
+10:52:47:152,0x00000147 PID: 0505, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:52:47:152,0x00000147 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+10:52:47:152,0x00000148 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+10:52:47:153,0x00000147 InitializeAndroidDevice Begin!bStrictAndroid=0
+10:52:47:159,0x00000147 InitializeAndroidDevice End!
+10:52:47:159,0x00000147 CMonitorImpl::StartMonitor() Start
+10:52:47:160,0x00000147 CMonitorImpl::StartMonitor() End
+10:52:47:161,0x00000147 CUsbDeviceMonitor::USBDeviceChangeStart
+10:52:47:161,0x00000147 CUsbDeviceMonitor::USBDeviceChangeEnd
+10:53:35:637,0x00000148 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+10:53:35:637,0x00000147 CMonitorImpl::StopMonitor Start.....
+10:53:35:637,0x0000014B CMonitorImpl::ListenerThreadProc2 End
+10:53:35:638,0x00000147 CMonitorImpl::StopMonitor End.....
+10:53:35:638,0x00000148 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+10:53:35:638,0x00000147 CAndroidDeviceInfo::UnInit
+10:53:35:639,0x00000147 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:53:35:639,0x00000147 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+10:53:37:207,0x000001FA DestroyNetworkMgr(), Ref=0
+10:53:37:207,0x000001FA Log finished
+10:55:54:465,0x0000010E =============================================
+10:55:54:465,0x0000010E Log at: 2017-07-22 10:55:54:465, compiled: Oct  9 2015 15:21:56
+10:55:54:465,0x0000010E PID: 0475, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:55:54:465,0x0000010E CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+10:55:54:466,0x0000010A CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+10:55:54:466,0x0000010E InitializeAndroidDevice Begin!bStrictAndroid=0
+10:55:54:469,0x0000010E InitializeAndroidDevice End!
+10:55:54:469,0x0000010E CMonitorImpl::StartMonitor() Start
+10:55:54:475,0x0000010E CMonitorImpl::StartMonitor() End
+10:55:54:475,0x0000010E CUsbDeviceMonitor::USBDeviceChangeStart
+10:55:54:475,0x0000010E CUsbDeviceMonitor::USBDeviceChangeEnd
+14:57:34:891,0x00000119 =============================================
+14:57:34:902,0x00000119 Log at: 2017-07-22 14:57:34:891, compiled: Oct  9 2015 15:21:56
+14:57:34:902,0x00000119 PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+14:57:34:902,0x00000119 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+14:57:34:902,0x00000118 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+14:57:34:902,0x00000119 InitializeAndroidDevice Begin!bStrictAndroid=0
+14:57:34:914,0x00000119 InitializeAndroidDevice End!
+14:57:34:914,0x00000119 CMonitorImpl::StartMonitor() Start
+14:57:34:919,0x00000119 CMonitorImpl::StartMonitor() End
+14:57:34:920,0x00000119 CUsbDeviceMonitor::USBDeviceChangeStart
+14:57:34:920,0x00000119 CUsbDeviceMonitor::USBDeviceChangeEnd
+15:12:35:138,0x00000118 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+15:12:35:138,0x00000119 CMonitorImpl::StopMonitor Start.....
+15:12:35:138,0x0000011A CMonitorImpl::ListenerThreadProc2 End
+15:12:35:139,0x00000119 CMonitorImpl::StopMonitor End.....
+15:12:35:139,0x00000118 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+15:12:35:139,0x00000119 CAndroidDeviceInfo::UnInit
+15:12:35:139,0x00000119 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+15:12:35:139,0x00000119 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+15:12:36:813,0x0000004A DestroyNetworkMgr(), Ref=0
+15:12:36:815,0x0000004A Log finished
+09:03:44:933,0x0000010C =============================================
+09:03:44:942,0x0000010C Log at: 2017-07-24 09:03:44:933, compiled: Oct  9 2015 15:21:56
+09:03:44:942,0x0000010C PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:03:44:942,0x0000010C CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:03:44:943,0x0000010B CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:03:44:943,0x0000010C InitializeAndroidDevice Begin!bStrictAndroid=0
+09:03:44:952,0x0000010C InitializeAndroidDevice End!
+09:03:44:952,0x0000010C CMonitorImpl::StartMonitor() Start
+09:03:44:953,0x0000010C CMonitorImpl::StartMonitor() End
+09:03:44:953,0x0000010C CUsbDeviceMonitor::USBDeviceChangeStart
+09:03:44:953,0x0000010C CUsbDeviceMonitor::USBDeviceChangeEnd
+15:36:57:774,0x0000010B CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+15:36:57:774,0x0000010C CMonitorImpl::StopMonitor Start.....
+15:36:57:774,0x0000010D CMonitorImpl::ListenerThreadProc2 End
+15:36:57:774,0x0000010C CMonitorImpl::StopMonitor End.....
+15:36:57:774,0x0000010B CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+15:36:57:774,0x0000010C CAndroidDeviceInfo::UnInit
+15:36:57:775,0x0000010C CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+15:36:57:775,0x0000010C CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+15:36:57:930,0x00000048 DestroyNetworkMgr(), Ref=0
+15:36:57:930,0x00000048 Log finished
+16:30:06:647,0x00000116 =============================================
+16:30:06:647,0x00000116 Log at: 2017-07-24 16:30:06:647, compiled: Oct  9 2015 15:21:56
+16:30:06:647,0x00000116 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+16:30:06:647,0x00000116 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+16:30:06:648,0x00000115 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+16:30:06:648,0x00000116 InitializeAndroidDevice Begin!bStrictAndroid=0
+16:30:06:673,0x00000116 InitializeAndroidDevice End!
+16:30:06:673,0x00000116 CMonitorImpl::StartMonitor() Start
+16:30:06:678,0x00000116 CMonitorImpl::StartMonitor() End
+16:30:06:679,0x00000116 CUsbDeviceMonitor::USBDeviceChangeStart
+16:30:06:679,0x00000116 CUsbDeviceMonitor::USBDeviceChangeEnd
+19:07:50:742,0x00000115 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+19:07:50:742,0x00000116 CMonitorImpl::StopMonitor Start.....
+19:07:50:742,0x00000117 CMonitorImpl::ListenerThreadProc2 End
+19:07:50:742,0x00000116 CMonitorImpl::StopMonitor End.....
+19:07:50:742,0x00000115 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+19:07:50:742,0x00000116 CAndroidDeviceInfo::UnInit
+19:07:50:743,0x00000116 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+19:07:50:743,0x00000116 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+19:07:52:757,0x00000048 DestroyNetworkMgr(), Ref=0
+19:07:52:760,0x00000048 Log finished
+19:09:25:837,0x00000182 =============================================
+19:09:25:837,0x00000182 Log at: 2017-07-24 19:09:25:837, compiled: Oct  9 2015 15:21:56
+19:09:25:837,0x00000182 PID: 0153, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+19:09:25:837,0x00000182 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+19:09:25:837,0x0000017D CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+19:09:25:838,0x00000182 InitializeAndroidDevice Begin!bStrictAndroid=0
+19:09:25:848,0x00000182 InitializeAndroidDevice End!
+19:09:25:848,0x00000182 CMonitorImpl::StartMonitor() Start
+19:09:25:850,0x00000182 CMonitorImpl::StartMonitor() End
+19:09:25:850,0x00000182 CUsbDeviceMonitor::USBDeviceChangeStart
+19:09:25:850,0x00000182 CUsbDeviceMonitor::USBDeviceChangeEnd
+21:14:34:550,0x0000017D CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+21:14:34:550,0x00000182 CMonitorImpl::StopMonitor Start.....
+21:14:34:550,0x00000181 CMonitorImpl::ListenerThreadProc2 End
+21:14:34:551,0x00000182 CMonitorImpl::StopMonitor End.....
+21:14:34:551,0x0000017D CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+21:14:34:551,0x00000182 CAndroidDeviceInfo::UnInit
+21:14:34:551,0x00000182 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+21:14:34:551,0x00000182 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+21:14:37:878,0x00000097 DestroyNetworkMgr(), Ref=0
+21:14:37:878,0x00000097 Log finished
+08:48:22:339,0x00000111 =============================================
+08:48:22:369,0x00000111 Log at: 2017-07-25 08:48:22:339, compiled: Oct  9 2015 15:21:56
+08:48:22:369,0x00000111 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:48:22:369,0x00000111 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:48:22:369,0x00000110 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:48:22:370,0x00000111 InitializeAndroidDevice Begin!bStrictAndroid=0
+08:48:22:376,0x00000111 InitializeAndroidDevice End!
+08:48:22:376,0x00000111 CMonitorImpl::StartMonitor() Start
+08:48:22:385,0x00000111 CMonitorImpl::StartMonitor() End
+08:48:22:385,0x00000111 CUsbDeviceMonitor::USBDeviceChangeStart
+08:48:22:385,0x00000111 CUsbDeviceMonitor::USBDeviceChangeEnd
+20:26:51:313,0x00000112 =============================================
+20:26:51:360,0x00000112 Log at: 2017-07-25 20:26:51:313, compiled: Oct  9 2015 15:21:56
+20:26:51:360,0x00000112 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+20:26:51:360,0x00000112 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+20:26:51:360,0x00000111 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+20:26:51:360,0x00000112 InitializeAndroidDevice Begin!bStrictAndroid=0
+20:26:51:367,0x00000112 InitializeAndroidDevice End!
+20:26:51:367,0x00000112 CMonitorImpl::StartMonitor() Start
+20:26:51:369,0x00000112 CMonitorImpl::StartMonitor() End
+20:26:51:369,0x00000112 CUsbDeviceMonitor::USBDeviceChangeStart
+20:26:51:369,0x00000112 CUsbDeviceMonitor::USBDeviceChangeEnd
+08:52:42:981,0x0000011B =============================================
+08:52:43:005,0x0000011B Log at: 2017-07-26 08:52:42:981, compiled: Oct  9 2015 15:21:56
+08:52:43:005,0x0000011B PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:52:43:005,0x0000011B CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:52:43:005,0x0000011A CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:52:43:005,0x0000011B InitializeAndroidDevice Begin!bStrictAndroid=0
+08:52:43:012,0x0000011B InitializeAndroidDevice End!
+08:52:43:012,0x0000011B CMonitorImpl::StartMonitor() Start
+08:52:43:013,0x0000011B CMonitorImpl::StartMonitor() End
+08:52:43:014,0x0000011B CUsbDeviceMonitor::USBDeviceChangeStart
+08:52:43:014,0x0000011B CUsbDeviceMonitor::USBDeviceChangeEnd
+08:55:09:817,0x00000147 =============================================
+08:55:09:845,0x00000147 Log at: 2017-07-27 08:55:09:817, compiled: Oct  9 2015 15:21:56
+08:55:09:845,0x00000147 PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:55:09:845,0x00000147 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+08:55:09:846,0x00000146 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+08:55:09:846,0x00000147 InitializeAndroidDevice Begin!bStrictAndroid=0
+08:55:09:853,0x00000147 InitializeAndroidDevice End!
+08:55:09:853,0x00000147 CMonitorImpl::StartMonitor() Start
+08:55:09:854,0x00000147 CMonitorImpl::StartMonitor() End
+08:55:09:854,0x00000147 CUsbDeviceMonitor::USBDeviceChangeStart
+08:55:09:855,0x00000147 CUsbDeviceMonitor::USBDeviceChangeEnd
+14:28:12:359,0x00000146 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+14:28:12:377,0x00000147 CMonitorImpl::StopMonitor Start.....
+14:28:12:378,0x00000148 CMonitorImpl::ListenerThreadProc2 End
+14:28:12:378,0x00000147 CMonitorImpl::StopMonitor End.....
+14:28:12:378,0x00000146 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+14:28:12:378,0x00000147 CAndroidDeviceInfo::UnInit
+14:28:12:378,0x00000147 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+14:28:12:379,0x00000147 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+14:28:15:461,0x0000004A DestroyNetworkMgr(), Ref=0
+14:28:15:461,0x0000004A Log finished
+14:30:17:023,0x00000100 =============================================
+14:30:17:023,0x00000100 Log at: 2017-07-27 14:30:17:023, compiled: Oct  9 2015 15:21:56
+14:30:17:023,0x00000100 PID: 0069, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+14:30:17:023,0x00000100 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+14:30:17:023,0x000000FF CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+14:30:17:024,0x00000100 InitializeAndroidDevice Begin!bStrictAndroid=0
+14:30:17:029,0x00000100 InitializeAndroidDevice End!
+14:30:17:029,0x00000100 CMonitorImpl::StartMonitor() Start
+14:30:17:031,0x00000100 CMonitorImpl::StartMonitor() End
+14:30:17:031,0x00000100 CUsbDeviceMonitor::USBDeviceChangeStart
+14:30:17:031,0x00000100 CUsbDeviceMonitor::USBDeviceChangeEnd
+09:01:07:526,0x00000111 =============================================
+09:01:07:554,0x00000111 Log at: 2017-07-28 09:01:07:526, compiled: Oct  9 2015 15:21:56
+09:01:07:554,0x00000111 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:01:07:554,0x00000111 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:01:07:555,0x00000110 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:01:07:555,0x00000111 InitializeAndroidDevice Begin!bStrictAndroid=0
+09:01:07:564,0x00000111 InitializeAndroidDevice End!
+09:01:07:564,0x00000111 CMonitorImpl::StartMonitor() Start
+09:01:07:567,0x00000111 CMonitorImpl::StartMonitor() End
+09:01:07:567,0x00000111 CUsbDeviceMonitor::USBDeviceChangeStart
+09:01:07:567,0x00000111 CUsbDeviceMonitor::USBDeviceChangeEnd

@@ -1,0 +1,309 @@
+[35][45][10:49:39.122]CDlForQdImp::Start, dwCustomId=2
+[35][74][10:49:39.123]CDlForQdImp::StartImpl
+[35][76][10:49:39.145]CDlForQdImp::IpcThreadFunc begin...
+[35][74][10:49:39.146]CDlForQdImp::FetchConfig, bNeedFetch=1
+[35][74][10:49:39.154]CHttpDownloadImp::Download, url=http://c.gj.qq.com/packconfig?serviceid=7002&clientver=487514672548225417&gjguid=222d8af8a699145b4a333f7308f96025&check=1661009920&livetime=0, destPath=C:\users\gujiawei\Temp\ab82.tmp
+[35][74][10:49:39.154]Support Winhttp
+[35][74][10:49:39.155]CHttpDownloadImp::Download CreateWindowEx failed
+[35][78][10:49:39.155]CWinHttpFile::Close
+[35][78][10:49:40.371]WinHttpQueryHeaders file size:1096
+[35][78][10:49:40.371]CWinHttpFile::Open return: 1
+[35][78][10:49:40.371]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[35][78][10:49:40.471]CWinHttpFile::Close
+[35][78][10:49:40.472] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[35][74][10:49:59.146]CDlForQdImp::OnLoadLocalSvrPlugin Enter.
+[35][74][10:49:59.147]CDlForQdImp::OnLoadLocalSvrPlugin LocalSvrPlugin init.
+[35][77][10:49:59.184]Receive Pipe ipc Event
+[35][74][10:54:39.146]CDlForQdImp::OnTimer, nFixSid=0
+[35][74][10:59:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][10:59:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][10:59:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][10:59:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][10:59:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][10:59:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][10:59:39.147]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][10:59:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][10:59:39.147]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][10:59:39.147]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][10:59:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][10:59:39.158]CDlForQdImp::OnDelayFileConfusionDefault
+[35][74][10:59:39.217]CDlForQdImp::OnDelayFileConfusionDefault, StartConfusion result:0, ErrPos:0, WholeNum:4, OkNum:2, SuccessFile:C:\users\Public\Tencent\\u78EZKpR4s.S2J;C:\users\gujiawei\Temp\\HSn.fv5;, FailFile:1454840, FakeRegPos:0, FakeCopyPos:0
+[35][74][11:01:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:01:39.152]GetTaskCmdFromReg result=0
+[35][74][11:01:39.152]GetTaskCmdFromReg result=0
+[35][74][11:09:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:09:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][11:09:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:09:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][11:09:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:09:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][11:09:39.147]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:09:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][11:09:39.148]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:09:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][11:09:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][11:09:39.158]CDlForQdImp::OnDelayFileConfusionDefault
+[35][74][11:09:39.193]CDlForQdImp::OnDelayFileConfusionDefault, StartConfusion result:0, ErrPos:0, WholeNum:4, OkNum:2, SuccessFile:C:\users\Public\Tencent\\u78EZKpR4s.S2J;C:\users\gujiawei\Temp\\HSn.fv5;, FailFile:1454840, FakeRegPos:0, FakeCopyPos:1
+[35][74][11:13:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:13:39.148]GetTaskCmdFromReg result=0
+[35][74][11:13:39.148]GetTaskCmdFromReg result=0
+[35][74][11:19:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:19:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][11:19:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:19:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][11:19:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:19:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][11:19:39.147]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:19:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][11:19:39.147]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:19:39.147]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][11:19:39.147]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][11:25:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:25:39.146]GetTaskCmdFromReg result=0
+[35][74][11:25:39.147]GetTaskCmdFromReg result=0
+[35][74][11:29:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:29:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][11:29:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:29:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][11:29:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:29:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][11:29:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:29:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][11:29:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:29:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][11:29:39.149]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][11:37:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:37:39.162]GetTaskCmdFromReg result=0
+[35][74][11:37:39.162]GetTaskCmdFromReg result=0
+[35][74][11:39:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:39:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][11:39:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:39:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][11:39:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:39:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][11:39:39.149]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:39:39.149] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][11:39:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:39:39.150]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][11:39:39.150]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][11:49:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:49:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][11:49:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:49:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][11:49:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:49:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][11:49:39.147]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:49:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][11:49:39.147]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:49:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][11:49:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][11:49:39.148]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:49:39.148]GetTaskCmdFromReg result=0
+[35][74][11:49:39.148]GetTaskCmdFromReg result=0
+[35][74][11:59:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][11:59:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][11:59:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:59:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][11:59:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:59:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][11:59:39.147]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:59:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][11:59:39.148]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][11:59:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][11:59:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][12:01:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:01:39.147]GetTaskCmdFromReg result=0
+[35][74][12:01:39.147]GetTaskCmdFromReg result=0
+[35][74][12:09:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:09:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][12:09:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:09:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][12:09:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:09:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][12:09:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:09:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][12:09:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:09:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][12:09:39.150]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][12:13:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:13:39.146]GetTaskCmdFromReg result=0
+[35][74][12:13:39.146]GetTaskCmdFromReg result=0
+[35][74][12:19:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:19:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][12:19:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:19:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][12:19:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:19:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][12:19:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:19:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][12:19:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:19:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][12:19:39.149]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][12:25:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:25:39.146]GetTaskCmdFromReg result=0
+[35][74][12:25:39.147]GetTaskCmdFromReg result=0
+[35][74][12:29:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:29:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][12:29:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:29:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][12:29:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:29:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][12:29:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:29:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][12:29:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:29:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][12:29:39.149]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][12:37:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:37:39.147]GetTaskCmdFromReg result=0
+[35][74][12:37:39.147]GetTaskCmdFromReg result=0
+[35][74][12:39:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:39:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][12:39:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:39:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][12:39:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:39:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][12:39:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:39:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][12:39:39.148]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:39:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][12:39:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][12:49:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:49:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][12:49:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:49:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][12:49:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:49:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][12:49:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:49:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][12:49:39.148]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:49:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][12:49:39.149]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][12:49:39.149]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:49:39.149]GetTaskCmdFromReg result=0
+[35][74][12:49:39.149]GetTaskCmdFromReg result=0
+[35][74][12:59:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][12:59:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][12:59:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:59:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][12:59:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:59:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][12:59:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:59:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][12:59:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][12:59:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][12:59:39.149]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][13:01:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:01:39.146]GetTaskCmdFromReg result=0
+[35][74][13:01:39.147]GetTaskCmdFromReg result=0
+[35][74][13:09:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:09:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][13:09:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:09:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][13:09:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:09:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][13:09:39.147]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:09:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][13:09:39.148]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:09:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][13:09:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][13:13:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:13:39.147]GetTaskCmdFromReg result=0
+[35][74][13:13:39.147]GetTaskCmdFromReg result=0
+[35][74][13:19:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:19:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][13:19:39.146]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:19:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][13:19:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:19:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][13:19:39.147]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:19:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][13:19:39.148]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:19:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][13:19:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][13:25:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:25:39.147]GetTaskCmdFromReg result=0
+[35][74][13:25:39.148]GetTaskCmdFromReg result=0
+[35][74][13:29:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:29:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][13:29:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:29:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][13:29:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:29:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][13:29:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:29:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][13:29:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:29:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][13:29:39.149]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][13:37:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:37:39.147]GetTaskCmdFromReg result=0
+[35][74][13:37:39.147]GetTaskCmdFromReg result=0
+[35][74][13:39:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:39:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][13:39:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:39:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][13:39:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:39:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][13:39:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:39:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][13:39:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:39:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][13:39:39.149]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][13:49:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:49:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][13:49:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:49:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][13:49:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:49:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][13:49:39.149]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:49:39.149] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][13:49:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:49:39.150]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][13:49:39.150]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][13:49:39.150]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:49:39.150]GetTaskCmdFromReg result=0
+[35][74][13:49:39.150]GetTaskCmdFromReg result=0
+[35][74][13:59:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][13:59:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][13:59:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:59:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][13:59:39.147]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:59:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][13:59:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:59:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][13:59:39.148]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][13:59:39.148]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][13:59:39.148]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][14:01:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][14:01:39.147]GetTaskCmdFromReg result=0
+[35][74][14:01:39.147]GetTaskCmdFromReg result=0
+[35][74][14:09:39.147]CDlForQdImp::OnDelayRunFileCmd
+[35][74][14:09:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][14:09:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:09:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][14:09:39.149]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:09:39.150] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][14:09:39.150]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:09:39.150] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][14:09:39.151]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:09:39.151]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][14:09:39.151]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][74][14:13:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][14:13:39.146]GetTaskCmdFromReg result=0
+[35][74][14:13:39.147]GetTaskCmdFromReg result=0
+[35][74][14:19:39.146]CDlForQdImp::OnDelayRunFileCmd
+[35][74][14:19:39.146] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][74][14:19:39.147]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:19:39.147] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][74][14:19:39.148]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:19:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][74][14:19:39.148]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:19:39.148] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][74][14:19:39.149]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][74][14:19:39.149]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][74][14:19:39.150]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][45][14:23:31.544]CDlForQdImp::Stop
+[35][74][14:23:31.544]CDlForQdImp::StopImpl
+[35][74][14:23:31.544]CWinHttpFile::Close
+[35][74][14:23:31.544]CWinHttpFile::Close
+[35][74][14:23:31.544]QD LocalSvrPlugin Uninit.
+[35][76][14:23:31.546]CDlForQdImp::IpcThreadFunc end...

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta id="viewport" name="viewport" content="target-densitydpi=device-dpi,width=640px,user-scalable=1">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+<title></title> 
+<!--Dr.COMWebLoginID_0.htm-->
+<link rel="stylesheet" type="text/css" href="b82.css" /><!--bootstrap.min.css-->
+
+<script type="text/javascript" src="a42.js"></script><!--jquery1.11.3.min.js-->
+
+<script>
+carrier='';
+businessurl='';
+welcome='';
+bannerurl='';
+logourl='';
+serialno='';
+portalver='';
+portalname='中国海洋大学';
+portalid='SD0302227_000';
+document.write('<script language=javascript src="a41.js?version=1.4_'+(new Date()).valueOf()+'"><\/script>');
+document.write('<script language=javascript src="'+window.location.protocol + '//' + window.location.hostname + ':801/eportal/extern/zghydx1/config.js?version=1.4_'+(new Date()).valueOf()+'"><\/script>');
+</script>
+
+<script type="text/javascript">
+sv=0;sv1=0;v6='http://[::]:9002/v6                                     ';myv6ip='                                       ';v4serip='10.81.2.6'      ;m46=0;v46ip='211.64.154.253'                         ;
+vid=0   ;mip=211064154253;Gno=0000;vlanid="0"   ;AC="";                          ipm="0a510206";ss1="000d482ab121";ss2="0000";ss3="d3409afd";ss4="000000000000";ss5="211.64.154.253" ;ss6="10.81.2.6"      ;timet=1510223018; 
+osele=0;//1=不弹窗
+domain='[::]';// ////////////////////////////////////////
+
+/** 哆点参数 start */
+//1.基本参数
+portalid='SD0302227_000';//门户ID
+portalname='中国海洋大学';//门户名称
+
+//2.可选参数
+portalver=''; //门户版本
+serialno='';//序列号
+logourl='';//门户logo
+bannerurl='';//横幅广告
+welcome=''; //欢迎词
+businessurl=''; //业务接口
+
+//3.旁路参数
+authexenable='0';//是否启用旁路扩展模式
+authtype=1;
+authloginport=801;
+authloginpath='/eportal/?c=ACSetting&a=Login';
+authloginparam='';
+authlogoutpath='/eportal/?c=ACSetting&a=Logout&ver=1.0';
+authlogoutport=801;
+queryport=80;
+isquery=0;
+querypath='/eportal/?c=ACSetting&a=Query';
+queryparam='';
+authhost='';
+authoffpost='';
+authsuccess='Dr.COMWebLoginID_3.htm';//
+authuserfield='DDDDD';
+authpassfield='upass';
+querydelay=-1;
+expraram=''
+
+//4.运营商选择
+carrier='';//运营商选择
+
+//5.限制非哆点客户端登陆
+//把原先Dr.COMWebLoginID_ 改成: Dr.COM1.0WebLoginID_
+/** 哆点参数 end */
+
+var programUrl = window.location.protocol + "//" + window.location.hostname + ":801/eportal/extern/zghydx1/";
+newComm.setArgsCookies(programUrl,vlanid,ss5);
+
+// 访问设备:0-其他；1-PC；2-手机；3-平板
+var iTermType = normalFun.getTermType();
+if(iTermType==2){
+    newComm.setNessArg('mobile_79');
+}else{
+    newComm.setNessArg('pc_79');
+}
+newComm.setNessJs();
+
+//广告统计设置
+static_mark="000000";
+slider_mark="000000";
+
+hnaSetAdCount('1008', ss4, '', ss5, ss4);
+
+</script>
+
+</head>
+
+<body>
+</body>
+</html>
+<script type="text/javascript">
+$(function(){
+    newComm.setNessSett();
+});
+</script>

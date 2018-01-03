@@ -1,0 +1,301 @@
+17:42:06:046,0x00000187 =============================================
+17:42:06:046,0x00000187 Log at: 2017-07-21 17:42:06:046, compiled: Oct  9 2015 15:21:56
+17:42:06:046,0x00000187 PID: 0390, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+17:42:06:046,0x00000187 DestroyNetworkMgr(), Ref=0
+09:36:56:620,0x0000017B =============================================
+09:36:56:625,0x0000017B Log at: 2017-07-22 09:36:56:620, compiled: Oct  9 2015 15:21:56
+09:36:56:625,0x0000017B PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:36:56:625,0x0000017B CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:36:56:626,0x0000016C CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:36:56:627,0x0000017B InitializeAndroidDevice Begin!bStrictAndroid=0
+09:36:56:640,0x0000017B ERROR_ALREADY_EXISTS
+09:36:56:644,0x0000017B InitializeAndroidDevice End!
+09:36:56:644,0x0000017B CMonitorImpl::StartMonitor() Start
+09:36:56:645,0x0000017B CMonitorImpl::StartMonitor() End
+09:36:56:645,0x0000017B CUsbDeviceMonitor::USBDeviceChangeStart
+09:36:56:645,0x0000017B CUsbDeviceMonitor::USBDeviceChangeEnd
+09:37:06:599,0x0000016C CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+09:37:06:599,0x0000017B CMonitorImpl::StopMonitor Start.....
+09:37:06:600,0x00000180 CMonitorImpl::ListenerThreadProc2 End
+09:37:06:604,0x0000017B CMonitorImpl::StopMonitor End.....
+09:37:06:604,0x0000016C CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+09:37:06:607,0x0000017B CAndroidDeviceInfo::UnInit
+09:37:06:608,0x0000017B CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+09:37:06:609,0x0000017B CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+09:37:06:613,0x0000016C DestroyNetworkMgr(), Ref=1
+09:37:06:634,0x0000016C Log finished
+09:37:06:635,0x0000016C =============================================
+09:37:06:635,0x0000016C Log at: 2017-07-22 09:37:06:635, compiled: Oct  9 2015 15:21:56
+09:37:06:635,0x0000016C PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:37:06:635,0x0000016C DestroyNetworkMgr(), Ref=0
+11:22:55:561,0x000001D3 =============================================
+11:22:55:570,0x000001D3 Log at: 2017-07-22 11:22:55:561, compiled: Oct  9 2015 15:21:56
+11:22:55:570,0x000001D3 PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+11:22:55:570,0x000001D3 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+11:22:55:571,0x00000188 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+11:22:55:571,0x000001D3 InitializeAndroidDevice Begin!bStrictAndroid=0
+11:22:55:588,0x000001D3 ERROR_ALREADY_EXISTS
+11:22:55:589,0x000001D3 InitializeAndroidDevice End!
+11:22:55:589,0x000001D3 CMonitorImpl::StartMonitor() Start
+11:22:55:590,0x000001D3 CMonitorImpl::StartMonitor() End
+11:22:55:590,0x000001D3 CUsbDeviceMonitor::USBDeviceChangeStart
+11:22:55:591,0x000001D3 CUsbDeviceMonitor::USBDeviceChangeEnd
+11:23:05:552,0x00000188 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+11:23:05:552,0x000001D3 CMonitorImpl::StopMonitor Start.....
+11:23:05:552,0x000001A3 CMonitorImpl::ListenerThreadProc2 End
+11:23:05:554,0x000001D3 CMonitorImpl::StopMonitor End.....
+11:23:05:554,0x00000188 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+11:23:05:555,0x000001D3 CAndroidDeviceInfo::UnInit
+11:23:05:556,0x000001D3 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+11:23:05:556,0x000001D3 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+11:23:05:557,0x00000188 DestroyNetworkMgr(), Ref=1
+11:23:05:564,0x00000188 Log finished
+11:23:05:564,0x00000188 =============================================
+11:23:05:564,0x00000188 Log at: 2017-07-22 11:23:05:564, compiled: Oct  9 2015 15:21:56
+11:23:05:564,0x00000188 PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+11:23:05:565,0x00000188 DestroyNetworkMgr(), Ref=0
+15:12:36:095,0x000001AA =============================================
+15:12:36:100,0x000001AA Log at: 2017-07-22 15:12:36:095, compiled: Oct  9 2015 15:21:56
+15:12:36:100,0x000001AA PID: 0406, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+15:12:36:100,0x000001AA CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+15:12:36:101,0x00000197 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+15:12:36:101,0x000001AA InitializeAndroidDevice Begin!bStrictAndroid=0
+15:12:36:120,0x000001AA InitializeAndroidDevice End!
+15:12:36:121,0x000001AA CMonitorImpl::StartMonitor() Start
+15:12:36:123,0x000001AA CMonitorImpl::StartMonitor() End
+15:12:36:123,0x000001AA CUsbDeviceMonitor::USBDeviceChangeStart
+15:12:36:124,0x000001AA CUsbDeviceMonitor::USBDeviceChangeEnd
+09:27:46:161,0x00000180 =============================================
+09:27:46:168,0x00000180 Log at: 2017-07-24 09:27:46:161, compiled: Oct  9 2015 15:21:56
+09:27:46:168,0x00000180 PID: 0367, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:27:46:168,0x00000180 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:27:46:173,0x00000170 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:27:46:173,0x00000180 InitializeAndroidDevice Begin!bStrictAndroid=0
+09:27:46:175,0x00000180 ERROR_ALREADY_EXISTS
+09:27:46:178,0x00000180 InitializeAndroidDevice End!
+09:27:46:178,0x00000180 CMonitorImpl::StartMonitor() Start
+09:27:46:181,0x00000180 CMonitorImpl::StartMonitor() End
+09:27:46:181,0x00000180 CUsbDeviceMonitor::USBDeviceChangeStart
+09:27:46:181,0x00000180 CUsbDeviceMonitor::USBDeviceChangeEnd
+09:27:56:134,0x00000170 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+09:27:56:134,0x00000180 CMonitorImpl::StopMonitor Start.....
+09:27:56:135,0x00000183 CMonitorImpl::ListenerThreadProc2 End
+09:27:56:139,0x00000180 CMonitorImpl::StopMonitor End.....
+09:27:56:139,0x00000170 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+09:27:56:143,0x00000180 CAndroidDeviceInfo::UnInit
+09:27:56:143,0x00000180 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+09:27:56:144,0x00000180 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+09:27:56:148,0x00000170 DestroyNetworkMgr(), Ref=1
+09:27:56:168,0x00000170 Log finished
+09:27:56:168,0x00000170 =============================================
+09:27:56:168,0x00000170 Log at: 2017-07-24 09:27:56:168, compiled: Oct  9 2015 15:21:56
+09:27:56:168,0x00000170 PID: 0367, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:27:56:168,0x00000170 DestroyNetworkMgr(), Ref=0
+16:54:07:097,0x0000017B =============================================
+16:54:07:097,0x0000017B Log at: 2017-07-24 16:54:07:097, compiled: Oct  9 2015 15:21:56
+16:54:07:097,0x0000017B PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+16:54:07:097,0x0000017B CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+16:54:07:099,0x0000016C CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+16:54:07:099,0x0000017B InitializeAndroidDevice Begin!bStrictAndroid=0
+16:54:07:102,0x0000017B ERROR_ALREADY_EXISTS
+16:54:07:113,0x0000017B InitializeAndroidDevice End!
+16:54:07:113,0x0000017B CMonitorImpl::StartMonitor() Start
+16:54:07:115,0x0000017B CMonitorImpl::StartMonitor() End
+16:54:07:115,0x0000017B CUsbDeviceMonitor::USBDeviceChangeStart
+16:54:07:117,0x0000017B CUsbDeviceMonitor::USBDeviceChangeEnd
+16:54:17:267,0x0000016C CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+16:54:17:268,0x0000017B CMonitorImpl::StopMonitor Start.....
+16:54:17:268,0x00000180 CMonitorImpl::ListenerThreadProc2 End
+16:54:17:269,0x0000017B CMonitorImpl::StopMonitor End.....
+16:54:17:269,0x0000016C CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+16:54:17:271,0x0000017B CAndroidDeviceInfo::UnInit
+16:54:17:272,0x0000017B CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+16:54:17:272,0x0000017B CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+16:54:17:974,0x0000016C DestroyNetworkMgr(), Ref=1
+16:54:17:981,0x0000016C Log finished
+16:54:17:981,0x0000016C =============================================
+16:54:17:981,0x0000016C Log at: 2017-07-24 16:54:17:981, compiled: Oct  9 2015 15:21:56
+16:54:17:981,0x0000016C PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+16:54:17:981,0x0000016C DestroyNetworkMgr(), Ref=0
+05:48:26:821,0x000001BC =============================================
+05:48:26:821,0x000001BC Log at: 2017-07-25 05:48:26:812, compiled: Oct  9 2015 15:21:56
+05:48:26:821,0x000001BC PID: 0422, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+05:48:26:821,0x000001BC CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+05:48:26:822,0x000001A5 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+05:48:26:822,0x000001BC InitializeAndroidDevice Begin!bStrictAndroid=0
+05:48:26:823,0x000001BC ERROR_ALREADY_EXISTS
+05:48:26:825,0x000001BC InitializeAndroidDevice End!
+05:48:26:825,0x000001BC CMonitorImpl::StartMonitor() Start
+05:48:26:826,0x000001BC CMonitorImpl::StartMonitor() End
+05:48:26:826,0x000001BC CUsbDeviceMonitor::USBDeviceChangeStart
+05:48:26:826,0x000001BC CUsbDeviceMonitor::USBDeviceChangeEnd
+19:25:36:807,0x000001A5 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+19:25:36:807,0x000001BC CMonitorImpl::StopMonitor Start.....
+19:25:36:808,0x000001B7 CMonitorImpl::ListenerThreadProc2 End
+19:25:36:810,0x000001BC CMonitorImpl::StopMonitor End.....
+19:25:36:810,0x000001A5 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+19:25:36:812,0x000001BC CAndroidDeviceInfo::UnInit
+19:25:36:812,0x000001BC CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+19:25:36:812,0x000001BC CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+19:25:36:813,0x000001A5 DestroyNetworkMgr(), Ref=1
+19:25:36:819,0x000001A5 Log finished
+19:25:36:819,0x000001A5 =============================================
+19:25:36:819,0x000001A5 Log at: 2017-07-24 19:25:36:819, compiled: Oct  9 2015 15:21:56
+19:25:36:819,0x000001A5 PID: 0422, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+19:25:36:819,0x000001A5 DestroyNetworkMgr(), Ref=0
+09:15:23:621,0x0000017D =============================================
+09:15:23:702,0x0000017D Log at: 2017-07-25 09:15:23:621, compiled: Oct  9 2015 15:21:56
+09:15:23:702,0x0000017D PID: 0361, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:15:23:702,0x0000017D CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:15:23:703,0x0000016A CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:15:23:704,0x0000017D InitializeAndroidDevice Begin!bStrictAndroid=0
+09:15:23:710,0x0000017D ERROR_ALREADY_EXISTS
+09:15:23:716,0x0000017D InitializeAndroidDevice End!
+09:15:23:716,0x0000017D CMonitorImpl::StartMonitor() Start
+09:15:23:724,0x0000017D CMonitorImpl::StartMonitor() End
+09:15:23:725,0x0000017D CUsbDeviceMonitor::USBDeviceChangeStart
+09:15:23:725,0x0000017D CUsbDeviceMonitor::USBDeviceChangeEnd
+09:15:33:533,0x0000016A CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+09:15:33:533,0x0000017D CMonitorImpl::StopMonitor Start.....
+09:15:33:534,0x00000181 CMonitorImpl::ListenerThreadProc2 End
+09:15:33:535,0x0000017D CMonitorImpl::StopMonitor End.....
+09:15:33:536,0x0000016A CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+09:15:33:537,0x0000017D CAndroidDeviceInfo::UnInit
+09:15:33:538,0x0000017D CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+09:15:33:538,0x0000017D CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+09:15:33:540,0x0000016A DestroyNetworkMgr(), Ref=1
+09:15:33:575,0x0000016A Log finished
+09:15:33:575,0x0000016A =============================================
+09:15:33:575,0x0000016A Log at: 2017-07-25 09:15:33:575, compiled: Oct  9 2015 15:21:56
+09:15:33:575,0x0000016A PID: 0361, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:15:33:575,0x0000016A DestroyNetworkMgr(), Ref=0
+20:48:52:457,0x0000017F =============================================
+20:48:52:495,0x0000017F Log at: 2017-07-25 20:48:52:457, compiled: Oct  9 2015 15:21:56
+20:48:52:495,0x0000017F PID: 0366, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+20:48:52:495,0x0000017F CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+20:48:52:495,0x0000016F CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+20:48:52:495,0x0000017F InitializeAndroidDevice Begin!bStrictAndroid=0
+20:48:52:497,0x0000017F ERROR_ALREADY_EXISTS
+20:48:52:501,0x0000017F InitializeAndroidDevice End!
+20:48:52:501,0x0000017F CMonitorImpl::StartMonitor() Start
+20:48:52:503,0x0000017F CMonitorImpl::StartMonitor() End
+20:48:52:504,0x0000017F CUsbDeviceMonitor::USBDeviceChangeStart
+20:48:52:504,0x0000017F CUsbDeviceMonitor::USBDeviceChangeEnd
+20:49:02:426,0x0000016F CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+20:49:02:426,0x0000017F CMonitorImpl::StopMonitor Start.....
+20:49:02:427,0x00000183 CMonitorImpl::ListenerThreadProc2 End
+20:49:02:428,0x0000017F CMonitorImpl::StopMonitor End.....
+20:49:02:428,0x0000016F CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+20:49:02:429,0x0000017F CAndroidDeviceInfo::UnInit
+20:49:02:430,0x0000017F CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+20:49:02:430,0x0000017F CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+20:49:02:431,0x0000016F DestroyNetworkMgr(), Ref=1
+20:49:02:438,0x0000016F Log finished
+20:49:02:438,0x0000016F =============================================
+20:49:02:438,0x0000016F Log at: 2017-07-25 20:49:02:438, compiled: Oct  9 2015 15:21:56
+20:49:02:438,0x0000016F PID: 0366, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+20:49:02:438,0x0000016F DestroyNetworkMgr(), Ref=0
+09:16:44:487,0x00000177 =============================================
+09:16:44:529,0x00000177 Log at: 2017-07-26 09:16:44:487, compiled: Oct  9 2015 15:21:56
+09:16:44:529,0x00000177 PID: 0358, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:16:44:529,0x00000177 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:16:44:530,0x00000167 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:16:44:531,0x00000177 InitializeAndroidDevice Begin!bStrictAndroid=0
+09:16:44:536,0x00000177 ERROR_ALREADY_EXISTS
+09:16:44:539,0x00000177 InitializeAndroidDevice End!
+09:16:44:539,0x00000177 CMonitorImpl::StartMonitor() Start
+09:16:44:559,0x00000177 CMonitorImpl::StartMonitor() End
+09:16:44:559,0x00000177 CUsbDeviceMonitor::USBDeviceChangeStart
+09:16:44:559,0x00000177 CUsbDeviceMonitor::USBDeviceChangeEnd
+09:16:54:442,0x00000167 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+09:16:54:442,0x00000177 CMonitorImpl::StopMonitor Start.....
+09:16:54:443,0x0000017B CMonitorImpl::ListenerThreadProc2 End
+09:16:54:446,0x00000177 CMonitorImpl::StopMonitor End.....
+09:16:54:446,0x00000167 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+09:16:54:447,0x00000177 CAndroidDeviceInfo::UnInit
+09:16:54:447,0x00000177 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+09:16:54:448,0x00000177 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+09:16:54:449,0x00000167 DestroyNetworkMgr(), Ref=1
+09:16:54:454,0x00000167 Log finished
+09:16:54:455,0x00000167 =============================================
+09:16:54:455,0x00000167 Log at: 2017-07-26 09:16:54:455, compiled: Oct  9 2015 15:21:56
+09:16:54:455,0x00000167 PID: 0358, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:16:54:455,0x00000167 DestroyNetworkMgr(), Ref=0
+09:22:10:233,0x00000175 =============================================
+09:22:10:278,0x00000175 Log at: 2017-07-27 09:22:10:233, compiled: Oct  9 2015 15:21:56
+09:22:10:278,0x00000175 PID: 0357, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:22:10:278,0x00000175 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:22:10:279,0x00000166 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:22:10:279,0x00000175 InitializeAndroidDevice Begin!bStrictAndroid=0
+09:22:10:283,0x00000175 ERROR_ALREADY_EXISTS
+09:22:10:286,0x00000175 InitializeAndroidDevice End!
+09:22:10:287,0x00000175 CMonitorImpl::StartMonitor() Start
+09:22:10:307,0x00000175 CMonitorImpl::StartMonitor() End
+09:22:10:307,0x00000175 CUsbDeviceMonitor::USBDeviceChangeStart
+09:22:10:307,0x00000175 CUsbDeviceMonitor::USBDeviceChangeEnd
+09:22:20:183,0x00000166 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+09:22:20:183,0x00000175 CMonitorImpl::StopMonitor Start.....
+09:22:20:184,0x0000017A CMonitorImpl::ListenerThreadProc2 End
+09:22:20:184,0x00000175 CMonitorImpl::StopMonitor End.....
+09:22:20:185,0x00000166 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+09:22:20:186,0x00000175 CAndroidDeviceInfo::UnInit
+09:22:20:186,0x00000175 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+09:22:20:186,0x00000175 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+09:22:20:188,0x00000166 DestroyNetworkMgr(), Ref=1
+09:22:20:195,0x00000166 Log finished
+09:22:20:195,0x00000166 =============================================
+09:22:20:195,0x00000166 Log at: 2017-07-27 09:22:20:195, compiled: Oct  9 2015 15:21:56
+09:22:20:195,0x00000166 PID: 0357, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:22:20:195,0x00000166 DestroyNetworkMgr(), Ref=0
+14:51:18:391,0x00000156 =============================================
+14:51:18:418,0x00000156 Log at: 2017-07-27 14:51:18:391, compiled: Oct  9 2015 15:21:56
+14:51:18:418,0x00000156 PID: 0325, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:51:18:418,0x00000156 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+14:51:18:418,0x00000146 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+14:51:18:418,0x00000156 InitializeAndroidDevice Begin!bStrictAndroid=0
+14:51:18:420,0x00000156 ERROR_ALREADY_EXISTS
+14:51:18:421,0x00000156 InitializeAndroidDevice End!
+14:51:18:421,0x00000156 CMonitorImpl::StartMonitor() Start
+14:51:18:422,0x00000156 CMonitorImpl::StartMonitor() End
+14:51:18:422,0x00000156 CUsbDeviceMonitor::USBDeviceChangeStart
+14:51:18:422,0x00000156 CUsbDeviceMonitor::USBDeviceChangeEnd
+14:51:28:379,0x00000146 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+14:51:28:379,0x00000156 CMonitorImpl::StopMonitor Start.....
+14:51:28:379,0x0000015A CMonitorImpl::ListenerThreadProc2 End
+14:51:28:380,0x00000156 CMonitorImpl::StopMonitor End.....
+14:51:28:380,0x00000146 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+14:51:28:381,0x00000156 CAndroidDeviceInfo::UnInit
+14:51:28:382,0x00000156 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+14:51:28:382,0x00000156 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+14:51:29:489,0x00000146 DestroyNetworkMgr(), Ref=1
+14:51:29:496,0x00000146 Log finished
+14:51:29:496,0x00000146 =============================================
+14:51:29:496,0x00000146 Log at: 2017-07-27 14:51:29:496, compiled: Oct  9 2015 15:21:56
+14:51:29:496,0x00000146 PID: 0325, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:51:29:496,0x00000146 DestroyNetworkMgr(), Ref=0
+09:27:08:836,0x0000016C =============================================
+09:27:08:909,0x0000016C Log at: 2017-07-28 09:27:08:836, compiled: Oct  9 2015 15:21:56
+09:27:08:909,0x0000016C PID: 0347, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:27:08:909,0x0000016C CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+09:27:08:910,0x0000015C CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+09:27:08:910,0x0000016C InitializeAndroidDevice Begin!bStrictAndroid=0
+09:27:08:914,0x0000016C ERROR_ALREADY_EXISTS
+09:27:08:918,0x0000016C InitializeAndroidDevice End!
+09:27:08:918,0x0000016C CMonitorImpl::StartMonitor() Start
+09:27:08:921,0x0000016C CMonitorImpl::StartMonitor() End
+09:27:08:921,0x0000016C CUsbDeviceMonitor::USBDeviceChangeStart
+09:27:08:922,0x0000016C CUsbDeviceMonitor::USBDeviceChangeEnd
+09:27:18:813,0x0000015C CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+09:27:18:813,0x0000016C CMonitorImpl::StopMonitor Start.....
+09:27:18:813,0x00000170 CMonitorImpl::ListenerThreadProc2 End
+09:27:18:814,0x0000016C CMonitorImpl::StopMonitor End.....
+09:27:18:814,0x0000015C CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+09:27:18:816,0x0000016C CAndroidDeviceInfo::UnInit
+09:27:18:816,0x0000016C CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+09:27:18:816,0x0000016C CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+09:27:18:818,0x0000015C DestroyNetworkMgr(), Ref=1
+09:27:18:825,0x0000015C Log finished
+09:27:18:825,0x0000015C =============================================
+09:27:18:825,0x0000015C Log at: 2017-07-28 09:27:18:825, compiled: Oct  9 2015 15:21:56
+09:27:18:825,0x0000015C PID: 0347, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:27:18:825,0x0000015C DestroyNetworkMgr(), Ref=0

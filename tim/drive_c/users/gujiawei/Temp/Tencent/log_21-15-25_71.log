@@ -1,0 +1,30 @@
+[71][89][21:15:25.865]Support Winhttp
+[71][93][21:15:25.866]CWinHttpFile::Close
+[71][90][21:15:27.385]WinHttpQueryHeaders file size:8876
+[71][90][21:15:27.385]CWinHttpFile::Open return: 1
+[71][90][21:15:27.386]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[71][90][21:15:27.486]CWinHttpFile::Close
+[71][90][21:15:27.487] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[71][87][21:15:27.487]CWinHttpFile::Close
+[71][87][21:15:27.487]CWinHttpFile::Close
+[71][87][21:15:27.541]Support Winhttp
+[71][100][21:15:27.543]CWinHttpFile::Close
+[71][93][21:15:27.569]WinHttpQueryHeaders file size:2048
+[71][93][21:15:27.569]CWinHttpFile::Open return: 1
+[71][93][21:15:27.569]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[71][93][21:15:27.670]CWinHttpFile::Close
+[71][93][21:15:27.670] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[71][89][21:15:27.670]CWinHttpFile::Close
+[71][89][21:15:27.670]CWinHttpFile::Close
+[71][89][21:15:27.751]CHttpDownloadImp::Download, url=http://c.gj.qq.com/fcgi-bin/querysrc?id=78461&guid=L2sGifU6zZGz%2BbWu5NucrfFTVfsdaqgMnNSVE6UVSz%2BiSiUwyxbzMqtuWzEGuS0i&ver=100068&optype=1&inst=13&opfrom=0&error=0&parent=QQ8.9.4.exe&jp=2&wow=1&groupid=13&src=0, destPath=C:\users\leixd\Application Data\7L7FTtePo2kha.tmp
+[71][89][21:15:27.751]Support Winhttp
+[71][102][21:15:27.753]CWinHttpFile::Close
+[71][100][21:15:29.146]WinHttpQueryHeaders file size:7328672
+[71][100][21:15:29.147]CWinHttpFile::Open return: 1
+[71][102][21:15:29.381]WinHttpQueryHeaders file size:0
+[71][102][21:15:29.381]CWinHttpFile::Open return: 1
+[71][103][21:15:29.381]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[71][102][21:15:29.481]CWinHttpFile::Close
+[71][102][21:15:29.482] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 6.
+[71][89][21:15:29.757]CWinHttpFile::Close
+[71][89][21:15:29.757]CWinHttpFile::Close

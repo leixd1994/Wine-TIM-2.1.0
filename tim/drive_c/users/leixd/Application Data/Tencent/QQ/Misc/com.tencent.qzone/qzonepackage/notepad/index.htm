@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta name="robots" content="all" />
+<meta name="author" content="Tencent-ISRD" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="Qzone精彩由你而来" />
+<meta name="Keywords" content="Qzone,QQ空间,Blog,博客,网络日志,播客,腾讯,QQ,Tencent" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/mini_portal.css" type="text/css" media="screen" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/editor/gb_editor.css" type="text/css" media="screen" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/editor/qzfl.css" type="text/css" media="screen" />
+<title>写记事</title>
+<style type="text/css">
+<!--
+html,body {
+	overflow:hidden;
+}
+-->
+</style>
+<!--[if IE 6]>
+<script type="text/javascript">
+ // <![CDATA[
+        try{
+	      document.execCommand("BackgroundImageCache", false, true);
+	    }
+	   catch(e){}
+// ]]>
+</script>
+<![endif]-->
+</head>
+
+<body oncontextmenu="return false;">
+	<div class="mod_notepad">
+		<iframe src="javascript:document.write('<body style=\'background-color:#e4f1f9\'></body>')" frameborder="no" id="rightIframe" style="width:148px;height:100%;float:right;margin-bottom:-30px;display:none;" oncontextmenu="return false;"></iframe>
+		<!--写记事模块 开始-->
+		<div class="mod_notepad_cont" style="width:385px;">
+			<div class="notepad_display" id="displayBoard" style="height:226px;overflow-y:auto;"> 
+				<div class="miniportal_hint" id="globalHint" style="display:none;">
+					<strong class="miniportal_hint_info"><span>提示</span></strong><span id="globalHintText"></span>
+					<button title="关闭" class="hint_close" onmouseout="this.className='hint_close'" onmouseover="this.className='hint_close_hover'" onclick="PageScheduler.hideGlobalHint(false);"><span class="none">关闭</span></button>
+				</div>
+			</div>
+			<div class="notepad_tools" id="horiToolbar">
+				<ul>
+					<li><button id="emotionInsertBtn" class="btn_motion" onmouseout="this.className='btn_motion'" onmouseover="this.className='btn_motion_on'"><span>插入表情</span></button></li>
+					<li><button id="imageInsertBtn" class="btn_image" onmouseout="this.className='btn_image'" onmouseover="this.className='btn_image_on'"><span>插入图片</span></button></li>
+					<li><button id="screenImgInsertBtn" class="btn_printscreen" onmouseout="this.className='btn_printscreen'" onmouseover="this.className='btn_printscreen_on'"><span>截屏</span></button></li>
+				</ul>
+			</div>
+			<div class="notepad_editor_dump" style="line-height:1.3em;">
+				<div id="fakeEditorAnchor" style="height:99px;color:gray;"></div>
+				<div id="blogEditorAnchor" style="padding:5px;"></div>
+			</div>
+		</div>
+		<!--写记事模块 结束-->	
+
+		<div class="mod_notepad_op">
+			<div class="btns">
+				<button id="quitBtn" class="hummer_btn" onmouseout="this.className='hummer_btn'" onmouseover="this.className='hummer_btn_on'">关闭(C)</button> 
+				<button id="submitBtn" class="hummer_btn" onmouseout="this.className='hummer_btn'" onmouseover="this.className='hummer_btn_on'">发表</button>
+			</div>
+			<div style="height:21px;width:130px;overflow:hidden;text-align:left;vertical-align:middle;margin:5px;" id="tipArea"></div>
+		</div>
+	</div>	
+</body>
+
+<script type="text/javascript">
+ // <![CDATA[
+	function showRightFrame() {
+		document.getElementById("rightIframe").style.display = "";
+	}
+	(function (){
+		document.getElementById("rightIframe").src = "./right.htm";
+	})();
+// ]]>
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../common/script/qzfl.js"></script>
+<script type="text/javascript" charset="utf-8" src="../photo/script/photo_logic.js"></script>
+<script type="text/javascript" charset="utf-8" src="../photo/script/upload.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="script/portal_editor.js"></script>
+<script type="text/javascript" charset="utf-8" src="../common/script/common.js"></script>
+<script type="text/javascript" charset="utf-8" src="script/main.js"></script>
+
+<script type="text/javascript">
+ // <![CDATA[
+	QZFL.Logic.preventEvents(document.body);
+// ]]>
+</script>
+</html>

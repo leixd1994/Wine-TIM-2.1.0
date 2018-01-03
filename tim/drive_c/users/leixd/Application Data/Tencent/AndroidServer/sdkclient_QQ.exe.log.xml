@@ -1,0 +1,314 @@
+16:34:40:733,0x00000104 =============================================
+16:34:40:733,0x00000104 Log at: 2017-07-20 16:34:40:733, compiled: Oct  9 2015 15:18:21
+16:34:40:733,0x00000104 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+16:34:40:733,0x00000104 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+16:34:40:734,0x00000103 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+16:34:40:734,0x00000103 CAndroidAssist::InitEnv Enable AndroidServer 1
+16:34:40:931,0x00000103 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+16:34:40:941,0x0000010A TID = 00000266, NAME = CSdkClientReportHelperThread
+16:34:40:942,0x0000010A Thread Enter CSdkClientReportHelperThread
+16:34:40:949,0x0000010B CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+16:34:40:956,0x00000103 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+16:34:55:962,0x0000010A Thread Leave CSdkClientReportHelperThread
+17:41:30:719,0x00000048 CTaskMgr::Stop, Thread Name is DeviceMonitor
+17:41:30:720,0x0000010B CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+17:41:30:720,0x0000010B CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+17:41:30:721,0x00000104 Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+17:41:30:721,0x00000048 CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+17:41:30:722,0x00000104 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+17:41:30:722,0x00000104 CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+17:41:30:722,0x00000048 CAndroidAssist::UnInitialize Start
+17:41:30:723,0x00000048 CAndroidAssist::UnInitialize Finish
+17:41:30:723,0x00000048 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+08:36:44:519,0x0000011F =============================================
+08:36:44:529,0x0000011F Log at: 2017-07-21 08:36:44:519, compiled: Oct  9 2015 15:18:21
+08:36:44:529,0x0000011F PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:36:44:529,0x0000011F CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+08:36:44:530,0x0000011E CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+08:36:44:564,0x0000011E CAndroidAssist::InitEnv Enable AndroidServer 1
+08:36:45:011,0x0000011E CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+08:36:45:073,0x00000125 TID = 00000293, NAME = CSdkClientReportHelperThread
+08:36:45:073,0x00000125 Thread Enter CSdkClientReportHelperThread
+08:36:45:140,0x00000126 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+08:36:45:141,0x0000011E CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+08:37:00:094,0x00000125 Thread Leave CSdkClientReportHelperThread
+17:05:38:270,0x00000048 CTaskMgr::Stop, Thread Name is DeviceMonitor
+17:05:38:272,0x00000126 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+17:05:38:272,0x00000126 CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+17:05:38:272,0x0000011F Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+17:05:38:272,0x00000048 CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+17:05:38:273,0x0000011F CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+17:05:38:273,0x0000011F CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+17:05:38:273,0x00000048 CAndroidAssist::UnInitialize Start
+17:05:38:275,0x00000048 CAndroidAssist::UnInitialize Finish
+17:05:38:275,0x00000048 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+17:05:38:395,0x00000048 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+17:05:38:653,0x00000048 Log finished
+17:15:54:297,0x00000128 =============================================
+17:15:54:313,0x00000128 Log at: 2017-07-21 17:15:54:297, compiled: Oct  9 2015 15:18:21
+17:15:54:313,0x00000128 PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+17:15:54:313,0x00000128 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+17:15:54:313,0x00000127 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+17:15:54:318,0x00000127 CAndroidAssist::InitEnv Enable AndroidServer 1
+17:15:54:394,0x00000128 CSdkNetworkHelper::PostKeyVauleProtocalPackage
+17:15:54:915,0x00000127 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+17:15:54:922,0x0000012F TID = 00000303, NAME = CSdkClientReportHelperThread
+17:15:54:922,0x0000012F Thread Enter CSdkClientReportHelperThread
+17:15:54:951,0x00000130 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+17:15:54:951,0x00000127 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+17:15:55:548,0x00000129 CSdkNetworkHelper::OnNetworkResponse m_dwDisableServerSession
+17:15:55:548,0x00000128 CAndroidAssist::OnUpdateConfig cstrChannleID = ;
+17:16:09:964,0x0000012F Thread Leave CSdkClientReportHelperThread
+09:17:54:675,0x00000114 =============================================
+09:17:54:680,0x00000114 Log at: 2017-07-22 09:17:54:675, compiled: Oct  9 2015 15:18:21
+09:17:54:680,0x00000114 PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:17:54:680,0x00000114 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+09:17:54:681,0x00000113 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+09:17:54:681,0x00000113 CAndroidAssist::InitEnv Enable AndroidServer 1
+09:17:54:890,0x00000113 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+09:17:54:898,0x0000011A TID = 00000282, NAME = CSdkClientReportHelperThread
+09:17:54:899,0x0000011A Thread Enter CSdkClientReportHelperThread
+09:17:54:933,0x0000011B CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+09:17:54:933,0x00000113 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+09:18:09:922,0x0000011A Thread Leave CSdkClientReportHelperThread
+10:51:18:445,0x0000004A CTaskMgr::Stop, Thread Name is DeviceMonitor
+10:51:18:446,0x0000011B CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:51:18:446,0x0000011B CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+10:51:18:447,0x00000114 Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+10:51:18:447,0x0000004A CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+10:51:18:448,0x00000114 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:51:18:448,0x00000114 CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+10:51:18:448,0x0000004A CAndroidAssist::UnInitialize Start
+10:51:18:449,0x0000004A CAndroidAssist::UnInitialize Finish
+10:51:18:449,0x0000004A CIpcClientMgr::SetAdbConnectCallback NULL? 0
+10:51:18:610,0x0000004A CIpcClientMgr::SetAdbConnectCallback NULL? 0
+10:51:18:782,0x0000004A Log finished
+10:52:46:918,0x00000134 =============================================
+10:52:46:918,0x00000134 Log at: 2017-07-22 10:52:46:918, compiled: Oct  9 2015 15:18:21
+10:52:46:918,0x00000134 PID: 0505, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:52:46:918,0x00000134 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+10:52:46:918,0x00000135 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+10:52:46:919,0x00000135 CAndroidAssist::InitEnv Enable AndroidServer 1
+10:52:47:125,0x00000135 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+10:52:47:136,0x0000014F TID = 00000335, NAME = CSdkClientReportHelperThread
+10:52:47:136,0x0000014F Thread Enter CSdkClientReportHelperThread
+10:52:47:143,0x00000148 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+10:52:47:151,0x00000135 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+10:53:02:160,0x0000014F Thread Leave CSdkClientReportHelperThread
+10:53:35:637,0x000001FA CTaskMgr::Stop, Thread Name is DeviceMonitor
+10:53:35:640,0x00000148 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:53:35:640,0x00000148 CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+10:53:35:641,0x00000134 Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+10:53:35:641,0x000001FA CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+10:53:35:646,0x00000134 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:53:35:646,0x00000134 CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+10:53:35:647,0x000001FA CAndroidAssist::UnInitialize Start
+10:53:35:649,0x000001FA CAndroidAssist::UnInitialize Finish
+10:53:35:649,0x000001FA CIpcClientMgr::SetAdbConnectCallback NULL? 0
+10:53:37:206,0x000001FA Performance Counts =      1.376 ms, StopThread 
+10:53:37:213,0x000001FA CIpcClientMgr::SetAdbConnectCallback NULL? 0
+10:53:37:843,0x000001FA Log finished
+10:55:54:022,0x00000103 =============================================
+10:55:54:022,0x00000103 Log at: 2017-07-22 10:55:54:022, compiled: Oct  9 2015 15:18:21
+10:55:54:022,0x00000103 PID: 0475, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:55:54:022,0x00000103 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+10:55:54:022,0x00000104 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+10:55:54:022,0x00000104 CAndroidAssist::InitEnv Enable AndroidServer 1
+10:55:54:424,0x00000104 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+10:55:54:434,0x0000010C TID = 00000268, NAME = CSdkClientReportHelperThread
+10:55:54:435,0x0000010C Thread Enter CSdkClientReportHelperThread
+10:55:54:449,0x0000010A CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+10:55:54:450,0x00000104 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+10:56:09:462,0x0000010C Thread Leave CSdkClientReportHelperThread
+14:57:34:569,0x00000111 =============================================
+14:57:34:577,0x00000111 Log at: 2017-07-22 14:57:34:569, compiled: Oct  9 2015 15:18:21
+14:57:34:577,0x00000111 PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+14:57:34:577,0x00000111 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+14:57:34:578,0x00000110 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+14:57:34:585,0x00000110 CAndroidAssist::InitEnv Enable AndroidServer 1
+14:57:34:842,0x00000110 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+14:57:34:852,0x00000117 TID = 00000279, NAME = CSdkClientReportHelperThread
+14:57:34:852,0x00000117 Thread Enter CSdkClientReportHelperThread
+14:57:34:890,0x00000118 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+14:57:34:891,0x00000110 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+14:57:49:870,0x00000117 Thread Leave CSdkClientReportHelperThread
+15:12:35:138,0x0000004A CTaskMgr::Stop, Thread Name is DeviceMonitor
+15:12:35:140,0x00000118 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+15:12:35:140,0x00000118 CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+15:12:35:141,0x00000111 Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+15:12:35:141,0x0000004A CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+15:12:35:143,0x00000111 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+15:12:35:143,0x00000111 CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+15:12:35:144,0x0000004A CAndroidAssist::UnInitialize Start
+15:12:35:157,0x0000004A CAndroidAssist::UnInitialize Finish
+15:12:35:157,0x0000004A CIpcClientMgr::SetAdbConnectCallback NULL? 0
+15:12:36:824,0x0000004A CIpcClientMgr::SetAdbConnectCallback NULL? 0
+15:12:37:173,0x0000004A Log finished
+09:03:44:609,0x00000103 =============================================
+09:03:44:628,0x00000103 Log at: 2017-07-24 09:03:44:609, compiled: Oct  9 2015 15:18:21
+09:03:44:628,0x00000103 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:03:44:628,0x00000103 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+09:03:44:628,0x00000102 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+09:03:44:639,0x00000102 CAndroidAssist::InitEnv Enable AndroidServer 1
+09:03:44:703,0x00000103 CSdkNetworkHelper::PostKeyVauleProtocalPackage
+09:03:44:873,0x00000102 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+09:03:44:881,0x0000010A TID = 00000266, NAME = CSdkClientReportHelperThread
+09:03:44:881,0x0000010A Thread Enter CSdkClientReportHelperThread
+09:03:44:931,0x0000010B CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+09:03:44:932,0x00000102 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+09:03:46:456,0x00000104 CSdkNetworkHelper::OnNetworkResponse m_dwDisableServerSession
+09:03:46:456,0x00000103 CAndroidAssist::OnUpdateConfig cstrChannleID = ;
+09:03:59:906,0x0000010A Thread Leave CSdkClientReportHelperThread
+15:36:57:774,0x00000048 CTaskMgr::Stop, Thread Name is DeviceMonitor
+15:36:57:775,0x0000010B CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+15:36:57:775,0x0000010B CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+15:36:57:775,0x00000103 Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+15:36:57:775,0x00000048 CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+15:36:57:776,0x00000103 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+15:36:57:776,0x00000103 CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+15:36:57:777,0x00000048 CAndroidAssist::UnInitialize Start
+15:36:57:779,0x00000048 CAndroidAssist::UnInitialize Finish
+15:36:57:779,0x00000048 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+15:36:57:940,0x00000048 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+15:36:58:157,0x00000048 Log finished
+16:30:06:105,0x0000010C =============================================
+16:30:06:105,0x0000010C Log at: 2017-07-24 16:30:06:105, compiled: Oct  9 2015 15:18:21
+16:30:06:105,0x0000010C PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+16:30:06:105,0x0000010C CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+16:30:06:105,0x0000010A CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+16:30:06:106,0x0000010A CAndroidAssist::InitEnv Enable AndroidServer 1
+16:30:06:613,0x0000010A CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+16:30:06:642,0x00000115 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+16:30:06:642,0x00000114 TID = 00000276, NAME = CSdkClientReportHelperThread
+16:30:06:642,0x00000114 Thread Enter CSdkClientReportHelperThread
+16:30:06:642,0x0000010A CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+16:30:21:690,0x00000114 Thread Leave CSdkClientReportHelperThread
+19:07:50:742,0x00000048 CTaskMgr::Stop, Thread Name is DeviceMonitor
+19:07:50:743,0x00000115 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+19:07:50:743,0x00000115 CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+19:07:50:744,0x0000010C Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+19:07:50:744,0x00000048 CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+19:07:50:744,0x0000010C CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+19:07:50:744,0x0000010C CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+19:07:50:745,0x00000048 CAndroidAssist::UnInitialize Start
+19:07:50:746,0x00000048 CAndroidAssist::UnInitialize Finish
+19:07:50:746,0x00000048 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+19:07:52:790,0x00000048 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+19:07:52:948,0x00000048 Log finished
+19:09:25:578,0x00000164 =============================================
+19:09:25:578,0x00000164 Log at: 2017-07-24 19:09:25:578, compiled: Oct  9 2015 15:18:21
+19:09:25:578,0x00000164 PID: 0153, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+19:09:25:578,0x00000164 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+19:09:25:578,0x00000163 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+19:09:25:579,0x00000163 CAndroidAssist::InitEnv Enable AndroidServer 1
+19:09:25:807,0x00000163 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+19:09:25:820,0x00000183 TID = 00000387, NAME = CSdkClientReportHelperThread
+19:09:25:820,0x00000183 Thread Enter CSdkClientReportHelperThread
+19:09:25:828,0x0000017D CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+19:09:25:836,0x00000163 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+19:09:41:024,0x00000183 Thread Leave CSdkClientReportHelperThread
+21:14:34:550,0x00000097 CTaskMgr::Stop, Thread Name is DeviceMonitor
+21:14:34:552,0x0000017D CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+21:14:34:552,0x0000017D CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+21:14:34:552,0x00000164 Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+21:14:34:552,0x00000097 CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+21:14:34:553,0x00000164 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+21:14:34:553,0x00000164 CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+21:14:34:553,0x00000097 CAndroidAssist::UnInitialize Start
+21:14:34:555,0x00000097 CAndroidAssist::UnInitialize Finish
+21:14:34:555,0x00000097 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+21:14:37:888,0x00000097 CIpcClientMgr::SetAdbConnectCallback NULL? 0
+21:14:38:213,0x00000097 Log finished
+08:48:22:026,0x00000109 =============================================
+08:48:22:033,0x00000109 Log at: 2017-07-25 08:48:22:026, compiled: Oct  9 2015 15:18:21
+08:48:22:033,0x00000109 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:48:22:033,0x00000109 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+08:48:22:034,0x00000108 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+08:48:22:057,0x00000108 CAndroidAssist::InitEnv Enable AndroidServer 1
+08:48:22:309,0x00000108 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+08:48:22:328,0x0000010F TID = 00000271, NAME = CSdkClientReportHelperThread
+08:48:22:328,0x0000010F Thread Enter CSdkClientReportHelperThread
+08:48:22:338,0x00000110 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+08:48:22:339,0x00000108 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+08:48:37:361,0x0000010F Thread Leave CSdkClientReportHelperThread
+20:26:50:929,0x00000109 =============================================
+20:26:50:932,0x00000109 Log at: 2017-07-25 20:26:50:929, compiled: Oct  9 2015 15:18:21
+20:26:50:932,0x00000109 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+20:26:50:932,0x00000109 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+20:26:50:933,0x00000107 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+20:26:50:956,0x00000107 CAndroidAssist::InitEnv Enable AndroidServer 1
+20:26:50:986,0x00000109 CSdkNetworkHelper::PostKeyVauleProtocalPackage
+20:26:51:298,0x00000107 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+20:26:51:306,0x00000110 TID = 00000272, NAME = CSdkClientReportHelperThread
+20:26:51:306,0x00000110 Thread Enter CSdkClientReportHelperThread
+20:26:51:312,0x00000111 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+20:26:51:312,0x00000107 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+20:26:51:971,0x0000010A CSdkNetworkHelper::OnNetworkResponse m_dwDisableServerSession
+20:26:51:971,0x00000109 CAndroidAssist::OnUpdateConfig cstrChannleID = ;
+20:27:06:361,0x00000110 Thread Leave CSdkClientReportHelperThread
+08:52:42:700,0x00000113 =============================================
+08:52:42:711,0x00000113 Log at: 2017-07-26 08:52:42:700, compiled: Oct  9 2015 15:18:21
+08:52:42:711,0x00000113 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:52:42:711,0x00000113 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+08:52:42:711,0x00000112 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+08:52:42:712,0x00000112 CAndroidAssist::InitEnv Enable AndroidServer 1
+08:52:42:963,0x00000112 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+08:52:42:971,0x00000119 TID = 00000281, NAME = CSdkClientReportHelperThread
+08:52:42:971,0x00000119 Thread Enter CSdkClientReportHelperThread
+08:52:42:981,0x0000011A CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+08:52:42:981,0x00000112 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+08:52:58:015,0x00000119 Thread Leave CSdkClientReportHelperThread
+08:55:09:700,0x0000013C =============================================
+08:55:09:710,0x0000013C Log at: 2017-07-27 08:55:09:700, compiled: Oct  9 2015 15:18:21
+08:55:09:710,0x0000013C PID: 0073, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+08:55:09:710,0x0000013C CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+08:55:09:710,0x0000013B CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+08:55:09:718,0x0000013B CAndroidAssist::InitEnv Enable AndroidServer 1
+08:55:09:791,0x0000013C CSdkNetworkHelper::PostKeyVauleProtocalPackage
+08:55:09:797,0x0000013B CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+08:55:09:806,0x00000143 TID = 00000323, NAME = CSdkClientReportHelperThread
+08:55:09:806,0x00000143 Thread Enter CSdkClientReportHelperThread
+08:55:09:816,0x00000146 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+08:55:09:816,0x0000013B CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+08:55:09:898,0x0000013D CSdkNetworkHelper::OnNetworkResponse m_dwDisableServerSession
+08:55:09:898,0x0000013C CAndroidAssist::OnUpdateConfig cstrChannleID = ;
+08:55:24:828,0x00000143 Thread Leave CSdkClientReportHelperThread
+14:28:12:359,0x0000004A CTaskMgr::Stop, Thread Name is DeviceMonitor
+14:28:12:394,0x00000146 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+14:28:12:394,0x00000146 CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+14:28:12:395,0x0000013C Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+14:28:12:395,0x0000004A CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+14:28:12:396,0x0000013C CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+14:28:12:396,0x0000013C CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+14:28:12:397,0x0000004A CAndroidAssist::UnInitialize Start
+14:28:12:399,0x0000004A CAndroidAssist::UnInitialize Finish
+14:28:12:399,0x0000004A CIpcClientMgr::SetAdbConnectCallback NULL? 0
+14:28:15:464,0x0000004A CIpcClientMgr::SetAdbConnectCallback NULL? 0
+14:28:15:915,0x0000004A Log finished
+14:30:16:755,0x000000F8 =============================================
+14:30:16:755,0x000000F8 Log at: 2017-07-27 14:30:16:755, compiled: Oct  9 2015 15:18:21
+14:30:16:755,0x000000F8 PID: 0069, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+14:30:16:755,0x000000F8 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+14:30:16:755,0x000000F7 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+14:30:16:756,0x000000F7 CAndroidAssist::InitEnv Enable AndroidServer 1
+14:30:16:998,0x000000F7 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+14:30:17:007,0x000000FE TID = 00000254, NAME = CSdkClientReportHelperThread
+14:30:17:008,0x000000FE Thread Enter CSdkClientReportHelperThread
+14:30:17:014,0x000000FF CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+14:30:17:022,0x000000F7 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+14:30:32:031,0x000000FE Thread Leave CSdkClientReportHelperThread
+09:01:07:226,0x00000108 =============================================
+09:01:07:231,0x00000108 Log at: 2017-07-28 09:01:07:226, compiled: Oct  9 2015 15:18:21
+09:01:07:231,0x00000108 PID: 0071, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+09:01:07:231,0x00000108 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+09:01:07:231,0x00000107 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+09:01:07:262,0x00000107 CAndroidAssist::InitEnv Enable AndroidServer 1
+09:01:07:306,0x00000108 CSdkNetworkHelper::PostKeyVauleProtocalPackage
+09:01:07:510,0x00000107 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+09:01:07:518,0x0000010F TID = 00000271, NAME = CSdkClientReportHelperThread
+09:01:07:519,0x0000010F Thread Enter CSdkClientReportHelperThread
+09:01:07:525,0x00000110 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+09:01:07:525,0x00000107 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+09:01:08:153,0x00000109 CSdkNetworkHelper::OnNetworkResponse m_dwDisableServerSession
+09:01:08:154,0x00000108 CAndroidAssist::OnUpdateConfig cstrChannleID = ;
+09:01:22:551,0x0000010F Thread Leave CSdkClientReportHelperThread

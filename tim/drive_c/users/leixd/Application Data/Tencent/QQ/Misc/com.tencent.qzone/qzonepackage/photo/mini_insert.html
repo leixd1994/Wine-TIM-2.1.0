@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta name="robots" content="all" />
+<meta name="author" content="Tencent-ISRD" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="Qzone精彩由你而来" />
+<meta name="Keywords" content="Qzone,QQ空间,Blog,博客,网络日志,播客,腾讯,QQ,Tencent" />
+<title>相册下拉框</title>
+<link rel="stylesheet" rev="stylesheet" href="../common/css/mini_portal.css" type="text/css" media="screen" />
+<style>
+html,body{
+	overflow:hidden;
+}
+</style>
+<!--[if IE 6]>
+<script type="text/javascript">
+ // <![CDATA[
+        try{
+	      document.execCommand("BackgroundImageCache", false, true);
+	    }
+	   catch(e){}
+// ]]>
+</script>
+<![endif]-->
+<script src="../common/script/qzfl.js"></script>
+<script src="script/photo_logic.js"></script>
+<script src="script/mini_select_photo.js"></script>
+<script src="script/swfobject.js"></script>
+</head>
+<body>
+<div id="mini_portal_photo" class="mode_select_photo">
+</div>
+<script>
+Tab.change((getParameter("tab") || "album"));
+</script>
+</body>
+</html>

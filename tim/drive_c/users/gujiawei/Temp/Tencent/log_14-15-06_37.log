@@ -1,0 +1,36 @@
+[37][47][14:15:06.708]CDlForQdImp::Start, dwCustomId=2
+[37][73][14:15:06.735]CDlForQdImp::StartImpl
+[37][75][14:15:06.739]CDlForQdImp::IpcThreadFunc begin...
+[37][73][14:15:06.739]CDlForQdImp::FetchConfig, bNeedFetch=1
+[37][73][14:15:06.744]CHttpDownloadImp::Download, url=http://c.gj.qq.com/packconfig?serviceid=7002&clientver=487514672548225417&gjguid=222d8af8a699145b4a333f7308f96025&check=1661009920&livetime=0, destPath=C:\users\gujiawei\Temp\df32.tmp
+[37][73][14:15:06.744]Support Winhttp
+[37][73][14:15:06.745]CHttpDownloadImp::Download CreateWindowEx failed
+[37][77][14:15:06.745]CWinHttpFile::Close
+[37][77][14:15:08.487]WinHttpQueryHeaders file size:1096
+[37][77][14:15:08.487]CWinHttpFile::Open return: 1
+[37][77][14:15:08.487]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[37][77][14:15:08.587]CWinHttpFile::Close
+[37][77][14:15:08.587] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[37][73][14:15:26.739]CDlForQdImp::OnLoadLocalSvrPlugin Enter.
+[37][73][14:15:26.739]CDlForQdImp::OnLoadLocalSvrPlugin LocalSvrPlugin init.
+[37][76][14:15:26.791]Receive Pipe ipc Event
+[37][73][14:20:06.739]CDlForQdImp::OnTimer, nFixSid=0
+[37][73][14:25:06.739]CDlForQdImp::OnDelayRunFileCmd
+[37][73][14:25:06.739] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[37][73][14:25:06.740]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[37][73][14:25:06.740] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[37][73][14:25:06.741]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[37][73][14:25:06.741] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[37][73][14:25:06.741]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[37][73][14:25:06.741] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[37][73][14:25:06.742]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[37][73][14:25:06.742]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[37][73][14:25:06.742]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[37][73][14:25:06.754]CDlForQdImp::OnDelayFileConfusionDefault
+[37][73][14:25:06.810]CDlForQdImp::OnDelayFileConfusionDefault, StartConfusion result:0, ErrPos:0, WholeNum:4, OkNum:2, SuccessFile:C:\users\gujiawei\Temp\\jWPhka.xKN;C:\windows\\1l.vZ956;, FailFile:1453192, FakeRegPos:0, FakeCopyPos:0
+[37][47][14:26:37.415]CDlForQdImp::Stop
+[37][73][14:26:37.415]CDlForQdImp::StopImpl
+[37][73][14:26:37.416]CWinHttpFile::Close
+[37][73][14:26:37.416]CWinHttpFile::Close
+[37][73][14:26:37.416]QD LocalSvrPlugin Uninit.
+[37][75][14:26:37.416]CDlForQdImp::IpcThreadFunc end...

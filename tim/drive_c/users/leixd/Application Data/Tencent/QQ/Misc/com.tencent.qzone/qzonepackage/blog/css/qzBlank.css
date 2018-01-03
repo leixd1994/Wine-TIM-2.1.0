@@ -1,0 +1,17 @@
+body { font-family:Arial; margin:1px 4px 2px 2px; overflow-y:auto; word-wrap: break-word; word-break: break-all; line-height:1.3em; background:#F1F9FC url(../../common/css/mode_edit_blog.jpg) repeat-x 0 -70px; border:none;scrollbar-arrow-color:#99BFDC;scrollbar-face-color:#E4F1F7;scrollbar-3dlight-color:#C7D2E2;scrollbar-shadow-color:#C7D2E2; scrollbar-darkshadow-color:#86D5FD;scrollbar-track-color: #F6F8FB;}
+p { margin:0px; }
+font { line-height:1.3em; }
+a { border:0px solid #fff; }
+a img { border:0px; }
+.flash { border:1px solid #ccc; background:#fefefe url(images/Files-Flash.gif) center center no-repeat; width:100px; height:100px; display:inline; }
+.qqVideo { border:1px solid #ccc; background:#fefefe url(images/Files-qqVideo.gif) center center no-repeat; width:100px; height:100px; display:inline; }
+.flasht { border:1px solid #ccc; background:#fefefe url(images/Files-Flash.gif) center center no-repeat; width:100px; height:100px; position:absolute; filter:alpha(enabled=true, opacity=50); }
+.video { border:1px solid #ccc; background:#fefefe url(images/Files-Video.gif) center center no-repeat; width:100px; height:100px; display:inline; }
+.audio { border:1px solid #ccc; background:#fefefe url(images/Files-Audio.gif) center center no-repeat; width:300px; height:70px; display:inline; }
+.music { border:1px solid #ccc; background:#fefefe url(images/Files-music.jpg) center center no-repeat; width:362px; height:97px; display:inline; }
+.music_multiple { border:1px solid #ccc; background:#fefefe url(images/Files-music-mul.jpg) center center no-repeat; width:401px; height:183px; display:inline; }
+.lightFont { border: 1px dotted #61b6f2; }
+a.nameCard:link, a.nameCard:visited { background:url(images/icon_friend.gif) right 0 no-repeat; border:1px dotted #71c3f2; /*			padding-right:12px;*/
+			padding-top:2px; font-family:""; }
+.editor_area textarea{width:100%;font-size:12px;overflow:auto;}
+		/*  |xGv00|864c3628d60eb6413c0d67cd81226bd5 */

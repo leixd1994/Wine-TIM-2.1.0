@@ -1,0 +1,39 @@
+[35][43][10:42:36.352]CDlForQdImp::Start, dwCustomId=2
+[35][84][10:42:36.361]CDlForQdImp::StartImpl
+[35][86][10:42:36.391]CDlForQdImp::IpcThreadFunc begin...
+[35][84][10:42:36.392]CDlForQdImp::FetchConfig, bNeedFetch=1
+[35][84][10:42:36.409]CHttpDownloadImp::Download, url=http://c.gj.qq.com/packconfig?serviceid=7002&clientver=487514672548225417&gjguid=222d8af8a699145b4a333f7308f96025&check=1661009920&livetime=0, destPath=C:\users\gujiawei\Temp\c92c.tmp
+[35][84][10:42:36.409]Support Winhttp
+[35][84][10:42:36.410]CHttpDownloadImp::Download CreateWindowEx failed
+[35][88][10:42:36.410]CWinHttpFile::Close
+[35][88][10:42:37.704]WinHttpQueryHeaders file size:1096
+[35][88][10:42:37.704]CWinHttpFile::Open return: 1
+[35][88][10:42:37.705]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[35][88][10:42:37.805]CWinHttpFile::Close
+[35][88][10:42:37.805] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[35][84][10:42:56.392]CDlForQdImp::OnLoadLocalSvrPlugin Enter.
+[35][84][10:42:56.392]CDlForQdImp::OnLoadLocalSvrPlugin LocalSvrPlugin init.
+[35][87][10:42:56.454]Receive Pipe ipc Event
+[35][84][10:47:36.392]CDlForQdImp::OnTimer, nFixSid=0
+[35][84][10:52:36.392]CDlForQdImp::OnDelayRunFileCmd
+[35][84][10:52:36.392] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd
+[35][84][10:52:36.392]GetFileTaskCmd, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][84][10:52:36.393] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd3
+[35][84][10:52:36.393]GetFileTaskCmd3, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][84][10:52:36.393] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd2
+[35][84][10:52:36.394]GetFileTaskCmd2, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][84][10:52:36.394] DlForQdImp.cpp: CDlForQdImp::GetFileTaskCmd4
+[35][84][10:52:36.395]GetFileTaskCmd4, bReslut=0, sid=0, timestamp=0, TimeoutDays=0, ForceCustomId=0
+[35][84][10:52:36.395]CDlForQdImp::GetLeakMemoryTaskCmd begin...
+[35][84][10:52:36.395]CDlForQdImp::GetLeakMemoryTaskCmd, OpenFileMapping error=2
+[35][84][10:52:36.408]CDlForQdImp::OnDelayFileConfusionDefault
+[35][84][10:52:36.454]CDlForQdImp::OnDelayFileConfusionDefault, StartConfusion result:1, ErrPos:0, WholeNum:2, OkNum:2, SuccessFile:C:\users\Public\Tencent\\HfiW7j8fn.26u;C:\users\Public\Tencent\\E1Y7.76U;, FailFile:25627028, FakeRegPos:0, FakeCopyPos:0
+[35][84][10:54:36.392]CDlForQdImp::OnDelayRunFileCmd
+[35][84][10:54:36.398]GetTaskCmdFromReg result=0
+[35][84][10:54:36.398]GetTaskCmdFromReg result=0
+[35][43][10:58:21.842]CDlForQdImp::Stop
+[35][84][10:58:21.842]CDlForQdImp::StopImpl
+[35][84][10:58:21.842]CWinHttpFile::Close
+[35][84][10:58:21.842]CWinHttpFile::Close
+[35][84][10:58:21.842]QD LocalSvrPlugin Uninit.
+[35][86][10:58:21.842]CDlForQdImp::IpcThreadFunc end...

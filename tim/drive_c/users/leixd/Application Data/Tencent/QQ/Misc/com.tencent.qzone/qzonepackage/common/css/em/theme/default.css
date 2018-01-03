@@ -1,0 +1,161 @@
+ul.qzfl_emotion_default {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:392px;
+}
+
+div.qzfl_emotion_preview_default{
+	border:1px solid #999999;
+	position:absolute;
+	width:59px;
+	height:59px;
+	background-color:#ffffff;
+	overflow:hidden;
+}
+
+
+div.qzfl_emotion_preview_default img{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	margin-left: 18px;
+}
+
+div.qzfl_emotion_preview_default span{
+	padding: 1px;
+	display: block;
+	text-align: center;
+	background-color:#ECECEC;
+}
+
+ul.qzfl_emotion_default li{
+	float:left;
+}
+
+ul.qzfl_emotion_default .icon {
+   background-image: url(default.gif);
+   background-repeat:  no-repeat;
+   height:24px;
+   width:24px;
+}
+
+
+
+.qzfl_emotion_panel a:link,.qzfl_emotion_panel a:visited{
+	padding:1px;
+	display:block;
+}
+
+.qzfl_emotion_panel a:hover{
+	padding:0px;
+	border:1px solid #0066cc;
+}
+div.qzfl_emotion_preview_default .pic {display: table-cell;vertical-align:middle;width:59px;height:59px;text-align:center;*display:block;*font-size:52px;}
+div.qzfl_emotion_preview_default .pic img { vertical-align:middle;}
+
+.emotion_default_80 { background-position: 0 -30px; } 
+.emotion_default_103 { background-position: 0 -84px; } 
+.emotion_default_90 { background-position: 0 -138px; } 
+.emotion_default_33 { background-position: 0 -192px; } 
+.emotion_default_46 { background-position: 0 -246px; } 
+.emotion_default_53 { background-position: 0 -300px; } 
+.emotion_default_28 { background-position: 0 -354px; } 
+.emotion_default_47 { background-position: 0 -408px; } 
+.emotion_default_73 { background-position: 0 -462px; } 
+.emotion_default_4 { background-position: 0 -516px; } 
+.emotion_default_57 { background-position: 0 -570px; } 
+.emotion_default_88 { background-position: 0 -624px; } 
+.emotion_default_71 { background-position: 0 -678px; } 
+.emotion_default_65 { background-position: 0 -732px; } 
+.emotion_default_26 { background-position: 0 -786px; } 
+.emotion_default_50 { background-position: 0 -840px; } 
+.emotion_default_30 { background-position: 0 -894px; } 
+.emotion_default_94 { background-position: 0 -948px; } 
+.emotion_default_7 { background-position: 0 -1002px; } 
+.emotion_default_35 { background-position: 0 -1056px; } 
+.emotion_default_96 { background-position: 0 -1110px; } 
+.emotion_default_49 { background-position: 0 -1164px; } 
+.emotion_default_62 { background-position: 0 -1218px; } 
+.emotion_default_56 { background-position: 0 -1272px; } 
+.emotion_default_48 { background-position: 0 -1326px; } 
+.emotion_default_102 { background-position: 0 -1380px; } 
+.emotion_default_20 { background-position: 0 -1434px; } 
+.emotion_default_0 { background-position: 0 -1488px; } 
+.emotion_default_60 { background-position: 0 -1542px; } 
+.emotion_default_97 { background-position: 0 -1596px; } 
+.emotion_default_44 { background-position: 0 -1650px; } 
+.emotion_default_68 { background-position: 0 -1704px; } 
+.emotion_default_27 { background-position: 0 -1758px; } 
+.emotion_default_52 { background-position: 0 -1812px; } 
+.emotion_default_70 { background-position: 0 -1866px; } 
+.emotion_default_99 { background-position: 0 -1920px; } 
+.emotion_default_31 { background-position: -174px -30px; } 
+.emotion_default_32 { background-position: -174px -84px; } 
+.emotion_default_81 { background-position: -174px -138px; } 
+.emotion_default_59 { background-position: -174px -192px; } 
+.emotion_default_54 { background-position: -174px -246px; } 
+.emotion_default_12 { background-position: -174px -300px; } 
+.emotion_default_89 { background-position: -174px -354px; } 
+.emotion_default_77 { background-position: -174px -408px; } 
+.emotion_default_3 { background-position: -174px -462px; } 
+.emotion_default_39 { background-position: -174px -516px; } 
+.emotion_default_67 { background-position: -174px -570px; } 
+.emotion_default_41 { background-position: -174px -624px; } 
+.emotion_default_72 { background-position: -174px -678px; } 
+.emotion_default_98 { background-position: -174px -732px; } 
+.emotion_default_86 { background-position: -174px -786px; } 
+.emotion_default_6 { background-position: -174px -840px; } 
+.emotion_default_15 { background-position: -174px -894px; } 
+.emotion_default_42 { background-position: -174px -948px; } 
+.emotion_default_1 { background-position: -174px -1002px; } 
+.emotion_default_104 { background-position: -174px -1056px; } 
+.emotion_default_76 { background-position: -174px -1110px; } 
+.emotion_default_17 { background-position: -174px -1164px; } 
+.emotion_default_45 { background-position: -174px -1218px; } 
+.emotion_default_9 { background-position: -174px -1272px; } 
+.emotion_default_22 { background-position: -174px -1326px; } 
+.emotion_default_11 { background-position: -174px -1380px; } 
+.emotion_default_82 { background-position: -174px -1434px; } 
+.emotion_default_36 { background-position: -174px -1488px; } 
+.emotion_default_18 { background-position: -174px -1542px; } 
+.emotion_default_23 { background-position: -174px -1596px; } 
+.emotion_default_2 { background-position: -174px -1650px; } 
+.emotion_default_61 { background-position: -174px -1704px; } 
+.emotion_default_5 { background-position: -174px -1758px; } 
+.emotion_default_58 { background-position: -174px -1812px; } 
+.emotion_default_51 { background-position: -174px -1866px; } 
+.emotion_default_91 { background-position: -174px -1920px; } 
+.emotion_default_100 { background-position: -348px -30px; } 
+.emotion_default_16 { background-position: -348px -84px; } 
+.emotion_default_14 { background-position: -348px -138px; } 
+.emotion_default_69 { background-position: -348px -192px; } 
+.emotion_default_8 { background-position: -348px -246px; } 
+.emotion_default_25 { background-position: -348px -300px; } 
+.emotion_default_63 { background-position: -348px -354px; } 
+.emotion_default_64 { background-position: -348px -408px; } 
+.emotion_default_66 { background-position: -348px -462px; } 
+.emotion_default_19 { background-position: -348px -516px; } 
+.emotion_default_84 { background-position: -348px -570px; } 
+.emotion_default_101 { background-position: -348px -624px; } 
+.emotion_default_95 { background-position: -348px -678px; } 
+.emotion_default_55 { background-position: -348px -732px; } 
+.emotion_default_78 { background-position: -348px -786px; } 
+.emotion_default_85 { background-position: -348px -840px; } 
+.emotion_default_10 { background-position: -348px -894px; } 
+.emotion_default_13 { background-position: -348px -948px; } 
+.emotion_default_29 { background-position: -348px -1002px; } 
+.emotion_default_93 { background-position: -348px -1056px; } 
+.emotion_default_38 { background-position: -348px -1110px; } 
+.emotion_default_79 { background-position: -348px -1164px; } 
+.emotion_default_87 { background-position: -348px -1218px; } 
+.emotion_default_43 { background-position: -348px -1272px; } 
+.emotion_default_24 { background-position: -348px -1326px; } 
+.emotion_default_40 { background-position: -348px -1380px; } 
+.emotion_default_92 { background-position: -348px -1434px; } 
+.emotion_default_75 { background-position: -348px -1488px; } 
+.emotion_default_74 { background-position: -348px -1542px; } 
+.emotion_default_21 { background-position: -348px -1596px; } 
+.emotion_default_34 { background-position: -348px -1650px; } 
+.emotion_default_37 { background-position: -348px -1704px; } 
+.emotion_default_83 { background-position: -348px -1758px; }/*  |xGv00|8ac100c4fa36c66e8000465aaff6e151 */

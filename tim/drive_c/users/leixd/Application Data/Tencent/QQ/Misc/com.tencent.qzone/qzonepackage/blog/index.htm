@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta name="robots" content="all" />
+<meta name="author" content="Tencent-ISRD" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="Qzone精彩由你而来" />
+<meta name="Keywords" content="Qzone,QQ空间,Blog,博客,网络日志,播客,腾讯,QQ,Tencent" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/mini_portal.css" type="text/css" media="screen" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/editor/gb_editor.css" type="text/css" media="screen" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/editor/qzfl.css" type="text/css" media="screen" />
+<title>写日志</title>
+<style type="text/css">
+<!--
+html,body {
+	overflow:hidden;
+}
+-->
+</style>
+<!--[if IE 6]>
+<script type="text/javascript">
+ // <![CDATA[
+        try{
+	      document.execCommand("BackgroundImageCache", false, true);
+	    }
+	   catch(e){}
+// ]]>
+</script>
+<![endif]-->
+</head>
+<body>
+<div class="mod_mini_portal">
+	<div class="mode_edit_blog">
+		<!--<form id="editblogForm" onsubmit="return false;"> -->
+			<div class="edit_panel">
+				<label for="titleInput">标题：
+					<input type="text" id="titleInput" oncontextmenu="event.cancelBubble=true;return true;" onselectstart="event.cancelBubble=true;return true;" style="width:200px;" class="bg int_1" maxlength=128 />
+				</label>
+				<label for="blogCateSelect">分类：</label>
+				<select id="blogCateSelect">	
+					<option selected="selected" value="个人日记">个人日记</option>
+				</select>
+				<a href="javascript:;" id="addCateBtn">添加分类</a>
+			</div>
+			<div class="editor_box" id="blogEditorAnchor"></div>
+			<div id="fakeEditorAnchor" style="height:325px;"></div>
+		<!--</form>-->
+	</div>
+</div>
+<div class="mod_notepad_op">
+	<div class="btns">
+		<button onmouseover="this.className='hummer_btn_on'" onmouseout="this.className='hummer_btn'" id="quitBtn" class="hummer_btn">关闭(C)</button>
+		<button onmouseover="this.className='hummer_btn_on'" onmouseout="this.className='hummer_btn'" id="submitBtn" class="hummer_btn">发表日志</button>
+	</div>
+</div>
+</body>
+<script type="text/javascript" charset="utf-8" src="../common/script/qzfl.js"></script>
+<script type="text/javascript" charset="utf-8" src="script/portal_editor.js"></script>
+<script type="text/javascript" charset="utf-8" src="../common/script/common.js"></script>
+<script type="text/javascript" charset="utf-8" src="script/editor.js"></script>
+<script type="text/javascript">
+ // <![CDATA[
+	QZFL.Logic.preventEvents(document.body);
+	EditorManager.start();
+// ]]>
+</script>
+</html>

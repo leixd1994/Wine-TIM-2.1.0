@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta name="robots" content="all" />
+<meta name="author" content="Tencent-ISRD" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="Qzone精彩由你而来" />
+<meta name="Keywords" content="Qzone,QQ空间,Blog,博客,网络日志,播客,腾讯,QQ,Tencent" />
+<title>QQ相册极速上传控件</title>
+<link rel="stylesheet" rev="stylesheet" href="../common/css/mini_portal.css" type="text/css" media="screen" />
+<link rel="stylesheet" rev="stylesheet" href="../common/css/editor/qzfl.css" type="text/css" media="screen" />
+<!--[if IE 6]>
+<script type="text/javascript">
+ // <![CDATA[
+        try{
+	      document.execCommand("BackgroundImageCache", false, true);
+	    }
+	   catch(e){}
+// ]]>
+</script>
+<![endif]-->
+<style>
+html,body{
+	overflow:hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="mode_speed_upload">
+	<div id="up_title" class="panel_nav">
+		<p id="up_album">上传照片至相册：
+			<select id="sel_album" name="SelectPhoto"><option value="" selected="selected">正在加载数据...</option></select> <a href="javascript:void(0);" onclick="mPhoto.addAlbum();return false;" title="新建相册" class="link_create" id="add_album">新建相册</a>
+		</p>
+	</div>
+	<div id="up_panel" class="panel_widget" style="display:none;"></div>
+	<div id="up_add_msg" class="panel_widget" style="height:370px;">
+		<div id="up_loading" class="loading">
+			<p><img src="http://imgcache.qq.com/qzonestyle/qzone_app/mini_portal_v1/loading.gif" alt="Loading……" /></p>
+			<p id="up_msg">正在处理中，请稍候...</p>
+		</div>
+		<p id="up_setup" class="notice" style="display:none">请先<a id="up_setup_link" href="http://imgcache.qq.com/qzone/client/photo/pages/qzone_v4/activex_setup.htm" target="_blank" title="安装极速上传工具">安装极速上传工具</a>（支持直接拖拽照片到上传区上传）</p>
+	</div>
+	<div id="up_btn" class="mod_clear panel_option">
+		<p class="panel_option_info" id="up_disk">
+			剩余容量：...MB
+		</p>
+		<p class="panel_option_bt">
+			<button id="up_close" type="button" class="bt_2" onclick="mPhoto.close();">关闭</button>
+			<button id="up_submit" type="button" class="bt_2" onclick="mPhoto.start();">上传照片</button>
+			<button id="up_cancel" type="button" class="bt_2" onclick="mPhoto.stop();" style="display:none">取消</button>
+		</p>
+	</div>
+</div>
+
+</body>
+<script src="../common/script/qzfl.js" charset="utf-8"></script>
+<script src="script/photo_logic.js" charset="utf-8"></script>
+<script src="script/upload.js" charset="utf-8"></script>
+<script>
+var Q = QPHOTO;
+var mPhoto = {
+	init : function(){
+		t._uin = external.QQGetSelfUin();
+		t._key = external.QQGetClientKey();
+		t._ckey = external.QQGetQzoneKey();
+		t._isFamous = 0; //是否名博，默认非名博
+		t._d = [];
+		t._info = {};
+		t.getAlist();
+		QZFL.event.addEvent(window,"resize",t.resize);
+		t.resize();
+
+		if(Q.widget.upActiveX.getVersion() < 221){
+			$("up_loading").style.display = "none";
+			$("up_setup").style.display = "";
+
+			var u = "http://imgcache.qq.com/qzone/client/photo/pages/qzone_v4/activex_setup.htm";
+			document.getElementById("up_setup_link").href = "http://ptlogin2.qq.com/jump?ptlang=2052&clientuin="+t._uin+"&clientkey="+t._key+"&u1="+escapeURI(u)+"&ADUIN="+t._uin;
+
+			return;
+		}
+		var onceCount = 30, onceWait = 5;
+		if(t.isBusyTime()){
+			onceCount = 10;
+			onceWait = 3;
+		}
+		var s = t.getSize();
+		//{width:,height:,count:,cId:,waterType:,waterName:,waterUrl:,onceCount:,onceWait:,styleType:,options:}
+		Q.widget.upActiveX.init({
+			"width" : s[0],
+			"height" : s[1],
+			"count" : 300,
+			"cId" : "up_panel",
+			"waterType" : "1",
+			"waterName" : "我的空间我的生活",
+			"waterUrl" : "http://" + t._uin + ".qzone.qq.com/",
+			"onceCount" : onceCount,
+			"onceWait" : onceWait,
+			"styleType" : 0,
+			"options" : {//onStartAddPhoto,onEndAddPhoto,onStartUp,onUpResult,onUpEndOnce,onUpFinish
+				"onStartAddPhoto" : t.startAddPhoto,
+				"onStartUp" : t.startUp,
+				"onUpResult" : t.upResult,
+				"onUpEndOnce" : t.upEndOnce,
+				"onUpFinish" : t.upFinish,
+				"onHowToDrag" : t.howToDrag
+			}
+		});
+		t.getUserInfo();
+		document.body.onload = function(){
+			t.changeMode("upload");
+		}
+	},
+	isBusyTime : function(){
+		var t = new Date();
+		var h = t.getHours();
+		var m = t.getMinutes();
+		//18:30-23:45
+		if((h > 18 && h < 23) || (h == 18 && m > 30) || (h == 23 && m < 45)){
+			return true;
+		}
+		return false;
+	},
+	getSize : function(){
+		var w =QZFL.dom.getClientWidth();
+		var h =QZFL.dom.getClientHeight();
+		return [w - 6 - 6, h - 40 - 35];
+	},
+	resize : function(){
+		var o = $("up_panel").firstChild;
+		var s = t.getSize();
+		QZFL.dom.setSize(o,s[0],s[1]);
+		QZFL.dom.setSize($("up_add_msg"),s[0],s[1]);
+		Q.widget.upActiveX.resize();
+	},
+	getAlist : function(){
+		/**
+		 * 获取相册列表
+		 * @param {Object} cfg 参数对象{
+		 *	 uin:,//QQ号码
+		 *	 type:,//获取的相册类型，位标志	00001:公开相册[默认]； 00010:加密相册； 00100:私密相册； 01000:QQ秀相册； 10000:自定义表情
+		 *	 refresh:,//是否刷新数据，默认false(优先从内存中取数据)，
+		 *	 refer:,//业务的refer，
+		 *	 callBack:,//成功回调函数，第一个参数数据{info:{相册用户信息对象},albums:[相册列表数组]}
+		 *	 errBack:,//错误回调函数，第一个参数数据{ret:-1,msg:"err msg"},ret为非0整型
+		 *	 projectId:,//使用相册统一接口的业务ID，业务需要到相册申请ID
+		 *	 pageId://业务个使用的页面id
+		 *	}
+		 */
+		PhotoLogic.getAlbumList({
+			"uin" : t._uin,
+			"type" : 7,
+			"refresh" : true,
+			"refer" : "miniportal",
+			"callBack" : t.getSuc,
+			"errBack" : t.getErr,
+			"projectId" : 123,
+			"pageId" : 1,
+			"extData" : {
+				"qzoneckey" : t._ckey,
+				"qzonecid" : 66
+			}
+		});
+	},
+	getErr : function(d){
+	},
+	getSuc : function(d){
+		t._d = d.albums;
+		t._info = d.info;
+		
+		if(t._info.disktotal >= 5 * 1024){
+			var used = (t._info.diskused > 0 && t._info.diskused < 10.24) ? 10.24 : t._info.diskused;
+			var total = (Math.round((t._info.disktotal - used) / 1024 * 100) / 100) + "G";
+		}else{
+			var total = (Math.round((t._info.disktotal - t._info.diskused) * 100) / 100) + "M"
+		}
+		$("up_disk").innerHTML = "剩余容量：" + total;
+
+		if(t.isRefreshDisk){//只刷新容量
+			t.isRefreshDisk = false;
+			return;
+		}
+
+		t._idx = 0;
+		var isUping = ($("sel_album") && $("sel_album").disabled == true);
+
+		$("up_album").innerHTML = '上传照片至相册：<select id="sel_album" name="SelectPhoto"><option value="" selected="selected">正在加载数据...</option></select> <a href="javascript:void(0);" onclick="mPhoto.addAlbum();return false;" title="新建相册" class="link_create" id="add_album">新建相册</a>';
+		var sel = $("sel_album");
+		sel.options.length=0;
+		var tmp, max = 0;
+		for(var i=0; i<t._d.length; ++i){
+			tmp = t._d[i];
+			sel.options[sel.options.length] = new Option(restHTML(tmp.name), i);
+			if(tmp.modifytime > max){
+				max = tmp.modifytime;
+				t._idx = i;
+			}
+		}
+		if(sel.options.length == 0){
+			if(Q.widget.upActiveX.getVersion() >= 221){
+				t.confirm();
+			}
+			sel.onchange = null;
+			$("up_album").innerHTML = '您还没有相册，请先<a href="javascript:void(0);" onclick="mPhoto.addAlbum();return false;" style="margin:0px;" title="创建相册" class="link_create" id="add_album">创建相册</a>来存放照片吧';
+		}else{
+			sel.selectedIndex = t._idx;
+			sel.onchange = function(){
+				t._idx = this.value;
+			};
+		}
+		if(isUping){
+			$("sel_album").disabled = true;
+			$("add_album").disabled = true;
+		}
+		if(t._info.qzonevip > 0){
+			Q.widget.upActiveX.setOnceCount(500);
+		}
+	},
+	startAddPhoto : function(){
+	},
+	startUp : function(){
+		var ret = t.setInput();
+		if(ret == false){
+			setTimeout(t.confirm,10);
+			return false;
+		}
+		if(Q.widget.upActiveX.getPhotoCount() == 0){
+			t.changeMode("unupload");
+			Q.dialog.confirm.show({
+				"title" : "提示",
+				"content" : "请先选择要上传的照片。",
+				"onConfirm" : function(){
+					setTimeout(Q.widget.upActiveX.startAddPhoto,30)
+				},
+				"onClose" : function(){
+					t.changeMode("upload");
+				}
+			});
+			return false;
+		}
+		$("sel_album").disabled = true;
+		$("add_album").disabled = true;
+		$("up_close").style.display = "none";
+		$("up_submit").style.display = "none";
+		$("up_cancel").style.display = "";
+		return true;
+	},
+	upResult : function(d){
+		if(d.code == -301){ //创建相册
+			t.getAlist();
+		}
+	},
+	upEndOnce : function(){
+		$("sel_album").disabled = false;
+		$("add_album").disabled = false;
+		$("up_close").style.display = "";
+		$("up_submit").style.display = "";
+		$("up_cancel").style.display = "none";
+		t.isRefreshDisk = true;
+		t.getAlist();
+	},
+	upFinish : function(){
+		var aid = t._d[t._idx].id;
+		var count = Q.widget.upActiveX.getSucCount(aid);
+		var u;
+		if(count > 0){
+			u = "http://user.qzone.qq.com/"+t._uin+"/photo/modify/"+aid+"/0/"+count+"/";
+		}else{
+			u = "http://user.qzone.qq.com/"+t._uin+"/photo/"+aid+"/";
+		}
+		var url = "http://ptlogin2.qq.com/jump?ptlang=2052&clientuin="+t._uin+"&clientkey="+t._key+"&u1="+escapeURI(u)+"&ADUIN="+t._uin;
+		window.open(url);
+		location.href = location.href;//刷新页面
+		//t.getAlist();
+	},
+	setInput : function(){
+		var d = t._d[t._idx];
+		if(!d){
+			return false;
+		}
+		var name = t._isFamous ? "pic_up_activex_famous" : "pic_up_activex";
+		var url = Q.url.get({"name":name,"uin":t._uin,"refer":"miniportal"});
+		/**
+		* 设置上传参数
+		* @param {Object} cfg 参数对象{uin,aid,url,name,classid,priv,handset,bgid,tplid,total,extData}
+		* extData是hash对象，扩展是向后台提交数据
+		* 调用者： js
+		*/
+		Q.widget.upActiveX.setInput({
+			"uin" : t._uin,
+			"aid" : d.id,
+			"url" : url,
+			"name" : d.name,
+			"classid" : d.classid,
+			"priv" : d.priv,
+			"handset" : d.handset,
+			"bgid" : d.bgid || "",
+			"tplid" : d.tplid || "",
+			"total" : d.total,
+			"extData" : {
+				"qzoneckey" : t._ckey,
+				"qzonecid" : 66,
+				"refer" : "miniportal"
+			}
+		});
+		return true;
+	},
+	start : function(){
+		if($("up_setup").style.display != "none"){
+			return;
+		}
+		Q.widget.upActiveX.startUp();
+	},
+	stop : function(){
+		Q.widget.upActiveX.stopUp();
+	},
+	close : function(){
+		external.QQCloseWindow();
+	},
+	addAlbum : function(){
+		if($("up_setup").style.display != "none"){
+			return;
+		}
+		t.changeMode("unupload");
+		Q.dialog.mAddAlbum.show({
+			"uin" : t._uin,
+			"ckey" : t._ckey,
+			"isFamous" : t._isFamous,
+			"onClose" : function(){
+				t.changeMode("upload");
+			},
+			"onSuccess" : function(){
+				t.getAlist();
+			}
+		});
+	},
+	confirm : function(){
+		t.changeMode("unupload");
+		Q.dialog.confirm.show({
+			"title" : "提示",
+			"content" : "您还没有相册，请先创建一个相册来存放您的照片吧。",
+			"onConfirm" : function(){
+				setTimeout(t.addAlbum,30)
+			},
+			"onClose" : function(){
+				t.changeMode("upload");
+			}
+		});
+	},
+	changeMode : function(mode){
+		if(mode == "upload"){
+			$("up_add_msg").style.display = "none";
+			$("up_panel").style.display = "";
+		}else{
+			$("up_add_msg").style.display = "";
+			$("up_panel").style.display = "none";
+		}
+		t.resize();
+	},
+	getUserInfo : function(){
+		var url = 'http://photo.qq.com/cgi-bin/common/cgi_get_userinfo?uin='+t._uin+'&get_domain=yes&get_spacename=yes&get_famous=yes&get_up_info=no&output_type=json';
+		//QPHOTO.util.loadJsonData = function(xId, url, callback, errcallback, refresh, charset, callbackFunctionName){
+		QPHOTO.util.loadJsonData("user_info",url,function(d){
+			if(d.ret == 0){
+				t._isFamous = d.famous;
+				Q.widget.upActiveX.setWaterName(d.spacename);
+				Q.widget.upActiveX.setWaterUrl("http://"+d.domainname+".qzone.qq.com/");
+				if(t._isFamous){//名博不加水印
+					Q.widget.upActiveX.setWaterType(0);
+				}
+			}
+		},null,false,"gb2312","_Callback");
+	},
+	howToDrag : function(){
+		window.open("http://imgcache.qq.com/qzone/photo/zone/uploadDemo.html");
+	}
+};
+var t= mPhoto;
+mPhoto.init();
+</script>
+</html>

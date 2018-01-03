@@ -1,0 +1,475 @@
+21:40:02:414,0x0000014A =============================================
+21:40:02:414,0x0000014A Log at: 2017-06-16 21:40:02:414, compiled: Oct  9 2015 15:18:34
+21:40:02:414,0x0000014A PID: 0490, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+21:40:02:414,0x0000014A TID = 00000330, NAME = UpdateThread
+21:40:02:414,0x0000014A Thread Enter UpdateThread
+21:40:02:807,0x0000014A Thread Leave UpdateThread
+21:40:12:419,0x000000F7 Log finished
+19:53:21:322,0x00000034 =============================================
+19:53:21:342,0x00000034 Log at: 2017-06-17 19:53:21:322, compiled: Oct  9 2015 15:18:34
+19:53:21:342,0x00000034 PID: 0109, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+19:53:21:342,0x00000034 TID = 00000052, NAME = UpdateThread
+19:53:21:343,0x00000034 Thread Enter UpdateThread
+19:53:21:456,0x00000034 Thread Leave UpdateThread
+19:53:31:334,0x0000006E Log finished
+09:16:25:339,0x00000187 =============================================
+09:16:25:356,0x00000187 Log at: 2017-06-19 09:16:25:339, compiled: Oct  9 2015 15:18:34
+09:16:25:356,0x00000187 PID: 0379, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:16:25:356,0x00000187 TID = 00000391, NAME = UpdateThread
+09:16:25:356,0x00000187 Thread Enter UpdateThread
+09:16:25:449,0x00000187 Thread Leave UpdateThread
+09:16:35:353,0x0000017C Log finished
+14:28:15:969,0x0000016C =============================================
+14:28:15:985,0x0000016C Log at: 2017-06-19 14:28:15:969, compiled: Oct  9 2015 15:18:34
+14:28:15:985,0x0000016C PID: 0352, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:28:15:985,0x0000016C TID = 00000364, NAME = UpdateThread
+14:28:15:985,0x0000016C Thread Enter UpdateThread
+14:28:16:101,0x0000016C Thread Leave UpdateThread
+14:28:25:971,0x00000161 Log finished
+09:27:10:475,0x0000018A =============================================
+09:27:10:482,0x0000018A Log at: 2017-06-20 09:27:10:475, compiled: Oct  9 2015 15:18:34
+09:27:10:482,0x0000018A PID: 0380, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:27:10:482,0x0000018A TID = 00000394, NAME = UpdateThread
+09:27:10:482,0x0000018A Thread Enter UpdateThread
+09:27:10:606,0x0000018A Thread Leave UpdateThread
+09:27:20:455,0x0000017D Log finished
+17:03:35:092,0x00000160 =============================================
+17:03:35:101,0x00000160 Log at: 2017-06-20 17:03:35:092, compiled: Oct  9 2015 15:18:34
+17:03:35:101,0x00000160 PID: 0340, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+17:03:35:101,0x00000160 TID = 00000352, NAME = UpdateThread
+17:03:35:101,0x00000160 Thread Enter UpdateThread
+17:03:35:202,0x00000160 Thread Leave UpdateThread
+17:03:45:128,0x00000155 Log finished
+09:10:11:952,0x00000193 =============================================
+09:10:11:958,0x00000193 Log at: 2017-06-21 09:10:11:952, compiled: Oct  9 2015 15:18:34
+09:10:11:958,0x00000193 PID: 0391, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:10:11:958,0x00000193 TID = 00000403, NAME = UpdateThread
+09:10:11:958,0x00000193 Thread Enter UpdateThread
+09:10:12:171,0x00000193 Thread Leave UpdateThread
+09:10:21:919,0x00000188 Log finished
+14:40:13:047,0x00000230 =============================================
+14:40:13:056,0x00000230 Log at: 2017-06-21 14:40:13:047, compiled: Oct  9 2015 15:18:34
+14:40:13:056,0x00000230 PID: 0548, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:40:13:056,0x00000230 TID = 00000560, NAME = UpdateThread
+14:40:13:056,0x00000230 Thread Enter UpdateThread
+14:40:13:175,0x00000230 Thread Leave UpdateThread
+14:40:23:049,0x00000225 Log finished
+09:02:01:766,0x00000167 =============================================
+09:02:01:771,0x00000167 Log at: 2017-06-22 09:02:01:766, compiled: Oct  9 2015 15:18:34
+09:02:01:771,0x00000167 PID: 0347, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:02:01:771,0x00000167 TID = 00000359, NAME = UpdateThread
+09:02:01:771,0x00000167 Thread Enter UpdateThread
+09:02:02:055,0x00000167 Thread Leave UpdateThread
+09:02:11:736,0x0000015C Log finished
+14:37:41:730,0x0000021B =============================================
+14:37:41:736,0x0000021B Log at: 2017-06-22 14:37:41:730, compiled: Oct  9 2015 15:18:34
+14:37:41:736,0x0000021B PID: 0523, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:37:41:736,0x0000021B TID = 00000539, NAME = UpdateThread
+14:37:41:736,0x0000021B Thread Enter UpdateThread
+14:37:42:170,0x0000021B Thread Leave UpdateThread
+14:37:51:594,0x0000020C Log finished
+02:22:20:094,0x00000251 =============================================
+02:22:20:104,0x00000251 Log at: 2017-06-23 02:22:20:086, compiled: Oct  9 2015 15:18:34
+02:22:20:104,0x00000251 PID: 0563, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+02:22:20:104,0x00000251 TID = 00000593, NAME = UpdateThread
+02:22:20:104,0x00000251 Thread Enter UpdateThread
+02:22:20:451,0x00000251 Thread Leave UpdateThread
+18:33:30:088,0x00000230 Log finished
+20:22:18:492,0x00000226 =============================================
+20:22:18:593,0x00000226 Log at: 2017-06-22 20:22:18:492, compiled: Oct  9 2015 15:18:34
+20:22:18:593,0x00000226 PID: 0406, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+20:22:18:593,0x00000226 TID = 00000550, NAME = UpdateThread
+20:22:18:593,0x00000226 Thread Enter UpdateThread
+20:22:18:840,0x00000226 Thread Leave UpdateThread
+20:22:28:505,0x00000223 Log finished
+08:59:55:762,0x0000016A =============================================
+08:59:55:768,0x0000016A Log at: 2017-06-23 08:59:55:761, compiled: Oct  9 2015 15:18:34
+08:59:55:768,0x0000016A PID: 0350, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+08:59:55:768,0x0000016A TID = 00000362, NAME = UpdateThread
+08:59:55:768,0x0000016A Thread Enter UpdateThread
+08:59:55:912,0x0000016A Thread Leave UpdateThread
+09:00:05:798,0x0000015F Log finished
+10:33:47:299,0x0000015A =============================================
+10:33:47:307,0x0000015A Log at: 2017-06-23 10:33:47:299, compiled: Oct  9 2015 15:18:34
+10:33:47:307,0x0000015A PID: 0334, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+10:33:47:307,0x0000015A TID = 00000346, NAME = UpdateThread
+10:33:47:307,0x0000015A Thread Enter UpdateThread
+10:33:47:393,0x0000015A Thread Leave UpdateThread
+10:33:57:312,0x0000014F Log finished
+16:23:27:621,0x00000153 =============================================
+16:23:27:633,0x00000153 Log at: 2017-06-23 16:23:27:621, compiled: Oct  9 2015 15:18:34
+16:23:27:633,0x00000153 PID: 0327, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+16:23:27:633,0x00000153 TID = 00000339, NAME = UpdateThread
+16:23:27:633,0x00000153 Thread Enter UpdateThread
+16:23:27:779,0x00000153 Thread Leave UpdateThread
+16:23:37:816,0x00000148 Log finished
+09:01:17:373,0x000001DB =============================================
+09:01:17:386,0x000001DB Log at: 2017-06-26 09:01:17:373, compiled: Oct  9 2015 15:18:34
+09:01:17:386,0x000001DB PID: 0461, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:01:17:386,0x000001DB TID = 00000475, NAME = UpdateThread
+09:01:17:386,0x000001DB Thread Enter UpdateThread
+09:01:17:486,0x000001DB Thread Leave UpdateThread
+09:01:27:363,0x000001CE Log finished
+11:43:55:386,0x0000017F =============================================
+11:43:55:403,0x0000017F Log at: 2017-06-26 11:43:55:386, compiled: Oct  9 2015 15:18:34
+11:43:55:403,0x0000017F PID: 0371, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+11:43:55:403,0x0000017F TID = 00000383, NAME = UpdateThread
+11:43:55:403,0x0000017F Thread Enter UpdateThread
+11:43:55:504,0x0000017F Thread Leave UpdateThread
+11:44:05:400,0x00000174 Log finished
+21:15:26:493,0x00000167 =============================================
+21:15:26:505,0x00000167 Log at: 2017-06-26 21:15:26:493, compiled: Oct  9 2015 15:18:34
+21:15:26:505,0x00000167 PID: 0347, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+21:15:26:505,0x00000167 TID = 00000359, NAME = UpdateThread
+21:15:26:505,0x00000167 Thread Enter UpdateThread
+21:15:26:699,0x00000167 Thread Leave UpdateThread
+21:15:37:107,0x0000015C Log finished
+08:38:54:688,0x0000018D =============================================
+08:38:54:699,0x0000018D Log at: 2017-06-27 08:38:54:688, compiled: Oct  9 2015 15:18:34
+08:38:54:699,0x0000018D PID: 0385, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+08:38:54:699,0x0000018D TID = 00000397, NAME = UpdateThread
+08:38:54:699,0x0000018D Thread Enter UpdateThread
+08:38:54:832,0x0000018D Thread Leave UpdateThread
+08:39:04:675,0x00000182 Log finished
+09:59:26:282,0x000001E7 =============================================
+09:59:26:347,0x000001E7 Log at: 2017-06-27 09:59:26:282, compiled: Oct  9 2015 15:18:34
+09:59:26:347,0x000001E7 PID: 0475, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:59:26:347,0x000001E7 TID = 00000487, NAME = UpdateThread
+09:59:26:347,0x000001E7 Thread Enter UpdateThread
+09:59:26:476,0x000001E7 Thread Leave UpdateThread
+09:59:36:272,0x000001DC Log finished
+15:43:51:132,0x00000198 =============================================
+15:43:51:140,0x00000198 Log at: 2017-06-27 15:43:51:130, compiled: Oct  9 2015 15:18:34
+15:43:51:140,0x00000198 PID: 0396, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+15:43:51:140,0x00000198 TID = 00000408, NAME = UpdateThread
+15:43:51:140,0x00000198 Thread Enter UpdateThread
+15:43:51:279,0x00000198 Thread Leave UpdateThread
+15:44:01:102,0x0000018D Log finished
+19:52:15:286,0x00000047 =============================================
+19:52:15:290,0x00000047 Log at: 2017-06-27 19:52:15:286, compiled: Oct  9 2015 15:18:34
+19:52:15:290,0x00000047 PID: 0059, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+19:52:15:290,0x00000047 TID = 00000071, NAME = UpdateThread
+19:52:15:290,0x00000047 Thread Enter UpdateThread
+19:52:15:387,0x00000047 Thread Leave UpdateThread
+19:52:25:315,0x0000003C Log finished
+09:23:20:402,0x00000187 =============================================
+09:23:20:406,0x00000187 Log at: 2017-06-28 09:23:20:402, compiled: Oct  9 2015 15:18:34
+09:23:20:406,0x00000187 PID: 0379, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:23:20:406,0x00000187 TID = 00000391, NAME = UpdateThread
+09:23:20:406,0x00000187 Thread Enter UpdateThread
+09:23:20:519,0x00000187 Thread Leave UpdateThread
+09:23:30:434,0x0000017C Log finished
+00:16:57:071,0x0000015D =============================================
+00:16:57:089,0x0000015D Log at: 2017-06-29 00:16:57:049, compiled: Oct  9 2015 15:18:34
+00:16:57:089,0x0000015D PID: 0337, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+00:16:57:090,0x0000015D TID = 00000349, NAME = UpdateThread
+00:16:57:090,0x0000015D Thread Enter UpdateThread
+00:16:57:242,0x0000015D Thread Leave UpdateThread
+17:05:07:056,0x00000152 Log finished
+09:16:05:740,0x00000208 =============================================
+09:16:05:752,0x00000208 Log at: 2017-06-29 09:16:05:740, compiled: Oct  9 2015 15:18:34
+09:16:05:752,0x00000208 PID: 0511, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:16:05:752,0x00000208 TID = 00000520, NAME = UpdateThread
+09:16:05:752,0x00000208 Thread Enter UpdateThread
+09:16:05:966,0x00000208 Thread Leave UpdateThread
+09:16:15:689,0x00000200 Log finished
+14:59:35:184,0x0000019A =============================================
+14:59:35:200,0x0000019A Log at: 2017-06-30 14:59:35:184, compiled: Oct  9 2015 15:18:34
+14:59:35:200,0x0000019A PID: 0396, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:59:35:200,0x0000019A TID = 00000410, NAME = UpdateThread
+14:59:35:200,0x0000019A Thread Enter UpdateThread
+14:59:35:300,0x0000019A Thread Leave UpdateThread
+14:59:45:184,0x0000018D Log finished
+09:07:13:864,0x0000017C =============================================
+09:07:13:878,0x0000017C Log at: 2017-07-03 09:07:13:864, compiled: Oct  9 2015 15:18:34
+09:07:13:878,0x0000017C PID: 0368, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:07:13:878,0x0000017C TID = 00000380, NAME = UpdateThread
+09:07:13:878,0x0000017C Thread Enter UpdateThread
+09:07:15:043,0x0000017C Thread Leave UpdateThread
+09:07:23:945,0x00000171 Log finished
+14:31:51:571,0x00000180 =============================================
+14:31:51:584,0x00000180 Log at: 2017-07-03 14:31:51:571, compiled: Oct  9 2015 15:18:34
+14:31:51:584,0x00000180 PID: 0372, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:31:51:584,0x00000180 TID = 00000384, NAME = UpdateThread
+14:31:51:584,0x00000180 Thread Enter UpdateThread
+14:31:52:805,0x00000180 Thread Leave UpdateThread
+14:32:01:575,0x00000175 Log finished
+09:25:31:872,0x00000184 =============================================
+09:25:31:880,0x00000184 Log at: 2017-07-04 09:25:31:872, compiled: Oct  9 2015 15:18:34
+09:25:31:880,0x00000184 PID: 0374, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:25:31:880,0x00000184 TID = 00000388, NAME = UpdateThread
+09:25:31:880,0x00000184 Thread Enter UpdateThread
+09:25:33:072,0x00000184 Thread Leave UpdateThread
+09:25:41:867,0x00000177 Log finished
+10:41:51:960,0x000001F8 =============================================
+10:41:51:973,0x000001F8 Log at: 2017-07-04 10:41:51:960, compiled: Oct  9 2015 15:18:34
+10:41:51:973,0x000001F8 PID: 0492, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+10:41:51:974,0x000001F8 TID = 00000504, NAME = UpdateThread
+10:41:51:974,0x000001F8 Thread Enter UpdateThread
+10:41:53:052,0x000001F8 Thread Leave UpdateThread
+10:42:01:978,0x000001ED Log finished
+15:21:54:800,0x0000015B =============================================
+15:21:54:813,0x0000015B Log at: 2017-07-04 15:21:54:800, compiled: Oct  9 2015 15:18:34
+15:21:54:813,0x0000015B PID: 0335, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+15:21:54:813,0x0000015B TID = 00000347, NAME = UpdateThread
+15:21:54:813,0x0000015B Thread Enter UpdateThread
+15:21:56:192,0x0000015B Thread Leave UpdateThread
+15:22:04:805,0x00000150 Log finished
+17:32:44:584,0x0000017C =============================================
+17:32:44:597,0x0000017C Log at: 2017-07-04 17:32:44:584, compiled: Oct  9 2015 15:18:34
+17:32:44:597,0x0000017C PID: 0368, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+17:32:44:597,0x0000017C TID = 00000380, NAME = UpdateThread
+17:32:44:597,0x0000017C Thread Enter UpdateThread
+17:32:45:677,0x0000017C Thread Leave UpdateThread
+17:32:54:603,0x00000171 Log finished
+09:00:04:609,0x0000016F =============================================
+09:00:04:622,0x0000016F Log at: 2017-07-05 09:00:04:609, compiled: Oct  9 2015 15:18:34
+09:00:04:622,0x0000016F PID: 0355, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:00:04:622,0x0000016F TID = 00000367, NAME = UpdateThread
+09:00:04:622,0x0000016F Thread Enter UpdateThread
+09:00:05:791,0x0000016F Thread Leave UpdateThread
+09:00:14:730,0x00000164 Log finished
+19:20:32:248,0x000001AF =============================================
+19:20:32:267,0x000001AF Log at: 2017-07-05 19:20:32:248, compiled: Oct  9 2015 15:18:34
+19:20:32:267,0x000001AF PID: 0424, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+19:20:32:267,0x000001AF TID = 00000431, NAME = UpdateThread
+19:20:32:267,0x000001AF Thread Enter UpdateThread
+19:20:33:361,0x000001AF Thread Leave UpdateThread
+19:20:42:261,0x000001AA Log finished
+09:07:14:086,0x00000171 =============================================
+09:07:14:106,0x00000171 Log at: 2017-07-06 09:07:14:086, compiled: Oct  9 2015 15:18:34
+09:07:14:106,0x00000171 PID: 0357, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:07:14:106,0x00000171 TID = 00000369, NAME = UpdateThread
+09:07:14:106,0x00000171 Thread Enter UpdateThread
+09:07:15:381,0x00000171 Thread Leave UpdateThread
+09:07:24:096,0x00000166 Log finished
+16:31:38:648,0x00000241 =============================================
+16:31:38:672,0x00000241 Log at: 2017-07-06 16:31:38:648, compiled: Oct  9 2015 15:18:34
+16:31:38:672,0x00000241 PID: 0565, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+16:31:38:672,0x00000241 TID = 00000577, NAME = UpdateThread
+16:31:38:672,0x00000241 Thread Enter UpdateThread
+16:31:39:717,0x00000241 Thread Leave UpdateThread
+16:31:48:668,0x00000236 Log finished
+09:10:01:251,0x0000016D =============================================
+09:10:01:271,0x0000016D Log at: 2017-07-07 09:10:01:250, compiled: Oct  9 2015 15:18:34
+09:10:01:271,0x0000016D PID: 0353, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:10:01:271,0x0000016D TID = 00000365, NAME = UpdateThread
+09:10:01:271,0x0000016D Thread Enter UpdateThread
+09:10:02:673,0x0000016D Thread Leave UpdateThread
+09:10:11:236,0x00000162 Log finished
+03:51:12:345,0x00000161 =============================================
+03:51:12:345,0x00000161 Log at: 2017-07-08 03:51:12:335, compiled: Oct  9 2015 15:18:34
+03:51:12:345,0x00000161 PID: 0341, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+03:51:12:345,0x00000161 TID = 00000353, NAME = UpdateThread
+03:51:12:345,0x00000161 Thread Enter UpdateThread
+19:04:13:475,0x00000161 Thread Leave UpdateThread
+19:04:22:341,0x00000156 Log finished
+08:23:06:474,0x00000169 =============================================
+08:23:06:495,0x00000169 Log at: 2017-07-08 08:23:06:474, compiled: Oct  9 2015 15:18:34
+08:23:06:495,0x00000169 PID: 0347, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+08:23:06:495,0x00000169 TID = 00000361, NAME = UpdateThread
+08:23:06:495,0x00000169 Thread Enter UpdateThread
+08:23:07:810,0x00000169 Thread Leave UpdateThread
+08:23:16:581,0x0000015C Log finished
+09:19:41:202,0x00000182 =============================================
+09:19:41:221,0x00000182 Log at: 2017-07-10 09:19:41:202, compiled: Oct  9 2015 15:18:34
+09:19:41:221,0x00000182 PID: 0374, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:19:41:221,0x00000182 TID = 00000386, NAME = UpdateThread
+09:19:41:221,0x00000182 Thread Enter UpdateThread
+09:19:42:292,0x00000182 Thread Leave UpdateThread
+09:19:51:295,0x00000177 Log finished
+16:19:05:932,0x00000149 =============================================
+16:19:05:934,0x00000149 Log at: 2017-07-10 16:19:05:932, compiled: Oct  9 2015 15:18:34
+16:19:05:935,0x00000149 PID: 0318, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+16:19:05:935,0x00000149 TID = 00000329, NAME = UpdateThread
+16:19:05:935,0x00000149 Thread Enter UpdateThread
+16:19:07:027,0x00000149 Thread Leave UpdateThread
+16:19:15:929,0x0000013F Log finished
+09:30:08:302,0x0000015C =============================================
+09:30:08:323,0x0000015C Log at: 2017-07-11 09:30:08:302, compiled: Oct  9 2015 15:18:34
+09:30:08:323,0x0000015C PID: 0336, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:30:08:323,0x0000015C TID = 00000348, NAME = UpdateThread
+09:30:08:323,0x0000015C Thread Enter UpdateThread
+09:30:09:531,0x0000015C Thread Leave UpdateThread
+09:30:18:312,0x00000151 Log finished
+17:32:01:359,0x00000175 =============================================
+17:32:01:377,0x00000175 Log at: 2017-07-11 17:32:01:359, compiled: Oct  9 2015 15:18:34
+17:32:01:377,0x00000175 PID: 0361, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+17:32:01:377,0x00000175 TID = 00000373, NAME = UpdateThread
+17:32:01:377,0x00000175 Thread Enter UpdateThread
+17:32:01:496,0x00000175 Thread Leave UpdateThread
+17:32:11:359,0x0000016A Log finished
+08:55:50:622,0x00000164 =============================================
+08:55:50:634,0x00000164 Log at: 2017-07-12 08:55:50:622, compiled: Oct  9 2015 15:18:34
+08:55:50:634,0x00000164 PID: 0342, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+08:55:50:634,0x00000164 TID = 00000356, NAME = UpdateThread
+08:55:50:634,0x00000164 Thread Enter UpdateThread
+08:55:52:081,0x00000164 Thread Leave UpdateThread
+08:56:00:617,0x00000157 Log finished
+09:17:19:596,0x00000174 =============================================
+09:17:19:609,0x00000174 Log at: 2017-07-13 09:17:19:596, compiled: Oct  9 2015 15:18:34
+09:17:19:609,0x00000174 PID: 0360, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:17:19:609,0x00000174 TID = 00000372, NAME = UpdateThread
+09:17:19:609,0x00000174 Thread Enter UpdateThread
+09:17:21:248,0x00000174 Thread Leave UpdateThread
+09:17:29:630,0x00000169 Log finished
+09:18:53:760,0x0000018C =============================================
+09:18:53:774,0x0000018C Log at: 2017-07-14 09:18:53:760, compiled: Oct  9 2015 15:18:34
+09:18:53:774,0x0000018C PID: 0384, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:18:53:774,0x0000018C TID = 00000396, NAME = UpdateThread
+09:18:53:774,0x0000018C Thread Enter UpdateThread
+09:18:54:966,0x0000018C Thread Leave UpdateThread
+09:19:03:774,0x00000181 Log finished
+14:39:24:658,0x00000147 =============================================
+14:39:24:705,0x00000147 Log at: 2017-07-14 14:39:24:658, compiled: Oct  9 2015 15:18:34
+14:39:24:705,0x00000147 PID: 0315, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:39:24:705,0x00000147 TID = 00000327, NAME = UpdateThread
+14:39:24:705,0x00000147 Thread Enter UpdateThread
+14:39:25:956,0x00000147 Thread Leave UpdateThread
+14:39:34:896,0x0000013C Log finished
+09:01:34:920,0x0000016A =============================================
+09:01:34:927,0x0000016A Log at: 2017-07-17 09:01:34:920, compiled: Oct  9 2015 15:18:34
+09:01:34:927,0x0000016A PID: 0348, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:01:34:927,0x0000016A TID = 00000362, NAME = UpdateThread
+09:01:34:927,0x0000016A Thread Enter UpdateThread
+09:01:36:092,0x0000016A Thread Leave UpdateThread
+09:01:44:947,0x0000015D Log finished
+09:12:52:083,0x00000175 =============================================
+09:12:52:097,0x00000175 Log at: 2017-07-18 09:12:52:082, compiled: Oct  9 2015 15:18:34
+09:12:52:097,0x00000175 PID: 0361, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:12:52:097,0x00000175 TID = 00000373, NAME = UpdateThread
+09:12:52:097,0x00000175 Thread Enter UpdateThread
+09:12:53:593,0x00000175 Thread Leave UpdateThread
+09:13:02:106,0x0000016A Log finished
+10:36:50:954,0x0000016C =============================================
+10:36:50:954,0x0000016C Log at: 2017-07-18 10:36:50:954, compiled: Oct  9 2015 15:18:34
+10:36:50:954,0x0000016C PID: 0352, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+10:36:50:954,0x0000016C TID = 00000364, NAME = UpdateThread
+10:36:50:954,0x0000016C Thread Enter UpdateThread
+10:36:51:086,0x0000016C Thread Leave UpdateThread
+10:37:00:970,0x00000161 Log finished
+14:33:07:357,0x00000193 =============================================
+14:33:07:357,0x00000193 Log at: 2017-07-18 14:33:07:339, compiled: Oct  9 2015 15:18:34
+14:33:07:357,0x00000193 PID: 0400, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:33:07:357,0x00000193 TID = 00000403, NAME = UpdateThread
+14:33:07:357,0x00000193 Thread Enter UpdateThread
+11:40:09:671,0x00000193 Thread Leave UpdateThread
+11:40:17:430,0x00000191 Log finished
+09:34:55:594,0x00000183 =============================================
+09:34:55:599,0x00000183 Log at: 2017-07-19 09:34:55:594, compiled: Oct  9 2015 15:18:34
+09:34:55:599,0x00000183 PID: 0375, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:34:55:599,0x00000183 TID = 00000387, NAME = UpdateThread
+09:34:55:599,0x00000183 Thread Enter UpdateThread
+09:34:56:874,0x00000183 Thread Leave UpdateThread
+09:35:05:597,0x00000178 Log finished
+10:50:26:273,0x0000016F =============================================
+10:50:26:278,0x0000016F Log at: 2017-07-20 10:50:26:272, compiled: Oct  9 2015 15:18:34
+10:50:26:278,0x0000016F PID: 0355, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+10:50:26:278,0x0000016F TID = 00000367, NAME = UpdateThread
+10:50:26:278,0x0000016F Thread Enter UpdateThread
+10:50:27:486,0x0000016F Thread Leave UpdateThread
+10:50:36:288,0x00000164 Log finished
+16:55:41:902,0x0000015C =============================================
+16:55:41:902,0x0000015C Log at: 2017-07-20 16:55:41:902, compiled: Oct  9 2015 15:18:34
+16:55:41:902,0x0000015C PID: 0336, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+16:55:41:902,0x0000015C TID = 00000348, NAME = UpdateThread
+16:55:41:902,0x0000015C Thread Enter UpdateThread
+16:55:42:980,0x0000015C Thread Leave UpdateThread
+16:55:51:918,0x00000151 Log finished
+09:03:46:480,0x000001A7 =============================================
+09:03:46:489,0x000001A7 Log at: 2017-07-21 09:03:46:480, compiled: Oct  9 2015 15:18:34
+09:03:46:489,0x000001A7 PID: 0409, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:03:46:489,0x000001A7 TID = 00000423, NAME = UpdateThread
+09:03:46:489,0x000001A7 Thread Enter UpdateThread
+09:03:47:985,0x000001A7 Thread Leave UpdateThread
+09:03:56:727,0x0000019A Log finished
+17:41:56:025,0x00000192 =============================================
+17:41:56:031,0x00000192 Log at: 2017-07-21 17:41:56:025, compiled: Oct  9 2015 15:18:34
+17:41:56:031,0x00000192 PID: 0390, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+17:41:56:031,0x00000192 TID = 00000402, NAME = UpdateThread
+17:41:56:031,0x00000192 Thread Enter UpdateThread
+17:41:57:764,0x00000192 Thread Leave UpdateThread
+17:42:06:046,0x00000187 Log finished
+09:36:56:613,0x00000177 =============================================
+09:36:56:621,0x00000177 Log at: 2017-07-22 09:36:56:613, compiled: Oct  9 2015 15:18:34
+09:36:56:621,0x00000177 PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:36:56:621,0x00000177 TID = 00000375, NAME = UpdateThread
+09:36:56:621,0x00000177 Thread Enter UpdateThread
+09:36:58:982,0x00000177 Thread Leave UpdateThread
+09:37:06:635,0x0000016C Log finished
+11:22:55:557,0x000001CB =============================================
+11:22:55:566,0x000001CB Log at: 2017-07-22 11:22:55:557, compiled: Oct  9 2015 15:18:34
+11:22:55:566,0x000001CB PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+11:22:55:566,0x000001CB TID = 00000459, NAME = UpdateThread
+11:22:55:566,0x000001CB Thread Enter UpdateThread
+11:22:56:780,0x000001CB Thread Leave UpdateThread
+11:23:05:565,0x00000188 Log finished
+15:12:36:073,0x000001A4 =============================================
+15:12:36:079,0x000001A4 Log at: 2017-07-22 15:12:36:073, compiled: Oct  9 2015 15:18:34
+15:12:36:079,0x000001A4 PID: 0406, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+15:12:36:079,0x000001A4 TID = 00000420, NAME = UpdateThread
+15:12:36:079,0x000001A4 Thread Enter UpdateThread
+15:12:37:329,0x000001A4 Thread Leave UpdateThread
+09:27:46:142,0x0000017B =============================================
+09:27:46:168,0x0000017B Log at: 2017-07-24 09:27:46:142, compiled: Oct  9 2015 15:18:34
+09:27:46:168,0x0000017B PID: 0367, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:27:46:168,0x0000017B TID = 00000379, NAME = UpdateThread
+09:27:46:168,0x0000017B Thread Enter UpdateThread
+09:27:47:557,0x0000017B Thread Leave UpdateThread
+09:27:56:168,0x00000170 Log finished
+16:54:07:097,0x00000177 =============================================
+16:54:07:097,0x00000177 Log at: 2017-07-24 16:54:07:097, compiled: Oct  9 2015 15:18:34
+16:54:07:097,0x00000177 PID: 0363, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+16:54:07:097,0x00000177 TID = 00000375, NAME = UpdateThread
+16:54:07:097,0x00000177 Thread Enter UpdateThread
+16:54:17:975,0x00000177 Thread Leave UpdateThread
+16:54:17:981,0x0000016C Log finished
+05:48:26:821,0x000001C1 =============================================
+05:48:26:821,0x000001C1 Log at: 2017-07-25 05:48:26:811, compiled: Oct  9 2015 15:18:34
+05:48:26:821,0x000001C1 PID: 0422, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+05:48:26:821,0x000001C1 TID = 00000449, NAME = UpdateThread
+05:48:26:821,0x000001C1 Thread Enter UpdateThread
+19:25:28:136,0x000001C1 Thread Leave UpdateThread
+19:25:36:819,0x000001A5 Log finished
+09:15:23:579,0x00000177 =============================================
+09:15:23:679,0x00000177 Log at: 2017-07-25 09:15:23:579, compiled: Oct  9 2015 15:18:34
+09:15:23:679,0x00000177 PID: 0361, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:15:23:679,0x00000177 TID = 00000375, NAME = UpdateThread
+09:15:23:679,0x00000177 Thread Enter UpdateThread
+09:15:24:961,0x00000177 Thread Leave UpdateThread
+09:15:33:575,0x0000016A Log finished
+20:48:52:446,0x0000017A =============================================
+20:48:52:471,0x0000017A Log at: 2017-07-25 20:48:52:446, compiled: Oct  9 2015 15:18:34
+20:48:52:471,0x0000017A PID: 0366, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+20:48:52:471,0x0000017A TID = 00000378, NAME = UpdateThread
+20:48:52:471,0x0000017A Thread Enter UpdateThread
+20:48:55:090,0x0000017A Thread Leave UpdateThread
+20:49:02:438,0x0000016F Log finished
+09:16:44:477,0x00000172 =============================================
+09:16:44:510,0x00000172 Log at: 2017-07-26 09:16:44:477, compiled: Oct  9 2015 15:18:34
+09:16:44:510,0x00000172 PID: 0358, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:16:44:510,0x00000172 TID = 00000370, NAME = UpdateThread
+09:16:44:510,0x00000172 Thread Enter UpdateThread
+09:16:46:684,0x00000172 Thread Leave UpdateThread
+09:16:54:455,0x00000167 Log finished
+09:22:10:209,0x00000171 =============================================
+09:22:10:259,0x00000171 Log at: 2017-07-27 09:22:10:209, compiled: Oct  9 2015 15:18:34
+09:22:10:259,0x00000171 PID: 0357, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:22:10:259,0x00000171 TID = 00000369, NAME = UpdateThread
+09:22:10:259,0x00000171 Thread Enter UpdateThread
+09:22:10:475,0x00000171 Thread Leave UpdateThread
+09:22:20:195,0x00000166 Log finished
+14:51:18:383,0x00000151 =============================================
+14:51:18:399,0x00000151 Log at: 2017-07-27 14:51:18:383, compiled: Oct  9 2015 15:18:34
+14:51:18:399,0x00000151 PID: 0325, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+14:51:18:399,0x00000151 TID = 00000337, NAME = UpdateThread
+14:51:18:399,0x00000151 Thread Enter UpdateThread
+14:51:20:305,0x00000151 Thread Leave UpdateThread
+14:51:29:496,0x00000146 Log finished
+09:27:08:823,0x00000167 =============================================
+09:27:08:865,0x00000167 Log at: 2017-07-28 09:27:08:823, compiled: Oct  9 2015 15:18:34
+09:27:08:865,0x00000167 PID: 0347, Exe: C:\users\gujiawei\Application Data\Tencent\AndroidServer\1.0.0.506\AndroidServer.exe
+09:27:08:865,0x00000167 TID = 00000359, NAME = UpdateThread
+09:27:08:865,0x00000167 Thread Enter UpdateThread
+09:27:10:239,0x00000167 Thread Leave UpdateThread
+09:27:18:825,0x0000015C Log finished

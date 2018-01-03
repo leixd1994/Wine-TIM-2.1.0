@@ -1,0 +1,223 @@
+@charset "utf-8";
+.cssStart{display:none}
+* html{overflow:hidden;overflow-y:scroll}
+body{background-color:transparent!important;overflow-x:hidden;}
+*{margin:0;padding:0}
+img{border:none;vertical-align:middle}
+body{font-size:12px;background-color:#C0C0C0;font-family:Arial, Simsun, "Arial Unicode MS", Mingliu, Helvetica}
+ul,ol{list-style-type:none}
+th, td{font-size:12px}
+button{border:none;color:#666666;font-size:12px;cursor:pointer}
+input{vertical-align:middle;color:#666666}
+textarea{color:#666666}
+.none{display:none}
+/*.editor_tools{background-color:#F7F5F4;padding:6px 3px;padding-right:0px;border:1px solid #CCCCCC;border-bottom:none;}*/
+.editor_tools,.font_tools,.typeset_tools,.expert_tools,.inout_tools,.other_tools{height:48px;overflow:hidden}
+.hover{background-color:#D7ECFF;border:1px solid #71C3F2}
+.font_tools{float:left;width:165px;border-right:1px solid #9AACB9;}
+.editor_box .buttons{padding-top:5px;clear:both;margin-right:-6px}
+.editor_box .buttons button{margin-left:4px;margin-right:3px}
+.font_tools .nonce .sel_simulate{background-color:#EEF7FF;border-color:#71C3F2}
+.font_tools .nonce button{border-left:1px solid #71C3F2;background-color:#EEF7FF}
+.editor_tools button span{display:none}
+.font_btn{padding:0 3px 0;*padding-top:3px}
+.font_tools li{text-align:left;float:left;}
+.font_tools .font_btn{vertical-align:middle;text-align:center;width:22px;height:22px;margin-top:3px;margin-right:1px;}
+.typeset_tools .font_btn{margin:3px 2px 0 2px;_margin:3px 1px 0 2px;}
+.font_tools li .sel_simulate{height:20px;margin-right:2px;_margin-right:1px;background-color:#FFFFFF;border:1px solid #4EA0D0;float:left;text-align:left;width:90px;}
+.sel_simulate span{margin-right:2px;font-size:12px;overflow:hidden;padding:0 0 0 2px;width:70px;_width:67px;color:#000000;float:left;line-height:20px;*line-height:23px;_line-height:17px;_margin-top:3px;}
+.font_tools li .font_size{width:65px;}
+.font_size span{width:45px;_width:40px}
+.simple_mode .font_tools li .sel_simulate{width:80px;}
+.simple_mode .sel_simulate span{width:60px;_width:57px;}
+.simple_mode .font_tools li .font_size{width:60px;}
+.simple_mode .font_size span{width:40px;_width:35px}
+.sel_simulate button{border:none;border-left:1px solid #4EA0D0;cursor:default;font-size:9px;height:20px;line-height:20px;padding:0;width:16px;text-align:center;background-color:#FFFFFF;font-family:Simsun;}
+.editor_box .sel_simulate button,.editor_box .typeset_tools button,.editor_box .secend_line button{margin-right:0px;}
+.font_tools li.hover{margin-right:-1px;margin-top:3px;}
+.font_tools li.hover button{margin-top:-1px;margin-left:-1px;}
+.font_tools{margin-left:0;padding-right:0px}
+.font_bold,.font_italic,.font_underline,.font_color,.font_light,.font_link,.font_clean,.typeset_left,.typeset_center,.typeset_right,.typeset_auto,.typeset_ol,.typeset_ul,.inout_backout,.inout_resume,.icon_fullscreen,.icon_renormal{background:url(icon.png) no-repeat 5px 5px;width:18px;height:16px}
+.font_italic{background-position:-25px 5px}
+.font_underline{background-position:-56px 5px}
+.font_color{background-position:-87px 5px;}
+.font_light{background-position:-115px 5px;}
+.font_link{background-position:-146px 4px;}
+.font_clean{background-position:-176px 5px;}
+.font_tools .font_color{width:24px;}
+.typeset_tools{width:72px;float:left;border-right:1px solid #9AACB9;border-left:1px solid #ECF4F8;overflow:visible}
+.typeset_tools li{float:left;width:22px;height:22px;text-align:center;margin-bottom:2px;*margin-bottom:1px;*margin-top:1px;margin-right:1px;}
+.typeset_tools li button{*margin-top:-1px;}
+.typeset_tools li.hover{margin-right:-1px;margin-bottom:0px;*margin-top:0px}
+.typeset_tools li.hover button{margin-top:-1px;*margin-top:-1px;margin-left:-2px;}
+.typeset_left,.typeset_center,.typeset_right,.typeset_auto,.typeset_ol,.typeset_ul{width:22px;height:22px;vertical-align:middle}
+.typeset_left{background-position:5px -25px}
+.typeset_center{background-position:-25px -25px}
+.typeset_right{background-position:-55px -25px}
+.typeset_auto{background-position:-86px -25px}
+.typeset_ol{background-position:-116px -25px}
+.typeset_ul{background-position:-146px -25px}
+
+.expert_tools{float:left;border-left:1px solid #ECF4F8;padding-left:2px;padding-right:2px;width:auto;overflow:visible;padding-left:5px}
+.expert_tools li{float:left;width:32px;height:47px;text-align:center;margin-right:2px;_margin-right:1px;}
+.expert_tools li.hover{ background:none; border:none}
+.expert_tools button{text-align:center;font-family:Simsun;width:32px;height:47px; margin-top:1px;}
+.expert_tools button span{ display:none}
+.expert_face,.expert_img,.expert_qshow,.expert_print,.expert_vphoto,.expert_music,.expert_video,.expert_flash{background:url(editor_icon_v2.png) no-repeat -197px -131px;width:32px;height:47px;}
+.expert_face{background-position:-197px -131px;}
+.expert_img{background-position:-249px -131px}
+.expert_qshow{background-position:-509px -131px}
+.expert_print{background-position:-301px -131px}
+.expert_vphoto{background-position:-561px -131px}
+.expert_music{background-position:-353px -131px}
+.expert_video{background-position:-405px -131px;}
+.expert_flash{background-position:-457px -131px;}
+.expert_tools li.hover .expert_face{ background-position:-197px -84px}
+.expert_tools li.hover .expert_img{background-position:-249px -84px}
+.expert_tools li.hover .expert_qshow{background-position:-509px -84px}
+.expert_tools li.hover .expert_print{background-position:-301px -84px}
+.expert_tools li.hover .expert_vphoto{background-position:-561px -84px}
+.expert_tools li.hover .expert_music{background-position:-353px -84px}
+.expert_tools li.hover .expert_video{background-position:-405px -84px}
+.expert_tools li.hover .expert_flash{background-position:-457px -84px}
+/*常用功能-expert_tools*/
+.simple_mode .expert_tools{height:24px; margin-top:1px;}
+.simple_mode .expert_tools li{width:51px;height:21px;}
+.simple_mode .expert_tools button{width:51px;height:21px; margin-top:2px;}
+.simple_mode .expert_tools button span{ display:none}
+.expert_face_s,.expert_img_s,.expert_qshow_s,.expert_print_s,.expert_vphoto_s,.expert_music_s,.expert_video_s,.expert_flash_s{background:url(editor_icon_v2.png) no-repeat -197px -42px;}
+.expert_face_s{background-position:-197px -63px;}
+.expert_img_s{ background-position:-249px -63px;}
+.expert_qshow_s{background-position:-509px -63px;}
+.expert_print_s{background-position:-301px -63px;}
+.expert_music_s{background-position:-353px -63px;}
+.expert_flash_s{background-position:-457px -63px;}
+.expert_video_s{ background-position:-405px -63px;}
+.expert_vphoto_s{ background-position:-561px -63px;}
+.expert_tools li.hover .expert_face_s{background-position:-197px -42px;}
+.expert_tools li.hover .expert_img_s{ background-position:-249px -42px;}
+.expert_tools li.hover .expert_qshow_s{background-position:-509px -42px;}
+.expert_tools li.hover .expert_print_s{background-position:-301px -42px;}
+.expert_tools li.hover .expert_music_s{background-position:-353px -42px;}
+.expert_tools li.hover .expert_flash_s{background-position:-457px -42px;}
+.expert_tools li.hover .expert_video_s{ background-position:-405px -42px;}
+.expert_tools li.hover .expert_vphoto_s{ background-position:-561px -42px;}
+/*精简模式-常用功能-expert_tools*/
+.super_mode .expert_tools li{width:26px;height:21px;}
+.super_mode .expert_tools button{width:26px;height:21px;margin-top:2px;}
+.super_mode .expert_face_s{background-position:-197px 0;}
+.super_mode .expert_img_s{ background-position:-249px 0;}
+.super_mode .expert_qshow_s{background-position:-509px 0;}
+.super_mode .expert_print_s{background-position:-301px 0;}
+.super_mode .expert_music_s{background-position:-353px 0;}
+.super_mode .expert_flash_s{background-position:-457px 0;}
+.super_mode .expert_video_s{ background-position:-405px 0;}
+.super_mode .expert_vphoto_s{ background-position:-561px 0;}
+.super_mode .expert_tools li.hover .expert_face_s{background-position:-197px -21px;}
+.super_mode .expert_tools li.hover .expert_img_s{ background-position:-249px -21px;}
+.super_mode .expert_tools li.hover .expert_qshow_s{background-position:-509px -21px;}
+.super_mode .expert_tools li.hover .expert_print_s{background-position:-301px -21px;}
+.super_mode .expert_tools li.hover .expert_music_s{background-position:-353px -21px;}
+.super_mode .expert_tools li.hover .expert_flash_s{background-position:-457px -21px;}
+.super_mode .expert_tools li.hover .expert_video_s{ background-position:-405px -21px;}
+.super_mode .expert_tools li.hover .expert_vphoto_s{ background-position:-561px -21px;}
+
+.inout_tools{float:left;border-right:1px solid #CCCCCC;width:26px;text-align:center}
+.inout_tools li{width:20px; height:21px; margin:0 auto 4px;}
+.inout_tools button{width:20px;height:21px;}
+.inout_tools button span{display:none}
+.inout_backout,.inout_resume{background:url(editor_icon_v2.png) no-repeat 0 -42px;}
+.inout_resume{background-position:-21px -42px;}
+.hover .inout_backout{ background-position:0 -63px;}
+.hover .inout_resume{ background-position:-21px -63px;}
+.inout_tools li.hover{background:none; border:none}
+
+.other_tools{padding-left:3px;height:24px;zoom:1;}
+.other_tools:after{ clear:both; display:block; content:"";}
+.other_tools li{margin-right:2px;overflow:visible;}
+.link_qmark{cursor:pointer}
+.hover .link_qmark img{width:16px;height:15px;*height:13px;margin-left:4px;_margin-left:2px;margin-top:4px;*margin-top:4px;}
+.btn_html{/*float:left;*/text-align:center;background-position:-210px -52px}
+.btn_ubb span,.btn_html span{display:none}
+.btn_ofenuse,.btn_expertuse{width:47px;height:20px;background:url(editor_icon_v2.png) no-repeat -150px -42px;margin-right:3px}
+.other_tools .btn_expertuse{background-position:-94px -42px;}
+.btn_ofenuse span,.btn_expertuse span{display:none}
+.secend_line{padding-top:0;padding-left:3px;*padding-top:0px;height:24px;float:left}
+.secend_line ul li{float:left;margin-right:5px;}
+.editor_areas{overflow:visible;}
+#blogEditorAnchor .editor_areas{position:relative;}
+.editor_msg{line-height:30px;width:100%;position:absolute;top:0;left:0;z-index:1;}
+.editor_area{margin-right:2px;_margin-right:0px;height:296px;zoom:1;}
+.editor_area textarea{width:100%;font-size:12px;overflow:auto;background:#F1F9FC url(../mode_edit_blog.jpg) repeat-x 0 -70px; border:none;}
+.ex_editor{font-size:0px;line-height:0px;}
+.ex_editor .btn_resize{border:1px solid #CCCCCC;border-top:none;width:100%;height:12px;background-color:#FEFEF8;text-align:center;cursor:n-resize;font-size:0px;line-height:0px;*margin-top:-1px}
+.ex_editor .btn_resize span{display:none}
+*+html .ex_editor .btn_resize{border-top:1px solid #CCCCCC;}
+.ex_editor .btn_resize:hover,.ex_editor .btn_resize.hover{background-color:#D7ECFF;}
+
+.other_tools li{float:left}
+.simple_mode{height:24px;padding:5px 0 6px 5px; _padding-left:2px;}
+.simple_mode .font_tools{width:auto;height:24px;margin-left:3px;padding-right:4px;_padding-right:0px; margin-top:1px;}
+.guest_comment2 .font_tools{_width:307px;}
+.simple_mode .font_tools li{float:left;text-align:center;}
+.simple_mode .font_tools li.hover{margin-right:-1px;margin-top:0px;_margin-top:1px}
+*+html .simple_mode .font_tools li.hover{ margin-top:1px}
+.simple_mode .font_tools li.hover button{margin-top:-1px;margin-left:-1px;}
+.simple_mode .font_btn{margin-top:0px;}
+.simple_mode .typeset_tools{height:24px;padding-left:1px; margin-top:2px;}
+.simple_mode .other_tools{margin-right:5px;_margin-right:0px;height:24px;}
+.simple_mode .other_tools li{margin-top:1px;}
+.simple_mode .inout_tools{padding-left:5px;width:53px;height:24px;}
+.simple_mode .inout_tools li{float:left; margin-right:3px; margin-top:2px;}
+
+
+
+.ubb_mode{height:25px;padding:5px 0 4px}
+.ubb_mode h3{float:left;font-size:14px;line-height:25px;margin-left:5px;color:#366EAE;font-family:Simsun}
+.ubb_mode .other_tools{float:right;margin-right:5px;_margin-right:3px;height:25px;font-family:Simsun;overflow:visible}
+.btn_exut_ubb{background:none;padding:0;margin:0;width:83px;}
+.ubb_mode .other_tools li{float:left}
+.ubb_mode .hover,.other_tools .hover,.secend_line .hover{border:none;background:none}
+.ubb_mode .other_tools li.hover{ margin-left:0px;}
+.ubb_mode .other_tools li{ padding-top:2px;}
+.ubb_mode .other_tools li button span{ display:none}
+.btn_html,
+.btn_fullscreen,
+.link_qmark,
+.btn_ubb,
+.btn_norscreen,
+.btn_opaper{width:41px; height:21px; background:url(editor_icon_v2.png) no-repeat;}
+.hover .btn_html{ background-position:0 -21px;}
+.btn_fullscreen{ width:53px; background-position:-41px 0;}
+.hover .btn_fullscreen{ background-position:-41px -21px;}
+.btn_norscreen{width:53px; background-position:-41px -42px;}
+.hover .btn_norscreen{ background-position:-41px -63px;}
+.link_qmark{ background-position:-94px 0; display:block; width:24px;}
+.link_qmark span,.btn_html span,.btn_opaper span{display:none}
+.hover .link_qmark{ background-position:-94px -21px}
+.btn_ubb{width:34px; background-position:-163px 0}
+.hover .btn_ubb{ background-position:-163px -21px;}
+.btn_opaper{ width:45px; background-position:-118px 0}
+.hover .btn_opaper{ background-position:-118px -21px;}
+.ubb_mode .inout_tools{ width:auto;float:left;text-align:center; border-right:none; margin-left:10px;}
+.ubb_mode .inout_tools li{ width:20px; float:left; margin-right:5px;}
+.ubb_mode .link_return{ line-height:21px;color:#346CAC; margin-right:10px;}
+/*=S 提示 */
+.editor_hint{width:auto;margin-bottom:0px;border:1px solid #F8E8AB;background-color:#FFF9E2;color:#909188;line-height:24px;text-indent:1em;padding-right:5px;zoom:1; overflow:hidden;padding-bottom:0px;}
+.editor_hint:after{clear:both;display:block;content:""}
+.editor_hint span{text-indent:0;float:left}
+.editor_hint span a,
+/*.editor_hint a{color:#CE0201!important;}*/
+.editor_hint span a:link,
+.editor_hint span a:active{text-decoration:underline;}
+.editor_hint span a:hover,
+.editor_hint span a:visited{text-decoration:underline;}
+.bt_hint_close{margin:0px 4px 2px 2px; float: right; font-family: verdana; color:#D43A04; font-weight: bold; cursor: pointer; font-size: 12px;}
+.editor_hint_cont{_padding-top:4px;}
+/*=E 提示 */
+/*.font_tools{ position:relative}*/
+.font_tools li{zoom:1}
+.font_tools li *{outline:0;zoom:1;}
+.font_tools li button::-moz-focus-inner{border-color:transparent!important;}  
+button{outline:none!important;}
+.cssEnd{display:none}
