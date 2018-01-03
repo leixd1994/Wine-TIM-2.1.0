@@ -5,7 +5,7 @@ TIM 2.1.0 in Linux use Wine
 
 使用前需要安装Ｗｉｎｅ  Ubuntu可以使用提供的自动安装脚本（ＡｕｔｏInstallWine.....）安装.
 目前一切基本功能完全正常．　包括但不限于文件发送和接受，多人在线共同编辑文档，＠好友，表情选择等
-运行方法sh qq.sh    以后有时间我会提供桌面快捷方式的脚本
-![https://github.com/leixd1994/Wine-TIM-2.1.0/blob/master/tim.png]
+运行方法sh qq.sh    以后有时间我会提供桌面快捷方式的脚本,欢迎提交Ｍｅｒｇｅ
+![](https://github.com/leixd1994/Wine-TIM-2.1.0/blob/master/tim.png)
 
 
