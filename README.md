@@ -1,6 +1,9 @@
 # Wine-TIM-2.1.0
 TIM 2.1.0 in Linux use Wine 
 
+项目已经停止维护，请移步到https://github.com/wszqkzqk/deepin-wine-ubuntu安装请聊版　完美
+
+
 首先对前辈（https://github.com/askme765cs/Wine-QQ）
 表示崇高的敬意，他为我们带来了ＬＩｎｕｘ上的ＱＱ和ＱＱ轻聊版，本程序的Ｗｉｎｅ也源自前辈．
 
